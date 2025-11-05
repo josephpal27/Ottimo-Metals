@@ -1,3 +1,4 @@
+/* Banner Start */
 .banner{
     width: 100%;
 }
@@ -6,3 +7,30 @@
     height: 100vh;
     object-fit: cover;
 }
+/* Banner End */
+
+/* What We Offer Start */
+.what-we-offer-head{
+    padding: 5rem 0 20rem 0;
+    background-color: #171612;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.what-we-offer-head span{
+    display: block;
+    width: max-content;
+    color: #179cab;
+    border: 3px solid #179cab;
+    padding: 0.5rem 0.8rem;
+    font-weight: 700;
+    font-size: calc(0.7rem + 0.5vw);
+}
+.what-we-offer-head h3{
+    color: #fff;
+    font-weight: 900;
+    font-size: calc(3.5rem + 0.5vw);
+    margin-top: 1.5rem;
+    text-transform: uppercase;
+}
+/* What We Offer End */
