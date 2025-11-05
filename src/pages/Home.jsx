@@ -2,6 +2,7 @@ import '../css/Home.css';
 
 import homeBanner from '../../public/images/banners/banner.avif';
 import HomeWelcome from '../components/home-welcome/HomeWelcome';
+import CTA from '../components/cta/CTA';
 
 const Home = () => {
   return (
@@ -13,6 +14,9 @@ const Home = () => {
 
       {/* Home Welcome */}
       <HomeWelcome/>
+
+      {/* CTA */}
+      <CTA/>
     </>
   )
 }
