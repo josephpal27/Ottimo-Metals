@@ -54,6 +54,11 @@
 }
 .home-welcome-content .features{
     margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.home-welcome-content .features .features-left{
+    width: 50%;
 }
 .home-welcome-content .features p{
     color: #6c6c6c;
@@ -61,14 +66,38 @@
     font-size: calc(0.7rem + 0.5vw);
     margin-top: 1.3rem;
     line-height: 1;
+    display: flex;
+    align-items: center;
 }
 .home-welcome-content .features p .icon{
     background-color: #ebebeb;
     color: #179cab;
-    width: 35px;
-    height: 35px;
+    width: 33px;
+    height: 33px;
     border-radius: 50%;
     padding: 0.5rem;
+    margin-right: 0.7rem;
+}
+.home-welcome-content .features .features-right{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.7rem;
+}
+.home-welcome-content .features .features-right .feature-box{
+    background-color: #fff;
+    padding: 0.65rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-welcome-content .features .features-right .feature-box p{
+    text-align: center;
+    color: #171614;
+    font-weight: 600;
+    text-align: center;
 }
 .home-welcome-content .tagline{
     margin-top: 3rem;
