@@ -1,6 +1,6 @@
 import '../css/Home.css';
 
-import homeBanner from '../../public/images/banners/banner.avif';
+import homeBanner from '/images/banners/banner.avif';
 import HomeWelcome from '../components/home-welcome/HomeWelcome';
 import CTA from '../components/cta/CTA';
 

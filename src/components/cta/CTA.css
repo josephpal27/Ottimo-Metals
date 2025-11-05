@@ -1,0 +1,31 @@
+.cta-box{
+    padding: 6rem 7%;
+    background-color: #179cab;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cta-box .cta-box-left{
+    width: 70%;
+}
+.cta-box span{
+    color: #fff;
+    font-size: calc(2.8rem + 0.5vw);
+    font-weight: 800;
+    text-transform: uppercase;
+    display: block;
+}
+.cta-box .button{
+    background-color: #fff;
+    color: #000;
+    font-size: calc(0.7rem + 0.5vw);
+    font-weight: 600;
+    padding: 1.3rem 3.5rem;
+    border-radius: 0;
+}
+.cta-box .button:hover{
+    background-color: #ffaa0f;
+}
+.button .MuiTouchRipple-root .MuiTouchRipple-child {
+  background-color: #fff !important; /* change to your preferred ripple color */
+}
