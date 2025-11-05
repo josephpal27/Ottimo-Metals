@@ -8,7 +8,7 @@ const Home = () => {
     <>
       {/* Banner */}
       <div className="banner">
-        <img src={homeBanner} alt="Home Banner" loading="lazy" />
+        <img src={homeBanner} alt="Home Banner" loading="eager" />
       </div>
 
       {/* Home Welcome */}
