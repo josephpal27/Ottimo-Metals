@@ -1,0 +1,40 @@
+.home-welcome{
+    padding: 0 7% 5rem 7%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.home-welcome-image{
+    width: 42%;
+}
+.home-welcome-image img{
+    width: 100%;
+}
+.home-welcome-content{
+    width: 52%;
+}
+.home-welcome-content span{
+    display: block;
+    width: max-content;
+    color: #179cab;
+    border: 3px solid #179cab;
+    padding: 0.5rem 0.8rem;
+    font-weight: 700;
+    font-size: calc(0.7rem + 0.5vw);
+    margin-top: 8rem;
+}
+.home-welcome-content h2{
+    color: #171614;
+    font-weight: 900;
+    font-size: calc(3.5rem + 0.5vw);
+    margin-top: 1.5rem;
+    text-transform: uppercase;
+}
+.home-welcome-content p{
+    color: #6c6c6c;
+    font-weight: 500;
+    font-size: calc(0.75rem + 0.5vw);
+    margin-top: 1.5rem;
+    line-height: 1.8;
+}
