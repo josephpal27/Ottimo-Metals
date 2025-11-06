@@ -129,7 +129,7 @@ const Home = () => {
                 <Tab.Pane eventKey="tabTwo" className="fade">
                   <p>I have just had two of the most productive work weeks I have had in years. Ben was perfectly matched to my temperament all the backlogged work off my plate and finishing.</p>
                   <span className="client-name">Jessica Brown</span>
-                  <span className="client-designation">Co-Founder</span>
+                  <span className="client-designation">Founder</span>
                 </Tab.Pane>
                 <Tab.Pane eventKey="tabThree" className="fade">
                   <p>I have just had two of the most productive work weeks I have had in years. Ben was perfectly matched to my temperament, and has been taking all the backlogged work off my plate and finishing it.</p>
@@ -139,7 +139,7 @@ const Home = () => {
                 <Tab.Pane eventKey="tabFour" className="fade">
                   <p>I have just had two of the most productive work weeks I have had in years. Ben was perfectly matched to my temperament all the backlogged work off my plate and finishing.</p>
                   <span className="client-name">Jessica Brown</span>
-                  <span className="client-designation">Co-Founder</span>
+                  <span className="client-designation">Founder</span>
                 </Tab.Pane>
                 <Tab.Pane eventKey="tabFive" className="fade">
                   <p>I have just had two of the most productive work weeks I have had in years. Ben was perfectly matched to my temperament, and has been taking all the backlogged work off my plate and finishing it.</p>
