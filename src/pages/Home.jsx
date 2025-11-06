@@ -20,7 +20,6 @@ import testimonialIcon3 from '../assets/images/icons/welding-machine.png';
 
 import testimonialUserM from '../assets/images/icons/user-m.png';
 import testimonialUserF from '../assets/images/icons/user-f.png';
-import Footer from '../components/footer/Footer';
 
 const Home = () => {
 
@@ -178,9 +177,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <Footer/>
     </>
   )
 }

@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom"
-import MyNavbar from "./components/navbar/Navbar.jsx"
+import MyNavbar from "./components/navbar/Navbar"
+import Footer from './components/footer/Footer';
 
 
 const App = () => {
@@ -7,6 +8,7 @@ const App = () => {
     <>
       <MyNavbar/>
       <Outlet /> {/*Each page will render here*/}
+      <Footer/>
     </>
   )
 }
