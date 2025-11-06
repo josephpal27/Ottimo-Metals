@@ -42,19 +42,19 @@ const MyNavbar = () => {
             <Nav.Link as={NavLink} to="/about" onClick={handleClose}>
               About
             </Nav.Link>
-            <Nav.Link as={NavLink} to="/services" onClick={handleClose}>
+            <Nav.Link as={NavLink} to="/products" onClick={handleClose}>
               Products
             </Nav.Link>
-            <Nav.Link as={NavLink} to="/contact" onClick={handleClose}>
+            <Nav.Link as={NavLink} to="/quality-assurance" onClick={handleClose}>
               Quality Assurance
             </Nav.Link>
-            <Nav.Link as={NavLink} to="/contact" onClick={handleClose}>
+            <Nav.Link as={NavLink} to="/services" onClick={handleClose}>
               Services
             </Nav.Link>
-            <Nav.Link as={NavLink} to="/contact" onClick={handleClose}>
+            <Nav.Link as={NavLink} to="/applications" onClick={handleClose}>
               Applications
             </Nav.Link>
-            <Nav.Link as={NavLink} to="/contact" onClick={handleClose}>
+            <Nav.Link as={NavLink} to="/gallery" onClick={handleClose}>
               Gallery
             </Nav.Link>
             <Nav.Link as={NavLink} to="/contact" onClick={handleClose}>
