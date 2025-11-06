@@ -9,6 +9,8 @@ const About = () => {
             <section className="banner">
                 <img src={homeBanner} alt="Home Banner" loading="eager" />
             </section>
+
+            {/* About Content */}
         </>
     )
 }
