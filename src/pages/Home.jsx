@@ -47,9 +47,9 @@ const Home = () => {
     <>
 
       {/* Banner */}
-      <div className="banner">
+      <section className="banner">
         <img src={homeBanner} alt="Home Banner" loading="eager" />
-      </div>
+      </section>
 
       {/* Home Welcome */}
       <HomeWelcome />
