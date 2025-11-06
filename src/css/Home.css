@@ -10,8 +10,12 @@
 /* Banner End */
 
 /* What We Offer Start */
+.what-we-offer{
+    position: relative;
+    padding-bottom: 10rem;
+}
 .what-we-offer-head{
-    padding: 5rem 0 20rem 0;
+    padding: 6rem 0 21.6rem 0;
     background-color: #171612;
     display: flex;
     flex-direction: column;
@@ -32,5 +36,55 @@
     font-size: calc(3.5rem + 0.5vw);
     margin-top: 1.5rem;
     text-transform: uppercase;
+}
+.what-we-offer-cards-row{
+    padding: 0 7% 2rem 7%;
+    position: absolute;
+    top: 19rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.what-we-offer-cards-row .offer-card{
+    width: 30%;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.what-we-offer-cards-row .offer-card img{
+    width: 100%;
+}
+.what-we-offer-cards-row .card-desc{
+    padding: 2rem 1rem;
+}
+.what-we-offer-cards-row .card-desc span{
+    font-size: calc(1.1rem + 0.5vw);
+    font-weight: 800;
+    color: #171612;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+}
+.what-we-offer-cards-row .card-desc p{
+    color: #6c6c6c;
+    font-weight: 500;
+    font-size: calc(0.55rem + 0.5vw);
+    text-align: center;
+    margin-top: 0.8rem;
+}
+.what-we-offer-cards-row .card-desc .button{
+    color: #6c6c6c;
+    font-weight: 600;
+    font-size: calc(0.5rem + 0.5vw);
+    text-align: center;
+    padding: 0.7rem 0;
+    margin-top: 1rem;
+    width: 100%;
+    background-color: #ededed;
+    border-radius: 0;
+}
+.what-we-offer-cards-row .card-desc .button:hover{
+    background-color: #179cab;
+    color: #fff;
 }
 /* What We Offer End */
