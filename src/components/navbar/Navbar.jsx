@@ -40,7 +40,7 @@ const MyNavbar = () => {
               Home
             </Nav.Link>
             <Nav.Link as={NavLink} to="/about" onClick={handleClose}>
-              About Us
+              About
             </Nav.Link>
             <Nav.Link as={NavLink} to="/services" onClick={handleClose}>
               Products
@@ -58,7 +58,7 @@ const MyNavbar = () => {
               Gallery
             </Nav.Link>
             <Nav.Link as={NavLink} to="/contact" onClick={handleClose}>
-              Contact Us
+              Contact
             </Nav.Link>
           </Nav>
         </Offcanvas.Body>
