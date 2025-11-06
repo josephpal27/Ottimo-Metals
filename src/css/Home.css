@@ -114,8 +114,55 @@
     margin-top: 1.5rem;
 }
 .testimonials .testimonials-left{
-    width: 65%;
+    width: 60%;
 }
+.testimonials .testimonials-tabbing{
+    margin-top: 4rem;
+}
+.testimonials .testimonials-tabbing .tab-head{
+    padding-bottom: 1.5rem;
+}
+.testimonials .testimonials-tabbing .nav-link{
+    background: transparent;
+    border: none;
+}
+.testimonials .testimonials-tabbing .nav-link img{
+    width: 60px;
+    border-radius: 50%;
+    transition: outline 0.15s ease;
+}
+.testimonials .testimonials-tabbing .nav-link.active img{
+    outline: 10px solid #179cab;
+}
+.testimonials .testimonials-tabbing .tab-pane{
+    margin-top: 2rem;
+}
+.testimonials .testimonials-tabbing .tab-pane p{
+    color: #171612;
+    font-weight: 500;
+    font-size: calc(0.75rem + 0.5vw);
+    font-style: italic;
+    line-height: 1.8;
+}
+.testimonials .testimonials-tabbing .tab-pane span.client-name{
+    color: #171612;
+    font-weight: 800;
+    font-size: calc(0.75rem + 0.5vw);
+    border: none;
+    padding: 0;
+    text-transform: uppercase;
+    margin-top: 2.5rem;
+}
+.testimonials .testimonials-tabbing .tab-pane span.client-designation{
+    color: #179cab;
+    font-weight: 800;
+    font-size: calc(0.55rem + 0.5vw);
+    border: none;
+    padding: 0;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
 .testimonials .testimonials-right{
     width: 30%;
     margin-top: 5.5rem;
@@ -144,6 +191,6 @@
 .testimonials .testimonials-right .testimonial-hightlight-box .hightlight-content p{
     color: #171612;
     font-weight: 600;
-    font-size: calc(0.75rem + 0.5vw);
+    font-size: calc(0.8rem + 0.5vw);
 }
 /* Testimonials End */
