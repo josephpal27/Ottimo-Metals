@@ -12,7 +12,6 @@
 /* What We Offer Start */
 .what-we-offer{
     position: relative;
-    padding-bottom: 10rem;
 }
 .what-we-offer-head{
     padding: 6rem 0 21.6rem 0;
@@ -88,3 +87,63 @@
     color: #fff;
 }
 /* What We Offer End */
+
+/* Testimonials Start */
+.testimonials{
+    padding: 24rem 7% 5rem 7%;
+    background-image: url('../assets/images/testimonials-bg.avif');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.testimonials span{
+    display: block;
+    width: max-content;
+    color: #179cab;
+    border: 3px solid #179cab;
+    padding: 0.5rem 0.8rem;
+    font-weight: 700;
+    font-size: calc(0.7rem + 0.5vw);
+}
+.testimonials h4{
+    color: #171612;
+    font-weight: 900;
+    font-size: calc(3.5rem + 0.5vw);
+    margin-top: 1.5rem;
+}
+.testimonials .testimonials-left{
+    width: 65%;
+}
+.testimonials .testimonials-right{
+    width: 30%;
+    margin-top: 5.5rem;
+}
+.testimonials .testimonials-right .testimonial-hightlight-box{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.testimonials .testimonials-right .testimonial-hightlight-box .hightlight-image{
+    width: 25%;
+    padding: 2rem 1.4rem;
+    background-color: #179cab;
+}
+.testimonials .testimonials-right .testimonial-hightlight-box .hightlight-image img{
+    width: 100%;
+}
+.testimonials .testimonials-right .testimonial-hightlight-box .hightlight-content{
+    width: 68%;
+    display: flex;
+    align-items: center;
+    padding-right: 3rem;
+}
+.testimonials .testimonials-right .testimonial-hightlight-box .hightlight-content p{
+    color: #171612;
+    font-weight: 600;
+    font-size: calc(0.75rem + 0.5vw);
+}
+/* Testimonials End */
