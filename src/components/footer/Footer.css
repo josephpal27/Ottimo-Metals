@@ -1,0 +1,94 @@
+.footer-content{
+    background-color: #051014;
+    padding: 5rem 7%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.foot-box:nth-child(1){
+    width: 28%;
+}
+.foot-box:nth-child(2){
+    width: 15%;
+}
+.foot-box:nth-child(3){
+    width: 27%;
+}
+.foot-box:nth-child(4){
+    width: 15%;
+}
+.foot-box img{
+    width: 200px;
+}
+.foot-box p{
+    color: #fff;
+    font-weight: 500;
+    font-size: calc(0.55rem + 0.5vw);
+    margin-top: 2rem;
+}
+.foot-box span{
+    color: #fff;
+    font-weight: 700;
+    font-size: calc(0.9rem + 0.5vw);
+    margin-bottom: 2rem;
+    display: block;
+}
+.foot-box a{
+    color: #fff;
+    font-weight: 500;
+    font-size: calc(0.55rem + 0.5vw);
+    margin-bottom: 0.8rem;
+    display: block;
+    text-decoration: none;
+    display: flex;
+    gap: 1rem;
+}
+.foot-box a:hover{
+    text-decoration: underline;
+}
+.foot-box a .icon{
+    color: #fff;
+    font-size: calc(2.5rem + 0.5vw);
+    margin-top: -0.4rem;
+}
+.foot-box a .factory-icon{
+    font-size: calc(3.5rem + 0.5vw);
+    margin-top: -1.1rem;
+}
+.foot-box a .phone-icon{
+    font-size: calc(0.8rem + 0.5vw);
+    margin-top: 1px;
+}
+.foot-box a .email-icon{
+    font-size: calc(0.9rem + 0.5vw);
+    margin-top: 2px;
+}
+.foot-box .social-icons{
+    display: flex;
+    gap: 1rem;
+}
+.foot-box .social-icons a{
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    background-color: #179cab;
+    border-radius: 2px;
+    text-align: center;
+    display: block;
+    font-size: calc(0.8rem + 0.5vw);
+    transition: all 0.2s ease;
+}
+.foot-box .social-icons a:hover{
+    background-color: #ffaa0f;
+}
+footer .copyright{
+    background-color: #179cab;
+    padding: 1rem 0;
+}
+footer .copyright p{
+   margin: 0;
+   text-align: center;
+   color: #fff;
+   font-weight: 500;
+   font-size: calc(0.55rem + 0.5vw);
+}
