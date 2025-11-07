@@ -1,5 +1,6 @@
 import AboutWelcome from '../components/about-welcome/AboutWelcome';
 import MissionVision from '../components/mission-vision/MissionVision';
+import ProductDetails from '../components/product-details/ProductDetails';
 
 import '../css/About.css';
 
@@ -15,9 +16,12 @@ const About = () => {
 
             {/* About Welcome */}
             <AboutWelcome/>
-            
+
             {/* Mission Vision */}
             <MissionVision/>
+
+            {/* Product Details */}
+            <ProductDetails/>
         </>
     )
 }
