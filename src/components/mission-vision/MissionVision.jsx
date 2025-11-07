@@ -1,6 +1,6 @@
 import './MissionVision.css';
 
-import missionVissionImage from '../../assets/images/mission-vision.avif';
+import missionVissionImage from '../../assets/images/mission-vision.jpg';
 
 const MissionVision = () => {
   return (
@@ -22,6 +22,23 @@ const MissionVision = () => {
             </div>
             <span id="secondary-title">OUR CORE VALUES</span>
             <h3>At Ottimo, we're committed to upholding a set of core values that guide everything we do.</h3>
+            <div className="mv-counter-row">
+                <div className="mv-counter-box">
+                    <div className="layer"></div>
+                    <span>800</span>
+                    <span>Projects <br /> Completed</span>
+                </div>
+                <div className="mv-counter-box">
+                    <div className="layer"></div>
+                    <span>672</span>
+                    <span>Satisfied <br /> Clients</span>
+                </div>
+                <div className="mv-counter-box">
+                    <div className="layer"></div>
+                    <span>757</span>
+                    <span>Metal <br /> Works</span>
+                </div>
+            </div>
         </div>
       </section>
     </>

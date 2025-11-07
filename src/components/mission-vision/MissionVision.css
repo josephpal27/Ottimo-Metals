@@ -56,3 +56,45 @@
     font-size: calc(2.2rem + 0.5vw);
     margin-top: 2rem;
 }
+.mission-vision-content .mv-counter-row{
+    margin-top: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.mission-vision-content .mv-counter-row .mv-counter-box{
+    width: 30%;
+    border: 5px solid #179cab;
+    padding: 2.2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.mission-vision-content .mv-counter-row .mv-counter-box span:nth-child(2){
+    color: #fff;
+    font-weight: 700;
+    font-size: calc(2.8rem + 0.5vw);
+    position: relative;
+}
+.mission-vision-content .mv-counter-row .mv-counter-box span:nth-child(3){
+    color: #fff;
+    font-weight: 500;
+    font-size: calc(0.7rem + 0.5vw);
+    display: block;
+    margin-top: 1rem;
+    position: relative;
+}
+.mission-vision-content .mv-counter-row .mv-counter-box .layer{
+    width: 100%;
+    height: 100%;
+    background-color: #179cab;
+    position: absolute;
+    top: -100%;
+    transition: top 0.4s ease;
+}
+.mission-vision-content .mv-counter-row .mv-counter-box:hover .layer{
+    top: 0;
+}
