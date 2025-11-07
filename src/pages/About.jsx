@@ -8,6 +8,7 @@ import homeBanner from '/images/banners/banner.avif';
 import ourProductImage1 from '../assets/images/products/1.avif';
 import ourProductImage2 from '../assets/images/products/2.avif';
 import ourProductImage3 from '../assets/images/products/3.avif';
+import CTA from '../components/cta/CTA';
 
 const About = () => {
     return (
@@ -44,6 +45,9 @@ const About = () => {
                     </div>
                 </div>
             </section>
+
+            {/* CTA */}
+            <CTA />
         </>
     )
 }
