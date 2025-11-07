@@ -40,3 +40,19 @@
     margin-bottom: 0;
     line-height: 1.8;
 }
+.mission-vision-content #secondary-title{
+    display: block;
+    width: max-content;
+    background-color: #179cab;
+    color: #fff;
+    padding: 0.6rem 1rem;
+    font-weight: 600;
+    font-size: calc(0.7rem + 0.5vw);
+    margin-top: 4rem;
+}
+.mission-vision-content h3{
+    color: #fff;
+    font-weight: 700;
+    font-size: calc(2.2rem + 0.5vw);
+    margin-top: 2rem;
+}

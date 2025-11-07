@@ -20,6 +20,8 @@ const MissionVision = () => {
                     <p>At Ottimo Metals, our vision is to establish ourselves as the leading manufacturer and exporter of zinc wires in India and to boost India's industrial growth. We are committed to continually enhancing our production systems,zero-waste production cycle.</p>
                 </div>
             </div>
+            <span id="secondary-title">OUR CORE VALUES</span>
+            <h3>At Ottimo, we're committed to upholding a set of core values that guide everything we do.</h3>
         </div>
       </section>
     </>
