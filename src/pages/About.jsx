@@ -1,4 +1,5 @@
 import AboutWelcome from '../components/about-welcome/AboutWelcome';
+import MissionVision from '../components/mission-vision/MissionVision';
 
 import '../css/About.css';
 
@@ -14,6 +15,9 @@ const About = () => {
 
             {/* About Welcome */}
             <AboutWelcome/>
+            
+            {/* Mission Vision */}
+            <MissionVision/>
         </>
     )
 }
