@@ -20,7 +20,8 @@
 }
 .navbar .nav-link.active {
   border: 3px solid #179cab;
-  /* color: #179cab !important; */
+  background-color: #179cab !important;
+  border-radius: 2px;
 }
 
 .navbar .nav-link:hover {
