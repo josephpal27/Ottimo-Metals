@@ -8,7 +8,7 @@ const App = () => {
   return (
     <>
       <MyNavbar/>
-      <Outlet /> {/*Each page will render here*/}
+      <Outlet />
       <Footer/>
       <ScrollToTop/>
     </>
