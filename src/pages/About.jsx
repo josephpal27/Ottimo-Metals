@@ -10,7 +10,7 @@ const About = () => {
                 <img src={homeBanner} alt="Home Banner" loading="eager" />
             </section>
 
-            {/* About Content */}
+            {/* About Welcome */}
         </>
     )
 }
