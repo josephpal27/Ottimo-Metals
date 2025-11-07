@@ -1,3 +1,5 @@
+import AboutWelcome from '../components/about-welcome/AboutWelcome';
+
 import '../css/About.css';
 
 import homeBanner from '/images/banners/banner.avif';
@@ -11,6 +13,7 @@ const About = () => {
             </section>
 
             {/* About Welcome */}
+            <AboutWelcome/>
         </>
     )
 }

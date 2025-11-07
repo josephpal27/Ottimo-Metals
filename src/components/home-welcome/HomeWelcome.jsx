@@ -9,7 +9,7 @@ import { FaCheck } from "react-icons/fa6";
 const HomeWelcome = () => {
   return (
     <>
-      <div className="home-welcome">
+      <section className="home-welcome">
         <div className="home-welcome-image">
             <img src={homeWelcomeImg1} alt="Welcome Image" loading="lazy" />
             <img src={homeWelcomeImg2} alt="Welcome Image 2" loading="lazy" id="floating-img-1" />
@@ -39,7 +39,7 @@ const HomeWelcome = () => {
             </div>
         </div>
         <img src={homeWelcomeImg3} alt="Welcome Image 3" loading="lazy" id="floating-img-2" />
-      </div>
+      </section>
     </>
   )
 }
