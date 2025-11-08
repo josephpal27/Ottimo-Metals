@@ -122,4 +122,34 @@
     padding: 0.45rem;
     margin-right: 0.7rem;
 }
+.zinc-wires-bottom{
+    margin-top: 4rem;
+}
+.zinc-wires-bottom p{
+    color: #6c6c6c;
+    font-weight: 500;
+    font-size: calc(0.65rem + 0.5vw);
+    line-height: 1.75;
+}
+.zinc-wires-bottom p:last-child{
+    margin-bottom: 0;
+}
+.zinc-wires-bottom .zinc-options{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+.zinc-wires-bottom .zinc-options .opt-box{
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: inset 3px 3px 6px rgba(204, 219, 232, 1), inset -3px -3px 6px rgba(255, 255, 255, 0.527), inset 0 0 6px rgba(0, 0, 0, 0.658);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.zinc-wires-bottom .zinc-options .opt-box .icon{
+    color: #179cab;
+    font-size: calc(0.5rem + 0.5vw);
+}
 /* Zinc Wires Content End */
