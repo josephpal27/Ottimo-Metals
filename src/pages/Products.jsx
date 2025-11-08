@@ -7,6 +7,7 @@ import zincWireImage from '../assets/images/products/zinc-wire.avif';
 import { FaCheck, FaCircleDot } from "react-icons/fa6";
 
 import { Tab, Nav } from "react-bootstrap";
+import { Button } from '@mui/material';
 
 const Products = () => {
     return (
@@ -78,17 +79,17 @@ const Products = () => {
                         <Nav variant="tabs" className="tab-head">
                             <Nav.Item>
                                 <Nav.Link eventKey="tabOne">
-                                    <span>Physical Properties</span>
+                                    <Button className="button">Physical Properties</Button>
                                 </Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link eventKey="tabTwo">
-                                    <span>Mechanical Properties</span>
+                                    <Button className="button">Mechanical Properties</Button>
                                 </Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link eventKey="tabThree">
-                                    <span>Chemical Composition (According to ISO 14919:2001)</span>
+                                    <Button className="button">Chemical Composition (According to ISO 14919:2001)</Button>
                                 </Nav.Link>
                             </Nav.Item>
                         </Nav>
