@@ -2,6 +2,9 @@ import '../css/Products.css';
 
 import homeBanner from '/images/banners/banner.avif';
 import whatWeDoImage from '../assets/images/products/what-we-do.avif';
+import zincWireImage from '../assets/images/products/zinc-wire.avif';
+
+import { FaCheck } from "react-icons/fa6";
 
 const Products = () => {
     return (
@@ -28,6 +31,32 @@ const Products = () => {
                 <h3>PRODUCT DETAILS</h3>
                 <div className="line"></div>
                 <p>Discover the superior strength, durability, and versatility of our high-quality zinc wires, designed to meet the diverse needs of various industries.</p>
+            </section>
+
+            {/* Zinc Wires Content */}
+            <section className="zinc-wires-content">
+                <div className="zinc-wires-top">
+                    <div className="zinc-top-image">
+                        <img src={zincWireImage} alt="Zinc Wires" loading="lazy" />
+                    </div>
+                    <div className="zinc-top-content">
+                        <h4>ZINC WIRES</h4>
+                        <div className="zinc-wire-highlights">
+                            <div className="highlight-box">
+                                <span><FaCheck className="icon" /> High-purity Zinc wire 99.995% purity</span>
+                            </div>
+                            <div className="highlight-box">
+                                <span><FaCheck className="icon" /> Exceptional anti-corrosion performance</span>
+                            </div>
+                            <div className="highlight-box">
+                                <span><FaCheck className="icon" /> Wide range of sizes available</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="zinc-wires-bottom">
+
+                </div>
             </section>
         </>
     )

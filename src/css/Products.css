@@ -70,3 +70,56 @@
     margin-bottom: 0;
 }
 /* Product Details End */
+
+/* Zinc Wires Content Start */
+.zinc-wires-content{
+    padding: 5rem 7%;
+}
+.zinc-wires-top{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.zinc-wires-top .zinc-top-image{
+    width: 45%;
+}
+.zinc-wires-top .zinc-top-image img{
+    width: 100%;
+}
+.zinc-wires-top .zinc-top-content{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.zinc-wires-top .zinc-top-content h4{
+    font-weight: 800;
+    font-size: calc(3.5rem + 0.5vw);
+    color: #171612;
+}
+.zinc-wires-top .highlight-box{
+    background-color: #fff;
+    padding: 2rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.zinc-wires-top .zinc-wire-highlights{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.zinc-wires-top .highlight-box span{
+    font-weight: 500;
+    font-size: calc(0.7rem + 0.5vw);
+    display: block;
+    color: #171612;
+}
+.zinc-wires-top .highlight-box .icon{
+    background-color: #ebebeb;
+    color: #179cab;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 0.45rem;
+    margin-right: 0.7rem;
+}
+/* Zinc Wires Content End */
