@@ -1,0 +1,73 @@
+.offered-services{
+    padding: 5rem 7% 6rem 7%;
+}
+.offered-services p{
+    color: #6c6c6c;
+    font-weight: 500;
+    font-size: calc(0.7rem + 0.5vw);
+    line-height: 1.8;
+}
+.offered-services p span{
+    font-style: italic;
+    font-weight: 700;
+}
+.offered-services b{
+    font-size: calc(0.7rem + 0.5vw);
+    margin-top: 1.5rem;
+    display: block;
+}
+.offered-services-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+.offered-services-row .offered-services-card{
+    width: 31%;
+    box-shadow: rgba(0, 0, 0, 0.427) 0px 3px 8px;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.offered-services-row .offered-services-card img{
+    width: 100%;
+}
+.offered-services-row .offered-services-card .card-desc{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+.offered-services-row .offered-services-card .card-desc span{
+    display: block;
+    text-align: center;
+    font-size: calc(1rem + 0.5vw);
+    font-weight: 700;
+    color: #171612;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+}
+.offered-services-row .offered-services-card .card-desc p{
+    margin-top: 0.8rem;
+    font-size: calc(0.55rem + 0.5vw);
+    line-height: 1.5;
+    text-align: center;
+    flex-grow: 1;
+}
+.offered-services-row .offered-services-card .card-desc .button{
+    color: #6c6c6c;
+    font-weight: 600;
+    font-size: calc(0.5rem + 0.5vw);
+    text-align: center;
+    padding: 0.7rem 0;
+    margin-top: 0.8rem;
+    width: 100%;
+    background-color: #ededed;
+    border-radius: 0;
+}
+.offered-services-row .offered-services-card .card-desc .button:hover{
+    background-color: #179cab;
+    color: #fff;
+}
