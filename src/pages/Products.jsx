@@ -22,6 +22,13 @@ const Products = () => {
                     <div className="layer"></div>
                 </div>
             </section>
+
+            {/* Product Details */}
+            <section className="product-details">
+                <h3>PRODUCT DETAILS</h3>
+                <div className="line"></div>
+                <p>Discover the superior strength, durability, and versatility of our high-quality zinc wires, designed to meet the diverse needs of various industries.</p>
+            </section>
         </>
     )
 }

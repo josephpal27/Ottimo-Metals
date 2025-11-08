@@ -39,3 +39,34 @@
     z-index: -1;
 }
 /* What We Do End */
+
+/* Product Details Start */
+.product-details{
+    padding: 5rem 7%;
+    background-color: #179cab;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product-details h3{
+    color: #fff;
+    font-weight: 800;
+    font-size: calc(3.5rem + 0.5vw);
+}
+.product-details .line{
+    width: 70px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.product-details p{
+    color: #fff;
+    font-weight: 500;
+    font-size: calc(0.7rem + 0.5vw);
+    margin-top: 1.8rem;
+    text-align: center;
+    width: 65%;
+    margin-bottom: 0;
+}
+/* Product Details End */
