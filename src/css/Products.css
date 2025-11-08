@@ -136,7 +136,7 @@
 }
 .zinc-wires-bottom .zinc-options{
     display: flex;
-    gap: 2rem;
+    gap: 1.7rem;
     margin-bottom: 1rem;
 }
 .zinc-wires-bottom .zinc-options .opt-box{
@@ -151,5 +151,10 @@
 .zinc-wires-bottom .zinc-options .opt-box .icon{
     color: #179cab;
     font-size: calc(0.5rem + 0.5vw);
+}
+.zinc-wires-bottom .zinc-options span{
+    color: #6c6c6c;
+    font-weight: 500;
+    font-size: calc(0.65rem + 0.5vw);
 }
 /* Zinc Wires Content End */
