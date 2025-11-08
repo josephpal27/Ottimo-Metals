@@ -6,6 +6,8 @@ import zincWireImage from '../assets/images/products/zinc-wire.avif';
 
 import { FaCheck, FaCircleDot } from "react-icons/fa6";
 
+import { Tab, Nav } from "react-bootstrap";
+
 const Products = () => {
     return (
         <>
@@ -58,13 +60,52 @@ const Products = () => {
                     <p>Ottimo Metals stands as a pivotal force in the realm of manufacturing and exporting an expansive array of Zinc Metallizing Wire. These versatile products play a crucial role in Spray Metallization for Capacitors, Anti-Corrosion Protection, Cathodic Corrosion Protection of Steel Structures, Capacitor Film Coating, and Heat Exchanger Finned Tube Coating across industries like automobiles and air conditioning.</p>
                     <p>Within the realm of Zinc Wires, our infrastructure boasts a cutting-edge European fully automatic Continuous Casting and Rolling (CCR LINE) system, optimizing our zinc wire manufacturing capacity. This innovation yields three distinct mechanical property variants tailored to diverse zinc metallization applications:</p>
                     <div className="zinc-options">
-                        <div className="opt-box"><FaCircleDot className="icon"/><span>Soft Zinc Wire</span></div>
-                        <div className="opt-box"><FaCircleDot className="icon"/><span>Medium-Hard Zinc Wire</span></div>
-                        <div className="opt-box"><FaCircleDot className="icon"/><span>Hard Zinc Wire</span></div>
+                        <div className="opt-box"><FaCircleDot className="icon" /><span>Soft Zinc Wire</span></div>
+                        <div className="opt-box"><FaCircleDot className="icon" /><span>Medium-Hard Zinc Wire</span></div>
+                        <div className="opt-box"><FaCircleDot className="icon" /><span>Hard Zinc Wire</span></div>
                     </div>
                     <p>Supporting our manufacturing process is a robust Zinc Wire plant, boasting an impressive production capacity of 1200 MT per month. This enables us to adeptly address the diverse needs of our esteemed customers. Additionally, we are equipped to produce special alloys and dimensions tailored to precise customer specifications.</p>
                     <p>What sets Ottimo zinc wires apart is their exceptional purity, a hallmark achieved through our dedication to high-grade materials. These wires are crafted from special, SHG grade zinc (Zn 99.995%) adhering to DIN EN 14919 standards. Our commitment to quality is further underscored by our state-of-the-art German laboratory equipment, including a Photo Spectrometer for accurate chemical composition analysis and European standard UTM machine and metallurgical microscope for rigorous testing.</p>
                     <p>In essence, Ottimo Metals stands as a beacon of innovation, delivering zinc wire solutions that not only meet industry demands but also push the boundaries of quality and performance.</p>
+                </div>
+            </section>
+
+            {/* Zinc Tabbing */}
+            <section className="zinc-tabbing-container">
+                <div className="zinc-tabbing">
+                    <Tab.Container defaultActiveKey="tabOne">
+                        {/* Tabs Navigation */}
+                        <Nav variant="tabs" className="tab-head">
+                            <Nav.Item>
+                                <Nav.Link eventKey="tabOne">
+                                    <span>Physical Properties</span>
+                                </Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                                <Nav.Link eventKey="tabTwo">
+                                    <span>Mechanical Properties</span>
+                                </Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                                <Nav.Link eventKey="tabThree">
+                                    <span>Chemical Composition (According to ISO 14919:2001)</span>
+                                </Nav.Link>
+                            </Nav.Item>
+                        </Nav>
+
+                        {/* Tabs Content */}
+                        <Tab.Content>
+                            <Tab.Pane eventKey="tabOne" className="fade show">
+                                Content 1
+                            </Tab.Pane>
+                            <Tab.Pane eventKey="tabTwo" className="fade">
+                                Content 2
+                            </Tab.Pane>
+                            <Tab.Pane eventKey="tabThree" className="fade">
+                                Content 3
+                            </Tab.Pane>
+                        </Tab.Content>
+                    </Tab.Container>
                 </div>
             </section>
         </>

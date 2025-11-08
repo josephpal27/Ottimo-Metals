@@ -158,3 +158,35 @@
     font-size: calc(0.65rem + 0.5vw);
 }
 /* Zinc Wires Content End */
+
+/* Zinc Tabbing */
+.zinc-tabbing-container{
+    padding: 0 7% 5rem 7%;
+}
+.zinc-tabbing{
+    background-color: #051014;
+}
+.zinc-tabbing .nav{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.zinc-tabbing .nav-link{
+    background: #092732;
+    border: none;
+    color: #fff !important;
+    padding: 1.2rem 3.4rem;
+    border-radius: 0;
+    font-weight: 600;
+    font-size: calc(0.7rem + 0.5vw);
+}
+.zinc-tabbing .nav-link.active{
+    background: #179cab;
+    border: none;
+}
+.zinc-tabbing .tab-pane{
+    padding: 7rem 2rem;
+    text-align: center;
+    color: #fff;
+}
+/* Zinc End */
