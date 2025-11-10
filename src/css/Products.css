@@ -266,6 +266,7 @@ td, th {
     background-position: center;
     background-size: cover;
     margin-top: 5.5rem;
+    margin-bottom: 1rem;
     position: relative;
 }
 .packaging-unit-layer{
@@ -273,7 +274,7 @@ td, th {
     width: 100%;
     height: 100%;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.548);
+    background-color: rgba(0, 0, 0, 0.607);
 }
 .packaging-unit span{
     display: block;
