@@ -191,6 +191,11 @@ const Products = () => {
                     <img src={packaging} alt="Icon" loading="lazy" />
                 </div>
             </section>
+
+            {/* Packaging Units */}
+            <section className="packaging-unit">
+
+            </section>
         </>
     )
 }
