@@ -4,6 +4,16 @@ import homeBanner from '/images/banners/banner.avif';
 import appsImg1 from '../assets/images/applications/1.avif';
 
 const Applications = () => {
+
+    let applicationsContent = [
+        {
+            id: 1,
+            image: '',
+            title: "",
+            desc: "",
+        },
+    ]
+
     return (
         <>
             {/* Banner */}
