@@ -194,7 +194,26 @@ const Products = () => {
 
             {/* Packaging Units */}
             <section className="packaging-unit">
-
+                <div className="packaging-unit-layer"></div>
+                <span>Packaging Units</span>
+                <div className="packaging-unit-cards-row">
+                    <div className="packaging-unit-card">
+                        <p>Endless wire in metal drums <br /> (with inner cylinder)</p>
+                        <div className="layer"></div>
+                    </div>
+                    <div className="packaging-unit-card">
+                        <p>Endless wire in fiber drums <br /> (with inner cylinder)</p>
+                        <div className="layer"></div>
+                    </div>
+                    <div className="packaging-unit-card">
+                        <p>Spools <br /> (SD 300 or SH 390)</p>
+                        <div className="layer"></div>
+                    </div>
+                    <div className="packaging-unit-card">
+                        <p>Coils in PE foils</p>
+                        <div className="layer"></div>
+                    </div>
+                </div>
             </section>
         </>
     )
