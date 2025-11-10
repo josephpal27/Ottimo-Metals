@@ -161,7 +161,7 @@
 
 /* Zinc Tabbing Start*/
 .zinc-tabbing-container{
-    padding: 0 7% 5rem 7%;
+    padding: 0 7% 5.5rem 7%;
 }
 .zinc-tabbing .nav{
     padding: 1rem;
@@ -213,4 +213,47 @@ td, th {
 /* Zinc Tabbing End */
 
 /* Product Range Start */
+.product-range{
+    padding: 0 7%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.product-range .product-range-card{
+    width: 48%;
+    background-color: #179cab;
+    color: #fff;
+    padding: 2rem;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.product-range .product-range-card span{
+    display: block;
+    text-align: center;
+    font-size: calc(1.5rem + 0.5vw);
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+.product-range .product-range-card p{
+    font-size: calc(0.7rem + 0.5vw);
+    line-height: 1.7;
+    margin: 0;
+}
+.product-range .product-range-card b:nth-child(4){
+    margin-top: 1rem;
+}
+.product-range .product-range-card b{
+    font-size: calc(0.75rem + 0.5vw);
+    margin-bottom: 0.5rem;
+    display: block;
+}
+.product-range .product-range-card img{
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    width: 100px;
+}
+.product-range .product-range-card:nth-child(1) img{
+    width: 85px;
+}
 /* Product Range End */

@@ -3,6 +3,8 @@ import '../css/Products.css';
 import homeBanner from '/images/banners/banner.avif';
 import whatWeDoImage from '../assets/images/products/what-we-do.avif';
 import zincWireImage from '../assets/images/products/zinc-wire.avif';
+import productRange from '../assets/images/icons/product-range.png';
+import packaging from '../assets/images/icons/packaging.png';
 
 import { FaCheck, FaCircleDot } from "react-icons/fa6";
 
@@ -181,10 +183,12 @@ const Products = () => {
                     <p>30-35 kg Loose Coil</p>
                     <p>15 kg Spools (DIN 300)</p>
                     <p>20 Kg Spool (DIN270)</p>
+                    <img src={productRange} alt="Icon" loading="lazy" />
                 </div>
                 <div className="product-range-card">
                     <span>Packaging</span>
                     <p>European plant which consists of a completely automated manufacturing unit. From the process of drawing zinc wires from zinc ingots and packaging them in various units, our process is completely automated.</p>
+                    <img src={packaging} alt="Icon" loading="lazy" />
                 </div>
             </section>
         </>
