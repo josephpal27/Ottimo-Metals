@@ -159,17 +159,15 @@
 }
 /* Zinc Wires Content End */
 
-/* Zinc Tabbing */
+/* Zinc Tabbing Start*/
 .zinc-tabbing-container{
     padding: 0 7% 5rem 7%;
-}
-.zinc-tabbing{
-    background-color: #051014;
 }
 .zinc-tabbing .nav{
     padding: 1rem;
     display: flex;
     justify-content: space-between;
+    background-color: #051014;
 }
 .zinc-tabbing .nav-link{
     color: #fff !important;
@@ -193,9 +191,22 @@
     background: #179cab;
     border: none;
 }
+.zinc-tabbing .tab-content{
+    background-color: #051014;
+    margin-top: 0.2rem;
+}
 .zinc-tabbing .tab-pane{
-    padding: 7rem 2rem;
+    padding: 3rem;
     text-align: center;
     color: #fff;
 }
-/* Zinc End */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 2px solid #fff;
+  padding: 1rem 0;
+  color: #fff;
+}
+/* Zinc Tabbing End */

@@ -97,7 +97,20 @@ const Products = () => {
                         {/* Tabs Content */}
                         <Tab.Content>
                             <Tab.Pane eventKey="tabOne" className="fade show">
-                                Content 1
+                                <table>
+                                    <tr>
+                                        <td>Melting Point</td>
+                                        <td>420°C (788°F)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Boiling Point</td>
+                                        <td>907°C (1665°F)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Density</td>
+                                        <td>7.14 g/cm³</td>
+                                    </tr>
+                                </table>
                             </Tab.Pane>
                             <Tab.Pane eventKey="tabTwo" className="fade">
                                 Content 2
