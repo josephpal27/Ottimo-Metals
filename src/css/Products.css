@@ -208,5 +208,6 @@ td, th {
   border: 2px solid #fff;
   padding: 1rem 0;
   color: #fff;
+  font-size: calc(0.7rem + 0.5vw);
 }
 /* Zinc Tabbing End */

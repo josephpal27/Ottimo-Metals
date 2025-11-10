@@ -113,10 +113,56 @@ const Products = () => {
                                 </table>
                             </Tab.Pane>
                             <Tab.Pane eventKey="tabTwo" className="fade">
-                                Content 2
+                                <table>
+                                    <tr>
+                                        <td><b>Sl No.</b></td>
+                                        <td><b>Product</b></td>
+                                        <td><b>Tensile Strength</b></td>
+                                        <td><b>Elongation</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Soft Zinc Wire</td>
+                                        <td>90-110 Mpa</td>
+                                        <td>40% Min.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Medium Hard Zinc Wire</td>
+                                        <td>110-130 Mpa</td>
+                                        <td>40% Min.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Hard Zinc Wire</td>
+                                        <td>130-160 Mpa</td>
+                                        <td>40% Min.</td>
+                                    </tr>
+                                </table>
                             </Tab.Pane>
                             <Tab.Pane eventKey="tabThree" className="fade">
-                                Content 3
+                                <table>
+                                    <tr>
+                                        <td><b>Pb</b></td>
+                                        <td><b>Cd</b></td>
+                                        <td><b>Sn</b></td>
+                                        <td><b>Cu</b></td>
+                                        <td><b>Fe</b></td>
+                                        <td><b>Al</b></td>
+                                        <td><b>Zn</b></td>
+                                        <td><b>Others</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td>max. 0.003%</td>
+                                        <td>max. 0.003%</td>
+                                        <td>max. 0.001%</td>
+                                        <td>max. 0.001%</td>
+                                        <td>max. 0.002%</td>
+                                        <td>max. 0.001%</td>
+                                        <td>min. 99.995%</td>
+                                        <td>max. 0.005%</td>
+                                    </tr>
+                                </table>
                             </Tab.Pane>
                         </Tab.Content>
                     </Tab.Container>
