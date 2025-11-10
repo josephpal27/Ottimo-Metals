@@ -168,6 +168,25 @@ const Products = () => {
                     </Tab.Container>
                 </div>
             </section>
+
+            {/* Product Range */}
+            <section className="product-range">
+                <div className="product-range-card">
+                    <span>Product Range</span>
+                    <b>Diameter:</b>
+                    <p>Available in standard diameters: 1.00mm,1.20mm,1,60mm,2.00 mm,2.50mm,3.175 mm,3.48mm,4.00mm,4.58mm, 4.76mm or other diameters as per request according to EN ISO 14919:2001 having tolerance of +0.00 mm & -0.05 mm</p>
+                    <b>Weight:</b>
+                    <p>350 to 500 kg Metal Drum</p>
+                    <p>40 to 300 Kg Paper fibre Drum</p>
+                    <p>30-35 kg Loose Coil</p>
+                    <p>15 kg Spools (DIN 300)</p>
+                    <p>20 Kg Spool (DIN270)</p>
+                </div>
+                <div className="product-range-card">
+                    <span>Packaging</span>
+                    <p>European plant which consists of a completely automated manufacturing unit. From the process of drawing zinc wires from zinc ingots and packaging them in various units, our process is completely automated.</p>
+                </div>
+            </section>
         </>
     )
 }
