@@ -1,0 +1,48 @@
+.applications{
+    padding: 5rem 7%;
+}
+.applications-head h2{
+    font-weight: 700;
+    font-size: calc(1.7rem + 0.5vw);
+    color: #171612;
+    text-transform: uppercase;
+}
+.applications-head p{
+    color: #6c6c6c;
+    font-weight: 500;
+    font-size: calc(0.7rem + 0.5vw);
+    margin-top: 1rem;
+}
+.applications-card-row{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.applications-card{
+    width: 31.5%;
+    box-shadow: rgba(0, 0, 0, 0.53) 0px 3px 8px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+.applications-card img{
+    width: 100%;
+}
+.applications-card .card-desc{
+    padding: 1rem;
+}
+.applications-card span{
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    font-size: calc(1rem + 0.5vw);
+    color: #171612;
+    text-transform: uppercase;
+}
+.applications-card p{
+    color: #6c6c6c;
+    font-weight: 500;
+    font-size: calc(0.6rem + 0.5vw);
+    margin-top: 1rem;
+    text-align: center;
+}
