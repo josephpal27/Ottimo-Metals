@@ -255,7 +255,8 @@ td, th {
     width: 100px;
 }
 .product-range .product-range-card:nth-child(1) img{
-    width: 85px;
+    width: 82px;
+    bottom: 2.5rem;
 }
 /* Product Range End */
 
