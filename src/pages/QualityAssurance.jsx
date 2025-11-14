@@ -53,6 +53,7 @@ const QualityAssurance = () => {
                 </div>
                 <div className="quality-control-image">
                     <img src={qualityControlImg} alt="Quality Control" loading="lazy" />
+                    <div className="quality-image-outer"></div>
                 </div>
             </section>
         </>
