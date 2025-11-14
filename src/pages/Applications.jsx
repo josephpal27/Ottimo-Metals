@@ -92,6 +92,9 @@ const Applications = () => {
                         })
                     }
                 </div>
+                <div className="applications-foot-content">
+                    <p>At Ottimo Metals, we continually explore innovative uses for zinc wires, pushing the boundaries of what can be achieved with this versatile material across various industries.</p>
+                </div>
             </section>
         </>
     )
