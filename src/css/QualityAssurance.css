@@ -12,7 +12,68 @@
     width: 70px;
     height: 6px;
     border-radius: 10px;
-    background-color: #171612;
+    background-color: #179cab;
     margin: 0 auto;
+}
+.quality-cards-row{
+    margin-top: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.quality-cards-row .quality-box{
+    width: 48.5%;
+    padding: 2rem;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+.quality-cards-row .quality-box:nth-child(1){
+    background-image: url('../assets/images/products/2.avif');
+}
+.quality-cards-row .quality-box:nth-child(2){
+    background-image: url('../assets/images/products/1.avif');
+}
+.quality-cards-row .quality-box .layer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #171612d4;
+    transition: all 0.3s ease;
+}
+.quality-cards-row .quality-box:hover .layer{
+    background-color: #179cab;
+}
+.quality-cards-row .quality-box span{
+    position: absolute;
+    top: 0.8rem;
+    display: block;
+    font-size: calc(3rem + 0.5vw);
+    font-weight: 700;
+}
+.quality-cards-row .quality-box h3{
+    position: relative;
+    font-size: calc(2.5rem + 0.5vw);
+    font-weight: 700;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+}
+.quality-cards-row .quality-box p{
+    position: relative;
+    font-size: calc(0.65rem + 0.5vw);
+    font-weight: 500;
+}
+.quality-cards-row .quality-box .quality-list{
+    margin-top: 2rem;
+}
+.quality-cards-row .quality-box .quality-list p{
+    margin-bottom: 0.5rem;
+}
+.quality-cards-row .quality-box .quality-list .icon{
+    margin-right: 0.4rem;
 }
 /* Quality Assurance End */
