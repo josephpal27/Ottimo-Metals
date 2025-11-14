@@ -53,15 +53,15 @@
 .applications-card p{
     color: #6c6c6c;
     font-weight: 500;
-    font-size: calc(0.6rem + 0.5vw);
+    font-size: calc(0.55rem + 0.5vw);
     margin-top: 1rem;
     text-align: center;
 }
 .applications-foot-content p{
     margin: 2rem auto 0 auto;
-    width: 65%;
+    width: 70%;
     text-align: center;
     color: #171612;
     font-weight: 500;
-    font-size: calc(0.6rem + 0.5vw);
+    font-size: calc(0.65rem + 0.5vw);
 }
