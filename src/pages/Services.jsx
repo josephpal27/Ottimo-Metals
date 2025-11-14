@@ -1,6 +1,6 @@
 import '../css/Services.css';
 
-import homeBanner from '/images/banners/banner.avif';
+import homeBanner from '/images/banners/services-banner.avif';
 
 import { Button } from "@mui/material";
 import { Link } from "react-router-dom";

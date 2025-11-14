@@ -1,6 +1,6 @@
 import '../css/Gallery.css';
 
-import homeBanner from '/images/banners/banner.avif';
+import homeBanner from '/images/banners/gallery-banner.avif';
 import galleryImg1 from '../assets/images/gallery/1.avif';
 import galleryImg2 from '../assets/images/gallery/2.avif';
 import galleryImg3 from '../assets/images/gallery/3.avif';

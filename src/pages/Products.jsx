@@ -1,6 +1,6 @@
 import '../css/Products.css';
 
-import homeBanner from '/images/banners/banner.avif';
+import homeBanner from '/images/banners/products-banner.avif';
 import whatWeDoImage from '../assets/images/products/what-we-do.avif';
 import zincWireImage from '../assets/images/products/zinc-wire.avif';
 import productRange from '../assets/images/icons/product-range.png';

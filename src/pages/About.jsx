@@ -4,7 +4,7 @@ import ProductDetails from '../components/product-details/ProductDetails';
 
 import '../css/About.css';
 
-import homeBanner from '/images/banners/banner.avif';
+import homeBanner from '/images/banners/about-banner.avif';
 import ourProductImage1 from '../assets/images/products/1.avif';
 import ourProductImage2 from '../assets/images/products/2.avif';
 import ourProductImage3 from '../assets/images/products/3.avif';

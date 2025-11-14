@@ -1,6 +1,6 @@
 import '../css/Home.css';
 
-import homeBanner from '/images/banners/banner.avif';
+import homeBanner from '/images/banners/home-banner.avif';
 
 import { Button } from '@mui/material';
 import { Link } from 'react-router-dom';

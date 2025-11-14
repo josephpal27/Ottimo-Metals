@@ -1,6 +1,6 @@
 import '../css/Contact.css';
 
-import homeBanner from '/images/banners/banner.avif';
+import homeBanner from '/images/banners/contact-banner.avif';
 
 import { FaPhone } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
