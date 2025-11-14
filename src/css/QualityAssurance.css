@@ -77,3 +77,43 @@
     margin-right: 0.4rem;
 }
 /* Quality Assurance End */
+
+/* Quality Control Start */
+.quality-control{
+    padding: 0 7% 6rem 7%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.quality-control-content{
+    width: 48.5%;
+}
+.quality-control-content h4{
+    font-weight: 900;
+    font-size: calc(3rem + 0.5vw);
+    color: #171612;
+    margin-bottom: 2rem;
+}
+.quality-control-content p,
+.quality-control-content li{
+    font-size: calc(0.65rem + 0.5vw);
+    font-weight: 500;
+    color: #6c6c6c;
+}
+.quality-control-content li{
+    margin-bottom: 1rem;
+}
+.quality-control-content p:last-child{
+    margin-bottom: 0;
+}
+.quality-control-image{
+    width: 48.5%;
+}
+.quality-control-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 0.6rem;
+    border-radius: 2px;
+}
+/* Quality Control End */
