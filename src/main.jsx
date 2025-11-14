@@ -12,6 +12,7 @@ import QualityAssurance from './pages/QualityAssurance.jsx';
 import Services from './pages/Services.jsx';
 import Applications from './pages/Applications.jsx';
 import Gallery from './pages/Gallery.jsx';
+import Contact from './pages/Contact.jsx';
 import Error from './pages/Error.jsx';
 
 let routers = createBrowserRouter([
@@ -27,6 +28,7 @@ let routers = createBrowserRouter([
       {path: "/services", element: <Services />},
       {path: "/applications", element: <Applications />},
       {path: "/gallery", element: <Gallery />},
+      {path: "/contact", element: <Contact />},
       {path: "*", element: <Error />},
     ]
   }
