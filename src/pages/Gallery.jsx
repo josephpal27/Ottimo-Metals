@@ -43,18 +43,15 @@ const Gallery = () => {
                     <p>Browse our gallery to see our products in action:</p>
                 </div>
                 <div className="gallery-card-row">
-                    <div className="gallery-card">
-                        <img src={galleryImg1} alt="Gallery Image" loading="lazy" />
-                    </div>
-                    <div className="gallery-card">
-                        <img src={galleryImg1} alt="Gallery Image" loading="lazy" />
-                    </div>
-                    <div className="gallery-card">
-                        <img src={galleryImg1} alt="Gallery Image" loading="lazy" />
-                    </div>
-                    <div className="gallery-card">
-                        <img src={galleryImg1} alt="Gallery Image" loading="lazy" />
-                    </div>
+                    {
+                        gallertImages.map((item, index) => {
+                            return (
+                                <div className="gallery-card" key={index}>
+                                    <img src={item.img} alt="Gallery Image" loading="lazy" />
+                                </div>
+                            )
+                        })
+                    }
                 </div>
             </section>
         </>

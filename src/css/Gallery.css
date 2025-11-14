@@ -16,13 +16,14 @@
 .gallery-card-row{
     margin-top: 3.5rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
+    gap: 2%;
 }
 .gallery-card{
     width: 32%;
     overflow: hidden;
-    margin-bottom: 2.3rem;
+    margin-bottom: 1.7rem;
     padding: 1rem;
     background: rgba(0, 0, 0, 0.063);
     backdrop-filter: blur(12px);
@@ -36,4 +37,8 @@
 .gallery-card img{
     width: 100%;
     border-radius: 10px;
+    transition: scale 0.8s ease;
+}
+.gallery-card img:hover{
+    scale: 1.03;
 }
