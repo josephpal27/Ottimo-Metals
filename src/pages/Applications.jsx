@@ -76,33 +76,21 @@ const Applications = () => {
                     <p>From durable corrosion protection to ship building, explore the wide-ranging uses of our high-quality zinc wires.</p>
                 </div>
                 <div className="applications-card-row">
-                    <div className="applications-card">
-                        <div className="card-image">
-                            <img src={appsImg1} alt="Application Image" loading="lazy" />
-                        </div>
-                        <div className="card-desc">
-                            <span>Efficient Capacitors</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quis reprehenderit eos tempore doloremque a at illum, aperiam ipsam possimus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eius alias molestias dolores esse perferendis, ullam nobis. Assumenda, aperiam reprehenderit?</p>
-                        </div>
-                    </div>
-                    <div className="applications-card">
-                        <div className="card-image">
-                            <img src={appsImg1} alt="Application Image" loading="lazy" />
-                        </div>
-                        <div className="card-desc">
-                            <span>Efficient Capacitors</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quis reprehenderit eos tempore doloremque a at illum, aperiam ipsam possimus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eius alias molestias dolores esse perferendis, ullam nobis. Assumenda, aperiam reprehenderit?</p>
-                        </div>
-                    </div>
-                    <div className="applications-card">
-                        <div className="card-image">
-                            <img src={appsImg1} alt="Application Image" loading="lazy" />
-                        </div>
-                        <div className="card-desc">
-                            <span>Efficient Capacitors</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quis reprehenderit eos tempore doloremque a at illum, aperiam ipsam possimus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eius alias molestias dolores esse perferendis, ullam nobis. Assumenda, aperiam reprehenderit?</p>
-                        </div>
-                    </div>
+                    {
+                        applicationsContent.map(() => {
+                            return (
+                                <div className="applications-card">
+                                    <div className="card-image">
+                                        <img src={appsImg1} alt="Application Image" loading="lazy" />
+                                    </div>
+                                    <div className="card-desc">
+                                        <span>Efficient Capacitors</span>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quis reprehenderit eos tempore doloremque a at illum, aperiam ipsam possimus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eius alias molestias dolores esse perferendis, ullam nobis. Assumenda, aperiam reprehenderit?</p>
+                                    </div>
+                                </div>
+                            )
+                        })
+                    }
                 </div>
             </section>
         </>
