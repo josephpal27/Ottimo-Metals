@@ -77,15 +77,15 @@ const Applications = () => {
                 </div>
                 <div className="applications-card-row">
                     {
-                        applicationsContent.map(() => {
+                        applicationsContent.map((item, index) => {
                             return (
-                                <div className="applications-card">
+                                <div className="applications-card" key={index}>
                                     <div className="card-image">
-                                        <img src={appsImg1} alt="Application Image" loading="lazy" />
+                                        <img src={item.image} alt="Application Image" loading="lazy" />
                                     </div>
                                     <div className="card-desc">
-                                        <span>Efficient Capacitors</span>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quis reprehenderit eos tempore doloremque a at illum, aperiam ipsam possimus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eius alias molestias dolores esse perferendis, ullam nobis. Assumenda, aperiam reprehenderit?</p>
+                                        <span>{item.title}</span>
+                                        <p>{item.desc}</p>
                                     </div>
                                 </div>
                             )
