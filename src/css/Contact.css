@@ -1,0 +1,72 @@
+/* Get In Touch Start */
+.get-in-touch{
+    padding: 5.5rem 7%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.get-in-touch .contact-map{
+    width: 48%;
+}
+.get-in-touch .get-in-touch-content{
+    width: 48%;
+}
+.get-in-touch-content span{
+    display: block;
+    width: max-content;
+    color: #179cab;
+    border: 3px solid #179cab;
+    padding: 0.5rem 0.8rem;
+    font-weight: 700;
+    font-size: calc(0.7rem + 0.5vw);
+}
+.get-in-touch-content h2{
+    color: #171614;
+    font-weight: 900;
+    font-size: calc(3.5rem + 0.5vw);
+    margin-top: 1.5rem;
+}
+.get-in-touch-content p{
+    color: #6c6c6c;
+    font-weight: 500;
+    font-size: calc(0.7rem + 0.5vw);
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.get-in-touch-content .get-in-touch-box{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    border-top: 1px solid #898989;
+    padding: 1.2rem 0;
+}
+.get-in-touch-content .get-in-touch-box .box-icon{
+    width: 13%;
+    border-radius: 50%;
+    background-color: #179cab;
+}
+.get-in-touch-content .get-in-touch-box .box-icon .icon{
+    width: 80px;
+    height: 80px;
+    padding: 1.3rem;
+    color: #fff;
+}
+.get-in-touch-content .get-in-touch-box .box-content{
+    width: 84%;
+}
+.get-in-touch-content .get-in-touch-box .box-content span{
+    color: #171614;
+    border: none;
+    padding: 0;
+    font-weight: 650;
+    font-size: calc(0.75rem + 0.5vw);
+}
+.get-in-touch-content .get-in-touch-box .box-content a{
+    color: #6c6c6c;
+    font-weight: 500;
+    font-size: calc(0.6rem + 0.5vw);
+    text-decoration: none;
+    margin-top: 0.5rem;
+    display: block;
+}
+/* Get In Touch End */
