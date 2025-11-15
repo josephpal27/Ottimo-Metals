@@ -54,7 +54,7 @@ const Contact = () => {
             </section>
 
             {/* Contact Form */}
-            {/* <section className="contact-form">
+            <section className="contact-form">
                 <h3>DROP A MESSAGE</h3>
                 <form action="">
                     <div className="input-row">
@@ -62,11 +62,15 @@ const Contact = () => {
                         <input type="email" placeholder="Email Address" required />
                     </div>
                     <div className="input-row">
-                        <input type="text" placeholder="Full Name" required />
-                        <input type="email" placeholder="Full Name" required />
+                        <input type="number" placeholder="Phone No." required />
+                        <input type="text" placeholder="Subject" required />
                     </div>
+                    <div className="input-row">
+                        <textarea name="message" placeholder="Message"></textarea>
+                    </div>
+                    <button>SEND MESSAGE</button>
                 </form>
-            </section> */}
+            </section>
         </>
     )
 }
