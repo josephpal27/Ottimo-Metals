@@ -100,10 +100,30 @@
     color: #171614;
     font-size: calc(0.7rem + 0.5vw);
     font-weight: 450;
+    transition: all 0.2s ease;
+}
+.contact-form form .input-row input:focus,
+.contact-form form .input-row textarea:focus{
+    background-color: #f1f1f1;
 }
 .contact-form form .input-row textarea{
     width: 100%;
     min-height: 11rem;
     resize: none;
+}
+.contact-form form .input-row input[type="number"]::-webkit-inner-spin-button{
+    display: none;
+}
+.contact-form form button{
+    padding: 1.3rem 4.5rem;
+    background-color: #179cab;
+    border: none;
+    color: #fff;
+    font-size: calc(0.7rem + 0.5vw);
+    font-weight: 550;
+    margin: 0 auto;
+    display: block;
+    border-radius: 0;
+    letter-spacing: 3px;
 }
 /* Contact Form End */

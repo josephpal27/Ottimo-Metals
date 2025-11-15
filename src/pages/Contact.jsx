@@ -5,6 +5,7 @@ import homeBanner from '/images/banners/contact-banner.avif';
 import { FaPhone } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { HiBuildingOffice2 } from "react-icons/hi2";
+import { Button } from '@mui/material';
 
 const Contact = () => {
     return (
@@ -68,7 +69,7 @@ const Contact = () => {
                     <div className="input-row">
                         <textarea name="message" placeholder="Message"></textarea>
                     </div>
-                    <button>SEND MESSAGE</button>
+                    <Button type="submit">SEND MESSAGE</Button>
                 </form>
             </section>
         </>
