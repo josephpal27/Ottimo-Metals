@@ -1,11 +1,9 @@
 /* Banner Start */
-.banner{
-    width: 100%;
-}
-.banner img{
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
+.home-banner h1{
+    color: #fff;
+    font-weight: 900;
+    font-size: calc(2.5rem + 0.5vw);
+    margin-top: 65vh;
 }
 /* Banner End */
 

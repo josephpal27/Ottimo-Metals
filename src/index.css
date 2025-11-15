@@ -11,3 +11,21 @@ html{
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+/* Banner Start */
+.banner{
+    width: 100%;
+    position: relative;
+}
+.banner img{
+    width: 100%;
+}
+.banner .banner-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 7%;
+}
+/* Banner End */

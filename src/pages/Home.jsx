@@ -45,8 +45,11 @@ const Home = () => {
     <>
 
       {/* Banner */}
-      <section className="banner">
+      <section className="banner home-banner">
         <img src={homeBanner} alt="Home Banner" loading="eager" />
+        <div className="banner-content">
+          <h1>Leading Manufacturer of <br /> Zinc Wires In India</h1>
+        </div>
       </section>
 
       {/* Home Welcome */}
