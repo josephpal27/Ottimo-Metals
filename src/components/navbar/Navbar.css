@@ -1,9 +1,10 @@
 .navbar {
   padding: 0.8rem 7% !important;
-  background: transparent;
+  background: #ffbb3e;
   position: absolute;
   top: 0;
   width: 100%;
+  box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.245);
 }
 
 .navbar .nav-brand img {
