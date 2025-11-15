@@ -1,17 +1,14 @@
-.navbar {
+.navbar{
   padding: 0.8rem 7% !important;
   background: #ffaa0f;
-  /* position: absolute; */
-  /* top: 0; */
   width: 100%;
   box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.245);
+  z-index: 10;
 }
-
-.navbar .nav-brand img {
+.navbar .nav-brand img{
   width: 150px;
 }
-
-.navbar .nav-link {
+.navbar .nav-link{
   color: #fff !important;
   font-weight: 700;
   font-size: calc(0.55rem + 0.5vw);
@@ -19,38 +16,38 @@
   padding: 0.4rem 0.7rem !important;
   border: 3px solid transparent;
 }
-.navbar .nav-link.active {
+.navbar .nav-link.active{
   border: 3px solid #179cab;
   background-color: #179cab !important;
   border-radius: 2px;
 }
-
-.navbar .nav-link:hover {
+.navbar .nav-link:hover{
   border: 3px solid #179cab;
 }
 
-@media (max-width: 992px) {
-  .navbar {
+/* Media Queries */
+@media (max-width: 992px){
+  .navbar{
     padding: 0.8rem 1rem !important;
   }
-  .navbar .nav-brand img {
+  .navbar .nav-brand img{
     width: 50px;
   }
-  .navbar-toggler {
+  .navbar-toggler{
     border: none !important;
     box-shadow: none !important;
   }
-  .navbar-toggler-icon {
+  .navbar-toggler-icon{
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
   }
-  .offcanvas {
+  .offcanvas{
     background: #179cab;
     width: 70% !important;
   }
   .offcanvas .offCanvasLogo{
     width: 100px;
   }
-  .offcanvas .nav-link {
+  .offcanvas .nav-link{
     color: white !important;
     margin: 0.4rem 0;
     font-size: calc(0.9rem + 0.5vw);
@@ -62,3 +59,15 @@
   }
 }
 
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    
+}
+
+/* Mobile screen */
+@media screen and (max-width: 768px) {
+    
+}
