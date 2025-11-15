@@ -1,6 +1,6 @@
 import '../css/QualityAssurance.css';
 
-import homeBanner from '/images/banners/banner.avif';
+import homeBanner from '/images/banners/quality-banner.avif';
 import qualityControlImg from '../assets/images/quality-control.avif';
 
 import { FaCheck } from "react-icons/fa6";
