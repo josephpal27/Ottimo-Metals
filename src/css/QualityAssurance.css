@@ -106,6 +106,92 @@
 .quality-cards-row .quality-box .quality-list .icon{
     margin-right: 0.4rem;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .quality-assurance{
+        padding: 4.5rem 7%;
+    }
+    .quality-assurance h2{
+        font-size: calc(3.5rem + 0.5vw);
+    }
+    .quality-assurance .line{
+        width: 65px;
+        height: 5.5px;
+    }
+    .quality-cards-row{
+        margin-top: 3.2rem;
+    }
+    .quality-cards-row .quality-box{
+        padding: 1.8rem;
+    }
+    .quality-cards-row .quality-box span{
+        top: 0.8rem;
+        font-size: calc(2.6rem + 0.5vw);
+    }
+    .quality-cards-row .quality-box h3{
+        font-size: calc(2.2rem + 0.5vw);
+        margin-top: 6rem;
+        margin-bottom: 1.8rem;
+    }
+    .quality-cards-row .quality-box p{
+        font-size: calc(0.6rem + 0.5vw);
+    }
+    .quality-cards-row .quality-box .quality-list{
+        margin-top: 1.7rem;
+    }
+    .quality-cards-row .quality-box .quality-list p{
+        margin-bottom: 0.5rem;
+    }
+    .quality-cards-row .quality-box .quality-list .icon{
+        margin-right: 0.38rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .quality-assurance{
+        padding: 4rem 7%;
+    }
+    .quality-assurance h2{
+        font-size: calc(3rem + 0.5vw);
+    }
+    .quality-assurance .line{
+        width: 60px;
+        height: 5px;
+    }
+    .quality-cards-row{
+        margin-top: 2.8rem;
+    }
+    .quality-cards-row .quality-box{
+        padding: 1.7rem;
+    }
+    .quality-cards-row .quality-box span{
+        top: 0.7rem;
+        font-size: calc(2.4rem + 0.5vw);
+    }
+    .quality-cards-row .quality-box h3{
+        font-size: calc(2rem + 0.5vw);
+        margin-top: 5rem;
+        margin-bottom: 1.6rem;
+    }
+    .quality-cards-row .quality-box p{
+        font-size: calc(0.55rem + 0.5vw);
+    }
+    .quality-cards-row .quality-box .quality-list{
+        margin-top: 1.5rem;
+    }
+    .quality-cards-row .quality-box .quality-list p{
+        margin-bottom: 0.48rem;
+    }
+    .quality-cards-row .quality-box .quality-list .icon{
+        margin-right: 0.37rem;
+    }
+}
+
+/* Mobile screen */
+@media screen and (max-width: 768px) {
+    
+}
 /* Quality Assurance End */
 
 /* Quality Control Start */
@@ -158,5 +244,53 @@
     top: 2rem;
     right: -1.5rem;
     z-index: 1;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .quality-control{
+        padding: 0 7% 6.5rem 7%;
+    }
+    .quality-control-content h4{
+        font-size: calc(2.7rem + 0.5vw);
+        margin-bottom: 1.8rem;
+    }
+    .quality-control-content p,
+    .quality-control-content li{
+        font-size: calc(0.6rem + 0.5vw);
+    }
+    .quality-control-image img{
+        margin-top: 0.65rem;
+    }
+    .quality-control-image .quality-image-outer{
+        top: 2rem;
+        right: -1.4rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .quality-control{
+        padding: 0 7% 6rem 7%;
+    }
+    .quality-control-content h4{
+        font-size: calc(2.5rem + 0.5vw);
+        margin-bottom: 1.6rem;
+    }
+    .quality-control-content p,
+    .quality-control-content li{
+        font-size: calc(0.55rem + 0.5vw);
+    }
+    .quality-control-image img{
+        margin-top: 0.68rem;
+    }
+    .quality-control-image .quality-image-outer{
+        top: 1.95rem;
+        right: -1.3rem;
+    }
+}
+
+/* Mobile screen */
+@media screen and (max-width: 768px) {
+    
 }
 /* Quality Control End */
