@@ -1,6 +1,6 @@
 import '../css/Services.css';
 
-import homeBanner from '/images/banners/services-banner.avif';
+import servicesBanner from '/images/banners/services-banner.avif';
 
 import { Button } from "@mui/material";
 import { Link } from "react-router-dom";
@@ -36,7 +36,7 @@ const Services = () => {
         <>
             {/* Banner */}
             <section className="banner">
-                <img src={homeBanner} alt="Home Banner" loading="eager" />
+                <img src={servicesBanner} alt="Home Banner" loading="eager" />
             </section>
 
             {/* Services */}

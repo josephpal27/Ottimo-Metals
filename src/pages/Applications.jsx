@@ -1,6 +1,6 @@
 import '../css/Applications.css';
 
-import homeBanner from '/images/banners/applications-banner.avif';
+import applicationsBanner from '/images/banners/applications-banner.avif';
 import appsImg1 from '../assets/images/applications/1.avif';
 import appsImg2 from '../assets/images/applications/2.avif';
 import appsImg3 from '../assets/images/applications/3.avif';
@@ -74,7 +74,7 @@ const Applications = () => {
         <>
             {/* Banner */}
             <section className="banner">
-                <img src={homeBanner} alt="Home Banner" loading="eager" />
+                <img src={applicationsBanner} alt="Home Banner" loading="eager" />
             </section>
 
             {/* Applications */}

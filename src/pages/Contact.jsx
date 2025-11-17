@@ -1,6 +1,6 @@
 import '../css/Contact.css';
 
-import homeBanner from '/images/banners/contact-banner.avif';
+import contactBanner from '/images/banners/contact-banner.avif';
 
 import { FaPhone } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
@@ -12,7 +12,7 @@ const Contact = () => {
         <>
             {/* Banner */}
             <section className="banner">
-                <img src={homeBanner} alt="Home Banner" loading="eager" />
+                <img src={contactBanner} alt="Home Banner" loading="eager" />
             </section>
 
             {/* Get In Touch */}

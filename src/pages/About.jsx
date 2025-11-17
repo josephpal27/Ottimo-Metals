@@ -4,7 +4,7 @@ import ProductDetails from '../components/product-details/ProductDetails';
 
 import '../css/About.css';
 
-import homeBanner from '/images/banners/about-banner.avif';
+import aboutBanner from '/images/banners/about-banner.avif';
 import ourProductImage1 from '../assets/images/products/1.avif';
 import ourProductImage2 from '../assets/images/products/2.avif';
 import ourProductImage3 from '../assets/images/products/3.avif';
@@ -15,7 +15,7 @@ const About = () => {
         <>
             {/* Banner */}
             <section className="banner">
-                <img src={homeBanner} alt="Home Banner" loading="eager" />
+                <img src={aboutBanner} alt="Home Banner" loading="eager" />
             </section>
 
             {/* About Welcome */}

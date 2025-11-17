@@ -1,6 +1,6 @@
 import '../css/QualityAssurance.css';
 
-import homeBanner from '/images/banners/quality-banner.avif';
+import qualityBanner from '/images/banners/quality-banner.avif';
 import qualityControlImg from '../assets/images/quality-control.avif';
 
 import { FaCheck } from "react-icons/fa6";
@@ -10,7 +10,7 @@ const QualityAssurance = () => {
         <>
             {/* Banner */}
             <section className="banner">
-                <img src={homeBanner} alt="Home Banner" loading="eager" />
+                <img src={qualityBanner} alt="Home Banner" loading="eager" />
             </section>
 
             {/* Quality Assurance */}
