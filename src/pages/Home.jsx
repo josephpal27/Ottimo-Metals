@@ -61,14 +61,14 @@ const Home = () => {
       {/* What We Offer */}
       <section className="what-we-offer">
         <div className="what-we-offer-head">
-          <span>Our Services</span>
-          <h3>What we offer</h3>
+          <span data-aos="fade">Our Services</span>
+          <h3 data-aos="fade-up">What we offer</h3>
         </div>
         <div className="what-we-offer-cards-row">
           {
             serviceCardsData.map((item, index) => {
               return (
-                <div className="offer-card" key={index}>
+                <div className="offer-card" key={index} data-aos="fade">
                   <div className="card-image">
                     <img src={item.image} alt="Card Image" loading="lazy" />
                   </div>
@@ -87,9 +87,9 @@ const Home = () => {
       {/* Testimonials */}
       <section className="testimonials">
         <div className="testimonials-left">
-          <span>Our Testimonials</span>
-          <h4>WHAT THEY SAY</h4>
-          <div className="testimonials-tabbing">
+          <span data-aos="fade">Our Testimonials</span>
+          <h4 data-aos="fade-up">WHAT THEY SAY</h4>
+          <div className="testimonials-tabbing" data-aos="fade">
             <Tab.Container defaultActiveKey="tabOne">
               {/* Tabs Navigation */}
               <Nav variant="tabs" className="tab-head">
@@ -152,7 +152,7 @@ const Home = () => {
           </div>
         </div>
         <div className="testimonials-right">
-          <div className="testimonial-hightlight-box">
+          <div className="testimonial-hightlight-box" data-aos="fade">
             <div className="hightlight-image">
               <img src={testimonialIcon1} alt="Icon" loading="lazy" />
             </div>
@@ -160,7 +160,7 @@ const Home = () => {
               <p>We’re Good in All Metal Works</p>
             </div>
           </div>
-          <div className="testimonial-hightlight-box">
+          <div className="testimonial-hightlight-box" data-aos="fade">
             <div className="hightlight-image">
               <img src={testimonialIcon2} alt="Icon" loading="lazy" />
             </div>
@@ -168,7 +168,7 @@ const Home = () => {
               <p>Expert & Professional Welder Workers</p>
             </div>
           </div>
-          <div className="testimonial-hightlight-box">
+          <div className="testimonial-hightlight-box" data-aos="fade">
             <div className="hightlight-image">
               <img src={testimonialIcon3} alt="Icon" loading="lazy" />
             </div>

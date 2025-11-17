@@ -8,7 +8,7 @@ const CTA = () => {
     <>
       <div className="cta-box">
         <div className="cta-box-left">
-            <span>Looking for a quality and affordable project?</span>
+            <span data-aos="fade-up">Looking for a quality and affordable project?</span>
         </div>
         <div className="cta-box-right">
             <Button component={Link} to="/contact" className="button">CONTACT US</Button>
