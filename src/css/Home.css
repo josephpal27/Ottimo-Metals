@@ -285,7 +285,7 @@
         margin-top: 1.3rem;
     }
     .testimonials .testimonials-tabbing{
-        margin-top: 2.5rem;
+        margin-top: 3rem;
     }
     .testimonials .testimonials-tabbing .tab-head{
         padding-bottom: 1.2rem;
@@ -294,7 +294,7 @@
         width: 55px;
     }
     .testimonials .testimonials-tabbing .nav-link.active img{
-        outline: 8px solid #179cab;
+        outline: 9px solid #179cab;
     }
     .testimonials .testimonials-tabbing .tab-pane{
         margin-top: 1.2rem;
@@ -341,7 +341,7 @@
         margin-top: 1.2rem;
     }
     .testimonials .testimonials-tabbing{
-        margin-top: 2rem;
+        margin-top: 2.5rem;
     }
     .testimonials .testimonials-tabbing .tab-head{
         padding-bottom: 1rem;
@@ -350,7 +350,7 @@
         width: 50px;
     }
     .testimonials .testimonials-tabbing .nav-link.active img{
-        outline: 7px solid #179cab;
+        outline: 8px solid #179cab;
     }
     .testimonials .testimonials-tabbing .tab-pane{
         margin-top: 1.1rem;
