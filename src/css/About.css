@@ -1,3 +1,23 @@
+/* Banner Start */
+.about-banner .banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-banner .banner-content h1{
+    color: #171614;
+    font-weight: 800;
+    font-size: calc(3.5rem + 0.5vw);
+    margin-bottom: 1.5rem;
+}
+.about-banner .banner-content p{
+    color: #171614;
+    font-weight: 500;
+    font-size: calc(0.7rem + 0.5vw);
+    width: 40%;
+}
+/* Banner End */
+
 /* Our Products Start */
 .our-products{
     padding: 0 0 4rem 0;
