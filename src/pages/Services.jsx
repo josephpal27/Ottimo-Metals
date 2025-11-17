@@ -35,8 +35,11 @@ const Services = () => {
     return (
         <>
             {/* Banner */}
-            <section className="banner">
+            <section className="banner services-banner">
                 <img src={servicesBanner} alt="Home Banner" loading="eager" />
+                <div className="banner-content">
+                    <h1>SERVICES</h1>
+                </div>
             </section>
 
             {/* Services */}
