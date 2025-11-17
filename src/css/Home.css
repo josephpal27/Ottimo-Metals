@@ -1,9 +1,13 @@
 /* Banner Start */
+.home-banner .banner-content{
+    display: flex;
+    align-items: end;
+}
 .home-banner h1{
     color: #fff;
-    font-weight: 900;
+    font-weight: 800;
     font-size: calc(2.5rem + 0.5vw);
-    margin-top: 65vh;
+    text-transform: uppercase;
 }
 /* Banner End */
 
