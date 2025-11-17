@@ -16,6 +16,33 @@
     font-size: calc(0.7rem + 0.5vw);
     width: 40%;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .about-banner .banner-content h1{
+        font-size: calc(3.3rem + 0.5vw);
+        margin-bottom: 1.3rem;
+    }
+    .about-banner .banner-content p{
+        font-size: calc(0.65rem + 0.5vw);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .about-banner .banner-content h1{
+        font-size: calc(2.9rem + 0.5vw);
+        margin-bottom: 1.1rem;
+    }
+    .about-banner .banner-content p{
+        font-size: calc(0.58rem + 0.5vw);
+        width: 39%;
+    }
+}
+
+/* Mobile screen */
+@media screen and (max-width: 768px) {
+    
+}
 /* Banner End */
 
 /* Our Products Start */
