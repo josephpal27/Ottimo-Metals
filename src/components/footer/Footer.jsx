@@ -30,11 +30,11 @@ const Footer = () => {
                     </div>
                     <div className="foot-box">
                         <span>CONTACT</span>
-                        <a href=""> <FaLocationDot className="icon" /> Suite number 90, Stephen House 4, Binoy Badal Dinesh Bag E, Lal Bazar, Kolkata, West Bengal 700001</a>
-                        <a href=""> <MdFactory className="icon factory-icon" /> Works - Foundary Industrial Park, Jalabiswanathpur, Hauli Bagan, P.S: Panch ,Howrah-711322, West Bengal</a>
-                        <a href=""> <IoCall className="phone-icon" /> +91 92309 96974</a>
-                        <a href=""> <IoCall className="phone-icon" /> (033) 2242-4278</a>
-                        <a href=""> <MdEmail className="email-icon"/> contact@ottimometals.com</a>
+                        <a href="https://maps.app.goo.gl/okVjUpmNn3kWZHU79" target="_blank"> <FaLocationDot className="icon" /> Suite number 90, Stephen House 4, Binoy Badal Dinesh Bag E, Lal Bazar, Kolkata, West Bengal 700001</a>
+                        <a href="https://www.google.com/maps/" target="_blank"> <MdFactory className="icon factory-icon" /> Works - Foundary Industrial Park, Jalabiswanathpur, Hauli Bagan, P.S: Panch, Howrah-711322, West Bengal</a>
+                        <a href="tel: +91 92309 96974"> <IoCall className="phone-icon" /> +91 92309 96974</a>
+                        <a href="tel: 033 2242 4278"> <IoCall className="phone-icon" /> (033) 2242-4278</a>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@ottimometals.com" target="_blank"> <MdEmail className="email-icon"/> contact@ottimometals.com</a>
                     </div>
                     <div className="foot-box">
                         <span>GET IN TOUCH</span>

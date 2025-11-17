@@ -33,7 +33,7 @@ const Contact = () => {
                         </div>
                         <div className="box-content">
                             <span>CALL US</span>
-                            <a href="#">+91 98364 07777</a>
+                            <a href="tel:+91 92309 96974">+91 92309 96974</a>
                         </div>
                     </div>
                     <div className="get-in-touch-box">
@@ -42,7 +42,7 @@ const Contact = () => {
                         </div>
                         <div className="box-content">
                             <span>EMAIL US</span>
-                            <a href="#">contact@ottimometals.com</a>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@ottimometals.com" target="_blank">contact@ottimometals.com</a>
                         </div>
                     </div>
                     <div className="get-in-touch-box">
@@ -51,7 +51,7 @@ const Contact = () => {
                         </div>
                         <div className="box-content">
                             <span>VISIT OFFICE</span>
-                            <a href="#">Suite number 90, Stephen House 4, Binoy Badal Dinesh Bag E, Lal Bazar, Kolkata, West Bengal 700001</a>
+                            <a href="https://maps.app.goo.gl/okVjUpmNn3kWZHU79" target="_blank">Suite number 90, Stephen House 4, Binoy Badal Dinesh Bag E, Lal Bazar, Kolkata, West Bengal 700001</a>
                         </div>
                     </div>
                 </div>
