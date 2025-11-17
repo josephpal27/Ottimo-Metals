@@ -44,13 +44,13 @@ const Services = () => {
 
             {/* Services */}
             <section className="offered-services">
-                <p>At <span>Ottimo Metals</span>, we are proud to be experts in manufacturing high-quality zinc wires and providing specialized services such as consultancy and customized project development services. Our primary focus is on harnessing the potential of zinc wires to cater to various industries and projects.</p>
-                <b>Here are the services we offer:</b>
+                <p data-aos="fade">At <span>Ottimo Metals</span>, we are proud to be experts in manufacturing high-quality zinc wires and providing specialized services such as consultancy and customized project development services. Our primary focus is on harnessing the potential of zinc wires to cater to various industries and projects.</p>
+                <b data-aos="fade">Here are the services we offer:</b>
                 <div className="offered-services-row">
                     {
                         serviceCardsData.map((item, index) => {
                             return (
-                                <div className="offered-services-card" key={index}>
+                                <div className="offered-services-card" key={index} data-aos="fade-up">
                                     <div className="card-img">
                                         <img src={item.image} alt="Service Image" loading="lazy" />
                                     </div>

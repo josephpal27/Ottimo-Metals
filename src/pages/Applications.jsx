@@ -83,14 +83,14 @@ const Applications = () => {
             {/* Applications */}
             <section className="applications">
                 <div className="applications-head">
-                    <h2>Discover the Versatile Applications of Ottimo zinc wires</h2>
-                    <p>From durable corrosion protection to ship building, explore the wide-ranging uses of our high-quality zinc wires.</p>
+                    <h2 data-aos="fade">Discover the Versatile Applications of Ottimo zinc wires</h2>
+                    <p data-aos="fade">From durable corrosion protection to ship building, explore the wide-ranging uses of our high-quality zinc wires.</p>
                 </div>
                 <div className="applications-card-row">
                     {
                         applicationsContent.map((item, index) => {
                             return (
-                                <div className="applications-card" key={index}>
+                                <div className="applications-card" key={index} data-aos="fade">
                                     <div className="card-image">
                                         <img src={item.image} alt="Application Image" loading="lazy" />
                                     </div>
@@ -104,7 +104,7 @@ const Applications = () => {
                     }
                 </div>
                 <div className="applications-foot-content">
-                    <p>At Ottimo Metals, we continually explore innovative uses for zinc wires, pushing the boundaries of what can be achieved with this versatile material across various industries.</p>
+                    <p data-aos="fade">At Ottimo Metals, we continually explore innovative uses for zinc wires, pushing the boundaries of what can be achieved with this versatile material across various industries.</p>
                 </div>
             </section>
         </>

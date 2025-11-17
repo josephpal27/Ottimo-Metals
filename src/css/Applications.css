@@ -28,6 +28,7 @@
 }
 /* Banner End */
 
+/* Applications Start */
 .applications{
     padding: 5rem 7%;
 }
@@ -95,3 +96,76 @@
     font-weight: 500;
     font-size: calc(0.65rem + 0.5vw);
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .applications{
+        padding: 4.5rem 7%;
+    }
+    .applications-head h2{
+        font-size: calc(1.6rem + 0.5vw);
+    }
+    .applications-head p{
+        font-size: calc(0.65rem + 0.5vw);
+        margin-top: 0.9rem;
+    }
+    .applications-card-row{
+        margin-top: 2.9rem;
+    }
+    .applications-card{
+        margin-bottom: 2.2rem;
+    }
+    .applications-card .card-desc{
+        padding: 0.9rem;
+    }
+    .applications-card span{
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .applications-card p{
+        font-size: calc(0.5rem + 0.5vw);
+        margin-top: 0.9rem;
+    }
+    .applications-foot-content p{
+        margin: 1.8rem auto 0 auto;
+        font-size: calc(0.6rem + 0.5vw);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .applications{
+        padding: 4rem 7%;
+    }
+    .applications-head h2{
+        font-size: calc(1.45rem + 0.5vw);
+    }
+    .applications-head p{
+        font-size: calc(0.6rem + 0.5vw);
+        margin-top: 0.8rem;
+    }
+    .applications-card-row{
+        margin-top: 2.8rem;
+    }
+    .applications-card{
+        margin-bottom: 2rem;
+    }
+    .applications-card .card-desc{
+        padding: 0.8rem;
+    }
+    .applications-card span{
+        font-size: calc(0.8rem + 0.5vw);
+    }
+    .applications-card p{
+        font-size: calc(0.47rem + 0.5vw);
+        margin-top: 0.85rem;
+    }
+    .applications-foot-content p{
+        margin: 1.6rem auto 0 auto;
+        font-size: calc(0.55rem + 0.5vw);
+    }
+}
+
+/* Mobile screen */
+@media screen and (max-width: 768px) {
+    
+}
+/* Applications End */
