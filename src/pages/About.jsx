@@ -17,9 +17,9 @@ const About = () => {
             <section className="banner about-banner">
                 <img src={aboutBanner} alt="Home Banner" loading="eager" />
                 <div className="banner-content">
-                    <h1>ABOUT US</h1>
-                    <p>Ottimo Metals is a leading manufacturer and exporter of zinc wires, committed to continually enhancing our production systems and upholding a zero-waste production cycle.</p>
-                    <p>With dedication focused on result-driven R&D and harnessing state-of-the-art technology, we ensure the "ON TIME" delivery of certified, superior-quality products that meet and surpass national and international standards, positioning us as a leader in delivering top-tier metal works excellence.</p>
+                    <h1 data-aos="fade-up">ABOUT US</h1>
+                    <p data-aos="fade">Ottimo Metals is a leading manufacturer and exporter of zinc wires, committed to continually enhancing our production systems and upholding a zero-waste production cycle.</p>
+                    <p data-aos="fade">With dedication focused on result-driven R&D and harnessing state-of-the-art technology, we ensure the "ON TIME" delivery of certified, superior-quality products that meet and surpass national and international standards, positioning us as a leader in delivering top-tier metal works excellence.</p>
                 </div>
             </section>
 
@@ -35,17 +35,17 @@ const About = () => {
             {/* Our Products */}
             <section className="our-products">
                 <div className="our-products-head">
-                    <h4>OUR PRODUCTS</h4>
-                    <div className="line"></div>
+                    <h4 data-aos="fade-up">OUR PRODUCTS</h4>
+                    <div className="line" data-aos="fade"></div>
                 </div>
                 <div className="our-products-boxes-row">
-                    <div className="our-products-box">
+                    <div className="our-products-box" data-aos="fade">
                         <img src={ourProductImage1} alt="Product Image" loading="lazy" />
                     </div>
-                    <div className="our-products-box">
+                    <div className="our-products-box" data-aos="fade">
                         <img src={ourProductImage2} alt="Product Image" loading="lazy" />
                     </div>
-                    <div className="our-products-box">
+                    <div className="our-products-box" data-aos="fade">
                         <img src={ourProductImage3} alt="Product Image" loading="lazy" />
                     </div>
                 </div>

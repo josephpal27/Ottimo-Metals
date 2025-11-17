@@ -45,7 +45,7 @@ const ProductDetails = () => {
                 {
                     productCardsContent.map((item, index) => {
                         return (
-                            <div className="product-card" key={index}>
+                            <div className="product-card" key={index} data-aos="fade">
                                 <div className="card-image">
                                     <img src={item.image} alt="Product Image" loading="lazy" />
                                 </div>
