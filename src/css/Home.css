@@ -88,6 +88,80 @@
     background-color: #179cab;
     color: #fff;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .what-we-offer-head{
+        padding: 5.5rem 0 19.45rem 0;
+    }
+    .what-we-offer-head span{
+        border: 2.5px solid #179cab;
+        padding: 0.49rem 0.85rem;
+        font-size: calc(0.65rem + 0.5vw);
+    }
+    .what-we-offer-head h3{
+        font-size: calc(3rem + 0.5vw);
+        margin-top: 1.3rem;
+    }
+    .what-we-offer-cards-row{
+        padding: 0 7% 1.5rem 7%;
+        top: 17rem;
+    }
+    .what-we-offer-cards-row .card-desc{
+        padding: 1.8rem 0.9rem;
+    }
+    .what-we-offer-cards-row .card-desc span{
+        font-size: calc(1rem + 0.5vw);
+    }
+    .what-we-offer-cards-row .card-desc p{
+        font-size: calc(0.5rem + 0.5vw);
+        margin-top: 0.7rem;
+    }
+    .what-we-offer-cards-row .card-desc .button{
+        font-size: calc(0.45rem + 0.5vw);
+        padding: 0.6rem 0;
+        margin-top: 0.9rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .what-we-offer-head{
+        padding: 4.5rem 0 17.1rem 0;
+    }
+    .what-we-offer-head span{
+        border: 2px solid #179cab;
+        padding: 0.47rem 0.8rem;
+        font-size: calc(0.6rem + 0.5vw);
+    }
+    .what-we-offer-head h3{
+        font-size: calc(2.7rem + 0.5vw);
+        margin-top: 1.3rem;
+    }
+    .what-we-offer-cards-row{
+        padding: 0 7% 1rem 7%;
+        top: 15rem;
+    }
+    .what-we-offer-cards-row .card-desc{
+        padding: 1.6rem 0.8rem;
+    }
+    .what-we-offer-cards-row .card-desc span{
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .what-we-offer-cards-row .card-desc p{
+        font-size: calc(0.45rem + 0.5vw);
+        margin-top: 0.7rem;
+    }
+    .what-we-offer-cards-row .card-desc .button{
+        font-size: calc(0.45rem + 0.5vw);
+        padding: 0.55rem 0;
+        margin-top: 0.8rem;
+    }
+}
+
+/* Mobile screen */
+@media screen and (max-width: 768px) {
+    
+}
 /* What We Offer End */
 
 /* Testimonials Start */
