@@ -15,10 +15,13 @@ body{
 /* Banner Start */
 .banner{
     width: 100%;
+    height: 90vh;
     position: relative;
 }
 .banner img{
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .banner .banner-content{
     width: 100%;
