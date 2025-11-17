@@ -73,8 +73,11 @@ const Applications = () => {
     return (
         <>
             {/* Banner */}
-            <section className="banner">
+            <section className="banner applications-banner">
                 <img src={applicationsBanner} alt="Home Banner" loading="eager" />
+                <div className="banner-content">
+                    <h1>APPLICATIONS</h1>
+                </div>
             </section>
 
             {/* Applications */}
