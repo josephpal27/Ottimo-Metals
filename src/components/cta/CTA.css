@@ -29,3 +29,35 @@
 .button .MuiTouchRipple-root .MuiTouchRipple-child {
   background-color: #fff !important; /* change to your preferred ripple color */
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .cta-box{
+        padding: 5.5rem 7%;
+    }
+    .cta-box span{
+        font-size: calc(2.6rem + 0.5vw);
+    }
+    .cta-box .button{
+        font-size: calc(0.65rem + 0.5vw);
+        padding: 1.2rem 3.3rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .cta-box{
+        padding: 4.9rem 7%;
+    }
+    .cta-box span{
+        font-size: calc(2.4rem + 0.5vw);
+    }
+    .cta-box .button{
+        font-size: calc(0.6rem + 0.5vw);
+        padding: 1.1rem 3rem;
+    }
+}
+
+/* Mobile screen */
+@media screen and (max-width: 768px) {
+    
+}
