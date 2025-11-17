@@ -1,3 +1,15 @@
+/* Banner Start */
+.quality-banner .banner-content{
+    display: flex;
+    align-items: end;
+}
+.quality-banner h1{
+    color: #fff;
+    font-weight: 800;
+    font-size: calc(4rem + 0.5vw);
+}
+/* Banner End */
+
 /* Quality Assurance Start */
 .quality-assurance{
     padding: 5rem 7%;

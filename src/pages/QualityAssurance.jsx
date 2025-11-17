@@ -9,8 +9,11 @@ const QualityAssurance = () => {
     return (
         <>
             {/* Banner */}
-            <section className="banner">
+            <section className="banner quality-banner">
                 <img src={qualityBanner} alt="Home Banner" loading="eager" />
+                <div className="banner-content">
+                    <h1>QUALITY ASSURANCE</h1>
+                </div>
             </section>
 
             {/* Quality Assurance */}
