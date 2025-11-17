@@ -14,7 +14,7 @@ const Contact = () => {
             <section className="banner contact-banner">
                 <img src={contactBanner} alt="Home Banner" loading="eager" />
                 <div className="banner-content">
-                    <h1>CONTACT US</h1>
+                    <h1 data-aos="fade-up">CONTACT US</h1>
                 </div>
             </section>
 
