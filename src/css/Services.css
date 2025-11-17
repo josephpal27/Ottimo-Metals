@@ -8,6 +8,24 @@
     font-weight: 800;
     font-size: calc(4rem + 0.5vw);
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .services-banner .banner-content h1{
+        font-size: calc(3.7rem + 0.5vw);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .services-banner .banner-content h1{
+        font-size: calc(3.25rem + 0.5vw);
+    }
+}
+
+/* Mobile screen */
+@media screen and (max-width: 768px) {
+    
+}
 /* Banner End */
 
 .offered-services{
