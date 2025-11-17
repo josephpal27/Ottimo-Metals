@@ -1,3 +1,15 @@
+/* Banner Start */
+.contact-banner .banner-content{
+    display: flex;
+    align-items: end;
+}
+.contact-banner h1{
+    color: #171612;
+    font-weight: 800;
+    font-size: calc(4rem + 0.5vw);
+}
+/* Banner End */
+
 /* Get In Touch Start */
 .get-in-touch{
     padding: 5.5rem 7%;
