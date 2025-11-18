@@ -111,7 +111,7 @@
         font-size: calc(0.65rem + 0.5vw);
     }
     .get-in-touch-content h2{
-        font-size: calc(3.2rem + 0.5vw);
+        font-size: calc(3.1rem + 0.5vw);
         margin-top: 1.4rem;
     }
     .get-in-touch-content p{
@@ -148,7 +148,7 @@
         font-size: calc(0.6rem + 0.5vw);
     }
     .get-in-touch-content h2{
-        font-size: calc(2.9rem + 0.5vw);
+        font-size: calc(2.8rem + 0.5vw);
         margin-top: 1.3rem;
     }
     .get-in-touch-content p{
@@ -239,11 +239,59 @@
 
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
-    
+    .contact-form{
+        padding: 0 7% 5.5rem 7%;
+    }
+    .contact-form h3{
+        font-size: calc(3rem + 0.5vw);
+    }
+    .contact-form form{
+        margin: 2.2rem auto 0 auto;
+    }
+    .contact-form form .input-row{
+        margin-bottom: 1.4rem;
+    }
+    .contact-form form .input-row input,
+    .contact-form form .input-row textarea{
+        padding: 1.4rem 1.2rem;
+        font-size: calc(0.65rem + 0.5vw);
+    }
+    .contact-form form .input-row textarea{
+        min-height: 10rem;
+    }
+    .contact-form form button{
+        padding: 1.2rem 4.3rem;
+        font-size: calc(0.65rem + 0.5vw);
+        letter-spacing: 2.5px;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
-    
+    .contact-form{
+        padding: 0 7% 5rem 7%;
+    }
+    .contact-form h3{
+        font-size: calc(2.8rem + 0.5vw);
+    }
+    .contact-form form{
+        margin: 1.9rem auto 0 auto;
+    }
+    .contact-form form .input-row{
+        margin-bottom: 1.15rem;
+    }
+    .contact-form form .input-row input,
+    .contact-form form .input-row textarea{
+        padding: 1.3rem 1.1rem;
+        font-size: calc(0.6rem + 0.5vw);
+    }
+    .contact-form form .input-row textarea{
+        min-height: 9rem;
+    }
+    .contact-form form button{
+        padding: 1.1rem 4rem;
+        font-size: calc(0.6rem + 0.5vw);
+        letter-spacing: 2px;
+    }
 }
 
 /* Mobile screen */
