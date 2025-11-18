@@ -16,7 +16,7 @@ const Products = () => {
         <>
             {/* Banner */}
             <section className="banner products-banner">
-                <img src={homeBanner} alt="Home Banner" loading="eager" />
+                <img src={homeBanner} alt="Products Banner" loading="eager" />
                 <div className="banner-content">
                     <h1 data-aos="fade-up">PRODUCTS</h1>
                     <p data-aos="fade">Advanced Zinc Metallizing Wires for Every Application.</p>

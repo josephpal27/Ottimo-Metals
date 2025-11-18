@@ -10,7 +10,7 @@ const QualityAssurance = () => {
         <>
             {/* Banner */}
             <section className="banner quality-banner">
-                <img src={qualityBanner} alt="Home Banner" loading="eager" />
+                <img src={qualityBanner} alt="Quality Assurance Banner" loading="eager" />
                 <div className="banner-content">
                     <h1 data-aos="fade-up">QUALITY ASSURANCE</h1>
                 </div>

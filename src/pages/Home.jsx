@@ -46,7 +46,7 @@ const Home = () => {
 
       {/* Banner */}
       <section className="banner home-banner">
-        <img src={homeBanner} alt="Home Banner" loading="eager" />
+        <img src={homeBanner} alt="Banner" loading="eager" />
         <div className="banner-content">
           <h1 data-aos="fade-up">Leading Manufacturer of <br /> Zinc Wires In India</h1>
         </div>

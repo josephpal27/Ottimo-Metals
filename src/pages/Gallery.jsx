@@ -33,7 +33,7 @@ const Gallery = () => {
         <>
             {/* Banner */}
             <section className="banner gallery-banner">
-                <img src={homeBanner} alt="Home Banner" loading="eager" />
+                <img src={homeBanner} alt="Gallery Banner" loading="eager" />
                 <div className="banner-content">
                     <h1 data-aos="fade-up">GALLERY</h1>
                     <p data-aos="fade">Our Commitment to Quality, Captured.</p>

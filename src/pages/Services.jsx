@@ -36,7 +36,7 @@ const Services = () => {
         <>
             {/* Banner */}
             <section className="banner services-banner">
-                <img src={servicesBanner} alt="Home Banner" loading="eager" />
+                <img src={servicesBanner} alt="Services Banner" loading="eager" />
                 <div className="banner-content">
                     <h1 data-aos="fade-up">SERVICES</h1>
                 </div>

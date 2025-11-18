@@ -15,7 +15,7 @@ const About = () => {
         <>
             {/* Banner */}
             <section className="banner about-banner">
-                <img src={aboutBanner} alt="Home Banner" loading="eager" />
+                <img src={aboutBanner} alt="About Banner" loading="eager" />
                 <div className="banner-content">
                     <h1 data-aos="fade-up">ABOUT US</h1>
                     <p data-aos="fade">Ottimo Metals is a leading manufacturer and exporter of zinc wires, committed to continually enhancing our production systems and upholding a zero-waste production cycle.</p>

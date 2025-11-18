@@ -12,7 +12,7 @@ const Contact = () => {
         <>
             {/* Banner */}
             <section className="banner contact-banner">
-                <img src={contactBanner} alt="Home Banner" loading="eager" />
+                <img src={contactBanner} alt="Contact Banner" loading="eager" />
                 <div className="banner-content">
                     <h1 data-aos="fade-up">CONTACT US</h1>
                 </div>

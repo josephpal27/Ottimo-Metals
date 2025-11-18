@@ -74,7 +74,7 @@ const Applications = () => {
         <>
             {/* Banner */}
             <section className="banner applications-banner">
-                <img src={applicationsBanner} alt="Home Banner" loading="eager" />
+                <img src={applicationsBanner} alt="Applications Banner" loading="eager" />
                 <div className="banner-content">
                     <h1 data-aos="fade-up">APPLICATIONS</h1>
                 </div>
