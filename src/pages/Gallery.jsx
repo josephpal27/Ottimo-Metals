@@ -32,8 +32,13 @@ const Gallery = () => {
     return (
         <>
             {/* Banner */}
-            <section className="banner">
+            <section className="banner gallery-banner">
                 <img src={homeBanner} alt="Home Banner" loading="eager" />
+                <div className="banner-content">
+                    <h1 data-aos="fade-up">GALLERY</h1>
+                    <p data-aos="fade">Our Commitment to Quality, Captured.</p>
+                    <p data-aos="fade">View the infrastructure, laboratory testing, and final product packaging that assure the superior performance and unwavering consistency of Ottimo Metals' top-tier products.</p>
+                </div>
             </section>
 
             {/* Gallery */}
