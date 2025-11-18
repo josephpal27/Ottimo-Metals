@@ -1,3 +1,50 @@
+/* Banner Start */
+.products-banner .banner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+}
+.products-banner h1{
+    color: #fff;
+    font-weight: 800;
+    font-size: calc(4rem + 0.5vw);
+    margin-bottom: 1.5rem;
+}
+.products-banner p{
+    color: #fff;
+    font-weight: 500;
+    font-size: calc(0.7rem + 0.5vw);
+    width: 50%;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .products-banner .banner-content h1{
+        font-size: calc(3.7rem + 0.5vw);
+        margin-bottom: 1.3rem;
+    }
+    .products-banner .banner-content p{
+        font-size: calc(0.65rem + 0.5vw);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .products-banner .banner-content h1{
+        font-size: calc(3.2rem + 0.5vw);
+        margin-bottom: 1.1rem;
+    }
+    .products-banner .banner-content p{
+        font-size: calc(0.6rem + 0.5vw);
+    }
+}
+
+/* Mobile screen */
+@media screen and (max-width: 768px) {
+    
+}
+/* Banner End */
+
 /* What We Do Start */
 .what-we-do{
     padding: 5rem 7%;
