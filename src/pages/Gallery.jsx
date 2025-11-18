@@ -39,14 +39,14 @@ const Gallery = () => {
             {/* Gallery */}
             <section className="gallery">
                 <div className="gallery-head">
-                    <h2>From small-scale projects to large-scale infrastructure, our zinc wires are the right choice</h2>
-                    <p>Browse our gallery to see our products in action:</p>
+                    <h2 data-aos="fade">From small-scale projects to large-scale infrastructure, our zinc wires are the right choice</h2>
+                    <p data-aos="fade">Browse our gallery to see our products in action:</p>
                 </div>
                 <div className="gallery-card-row">
                     {
                         gallertImages.map((item, index) => {
                             return (
-                                <div className="gallery-card" key={index}>
+                                <div className="gallery-card" key={index} data-aos="fade">
                                     <img src={item.img} alt="Gallery Image" loading="lazy" />
                                 </div>
                             )
