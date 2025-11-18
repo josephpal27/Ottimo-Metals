@@ -1,3 +1,4 @@
+/* Gallery Start */
 .gallery{
     padding: 5rem 7%;
 }
@@ -42,3 +43,64 @@
 .gallery-card img:hover{
     scale: 1.03;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .gallery{
+        padding: 4.5rem 7%;
+    }
+    .gallery-head h2{
+        font-size: calc(1.55rem + 0.5vw);
+    }
+    .gallery-head p{
+        font-size: calc(0.65rem + 0.5vw);
+        margin-top: 0.9rem;
+    }
+    .gallery-card-row{
+        margin-top: 3rem;
+    }
+    .gallery-card{
+        margin-bottom: 1.5rem;
+        padding: 0.9rem;
+        border-radius: 13px;
+    }
+    .gallery-card img{
+        border-radius: 8px;
+    }
+    .gallery-card img:hover{
+        scale: 1.02;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .gallery{
+        padding: 4rem 7%;
+    }
+    .gallery-head h2{
+        font-size: calc(1.35rem + 0.5vw);
+    }
+    .gallery-head p{
+        font-size: calc(0.6rem + 0.5vw);
+        margin-top: 0.8rem;
+    }
+    .gallery-card-row{
+        margin-top: 2.5rem;
+    }
+    .gallery-card{
+        margin-bottom: 1.35rem;
+        padding: 0.8rem;
+        border-radius: 11px;
+    }
+    .gallery-card img{
+        border-radius: 6px;
+    }
+    .gallery-card img:hover{
+        scale: 1.02;
+    }
+}
+
+/* Mobile screen */
+@media screen and (max-width: 768px) {
+    
+}
+/* Gallery End */
