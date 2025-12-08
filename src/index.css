@@ -47,6 +47,11 @@ body{
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .banner{
+        height: auto;
+    }
+    .banner .banner-content{
+        padding: 0.5rem 1rem;
+    }
 }
 /* Banner End */
