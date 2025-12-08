@@ -59,5 +59,19 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .cta-box{
+        padding: 1.5rem 1rem;
+        flex-direction: column;
+    }
+    .cta-box .cta-box-left{
+        width: 100%;
+    }
+    .cta-box span{
+        font-size: calc(1.4rem + 0.5vw);
+    }
+    .cta-box .button{
+        font-size: calc(0.9rem + 0.5vw);
+        padding: 0.6rem 1rem;
+        margin-top: 1.3rem;
+    }
 }

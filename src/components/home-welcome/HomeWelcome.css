@@ -267,6 +267,9 @@
     }
     .home-welcome-content .features p .icon{
         margin-right: 0.8rem;
+        width: 30px;
+        height: 30px;
+        padding: 0.4rem;
     }
     .home-welcome-content .features .features-right{
         width: 100%;

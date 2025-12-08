@@ -183,7 +183,43 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .what-we-offer-head{
+        padding: 2rem 0 1.5rem 0;
+    }
+    .what-we-offer-head span{
+        border: 2px solid #179cab;
+        padding: 0.35rem 0.6rem;
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .what-we-offer-head h3{
+        font-size: calc(1.45rem + 0.5vw);
+        margin-top: 1rem;
+    }
+    .what-we-offer-cards-row{
+        padding: 0 1rem 2rem 1rem;
+        position: relative;
+        top: 1.5rem;
+    }
+    .what-we-offer-cards-row .offer-card{
+        width: 100%;
+        margin-bottom: 1.2rem;
+    }
+    .what-we-offer-cards-row .card-desc{
+        padding: 1rem 1rem;
+    }
+    .what-we-offer-cards-row .card-desc span{
+        font-size: calc(1.2rem + 0.5vw);
+
+    }
+    .what-we-offer-cards-row .card-desc p{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 0.5rem;
+    }
+    .what-we-offer-cards-row .card-desc .button{
+        font-size: calc(0.9rem + 0.5vw);
+        padding: 0.5rem 0;
+        margin-top: 0.5rem;
+    }
 }
 /* What We Offer End */
 
@@ -408,6 +444,62 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .testimonials{
+        padding: 2rem 1rem 2rem 1rem;
+    }
+    .testimonials span{
+        border: 2px solid #179cab;
+        padding: 0.35rem 0.6rem;
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .testimonials h4{
+        font-size: calc(1.4rem + 0.5vw);
+        margin-top: 1rem;
+    }
+    .testimonials .testimonials-left{
+        width: 100%;
+    }
+    .testimonials .testimonials-tabbing{
+        margin-top: 1.5rem;
+    }
+    .testimonials .testimonials-tabbing .tab-head{
+        padding-bottom: 1rem;
+    }
+    .testimonials .testimonials-tabbing .nav-link img{
+        width: 30px;
+    }
+    .testimonials .testimonials-tabbing .nav-link.active img{
+        outline: 5px solid #179cab;
+    }
+    .testimonials .testimonials-tabbing .tab-pane{
+        margin-top: 1rem;
+    }
+    .testimonials .testimonials-tabbing .tab-pane p{
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .testimonials .testimonials-tabbing .tab-pane span.client-name{
+        font-size: calc(1.1rem + 0.5vw);
+        margin-top: 1.5rem;
+    }
+    .testimonials .testimonials-tabbing .tab-pane span.client-designation{
+        font-size: calc(0.85rem + 0.5vw);
+    }
+
+    .testimonials .testimonials-right{
+        width: 100%;
+        margin-top: 2.5rem;
+    }
+    .testimonials .testimonials-right .testimonial-hightlight-box{
+        margin-bottom: 1.2rem;
+    }
+    .testimonials .testimonials-right .testimonial-hightlight-box .hightlight-image{
+        padding: 1.7rem 1.2rem;
+    }
+    .testimonials .testimonials-right .testimonial-hightlight-box .hightlight-content{
+        padding-right: 1.5rem;
+    }
+    .testimonials .testimonials-right .testimonial-hightlight-box .hightlight-content p{
+        font-size: calc(1rem + 0.5vw);
+    }
 }
 /* Testimonials End */
