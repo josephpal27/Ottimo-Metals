@@ -26,7 +26,7 @@
 /* Mobile screen */
 @media screen and (max-width: 768px) {
     .home-banner h1{
-        font-size: calc(1.3rem + 0.5vw);
+        font-size: calc(1.35rem + 0.5vw);
     }
     .home-banner h1 br{
         display: none;
