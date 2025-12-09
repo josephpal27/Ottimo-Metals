@@ -135,6 +135,26 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .our-products{
+        padding: 0 0 0 0;
+    }
+    .our-products .our-products-head h4{
+        font-size: calc(1.45rem + 0.5vw);
+    }
+    .our-products .our-products-head .line{
+        width: 40px;
+        height: 4px;
+    }
+    .our-products .our-products-boxes-row{
+        margin-top: 2rem;
+        flex-direction: column;
+    }
+    .our-products .our-products-boxes-row .our-products-box{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .our-products .our-products-boxes-row .our-products-box:last-child{
+        margin-bottom: 0;
+    }
 }
 /* Our Products End */
