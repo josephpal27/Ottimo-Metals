@@ -192,5 +192,68 @@ footer .copyright p{
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .footer-content{
+        padding: 2rem 1rem 1.5rem 1rem;
+        flex-direction: column;
+    }
+    .foot-box:nth-child(1){
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+    .foot-box:nth-child(2){
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+    .foot-box:nth-child(3){
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+    .foot-box:nth-child(4){
+        width: 100%;
+    }
+    .foot-box img{
+        width: 140px;
+    }
+    .foot-box p{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 1.5rem;
+    }
+    .foot-box span{
+        font-size: calc(1.3rem + 0.5vw);
+        margin-bottom: 1rem;
+    }
+    .foot-box a{
+        font-size: calc(0.9rem + 0.5vw);
+        gap: 0.7rem;
+    }
+    .foot-box a .icon{
+        font-size: calc(2rem + 0.5vw);
+        margin-top: -0.2rem;
+    }
+    .foot-box a .factory-icon{
+        font-size: calc(3.2rem + 0.5vw);
+        margin-top: -0.8rem;
+    }
+    .foot-box a .phone-icon{
+        font-size: calc(1rem + 0.5vw);
+    }
+    .foot-box a .email-icon{
+        font-size: calc(1.1rem + 0.5vw);
+        margin-top: 3.5px;
+    }
+    .foot-box .social-icons{
+        gap: 1.5rem;
+    }
+    .foot-box .social-icons a{
+        font-size: calc(1.25rem + 0.5vw);
+    }
+    footer .copyright{
+        padding: 0.8rem 1rem;
+    }
+    footer .copyright p{
+        font-size: calc(0.8rem + 0.5vw);
+    }
+    footer .copyright p span{
+        display: none;
+    }
 }

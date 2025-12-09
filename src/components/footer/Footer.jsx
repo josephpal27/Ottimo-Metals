@@ -46,7 +46,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="copyright">
-                    <p>Copyright © 2025 | Ottimo Metals Pvt. Ltd. | All Rights Reserved</p>
+                    <p>Copyright © 2025 <span>| Ottimo Metals Pvt. Ltd.</span> | All Rights Reserved</p>
                 </div>  
             </footer>
         </>

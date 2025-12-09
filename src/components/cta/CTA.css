@@ -60,7 +60,7 @@
 /* Mobile screen */
 @media screen and (max-width: 768px) {
     .cta-box{
-        padding: 1.5rem 1rem;
+        padding: 1.5rem 1rem 1.8rem 1rem;
         flex-direction: column;
     }
     .cta-box .cta-box-left{
@@ -71,7 +71,7 @@
     }
     .cta-box .button{
         font-size: calc(0.9rem + 0.5vw);
-        padding: 0.6rem 1rem;
-        margin-top: 1.3rem;
+        padding: 0.5rem 1rem;
+        margin-top: 1.7rem;
     }
 }
