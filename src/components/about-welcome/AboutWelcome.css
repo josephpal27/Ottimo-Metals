@@ -232,5 +232,65 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .about-welcome{
+        padding: 0.5rem 1rem 2.5rem 1rem;
+    }
+    .about-welcome-image{
+        width: 100%;
+    }
+    .about-welcome-image .exp-box{
+        width: 150px;
+        height: 150px;
+        right: 1rem;
+    }
+    .about-welcome-image .exp-box .icon{
+        font-size: calc(2rem + 0.5vw);
+    }
+    .about-welcome-image .exp-box span{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 0.7rem;
+    }
+    .about-welcome-content{
+        width: 100%;
+        margin-top: 2.5rem;
+    }
+    .about-welcome-content span{
+        border: 2px solid #179cab;
+        padding: 0.35rem 0.6rem;
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .about-welcome-content h2{
+        font-size: calc(1.4rem + 0.5vw);
+        margin-top: 1.2rem;
+    }
+    .about-welcome-content p{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 1rem;
+    }
+    .about-welcome-content .features{
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    .about-welcome-content .features-left,
+    .about-welcome-content .features-right{
+        width: 100%;
+    }
+    .about-welcome-content .features p{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 0;
+    }
+    .about-welcome-content .features p .icon{
+        width: 30px;
+        height: 30px;
+        padding: 0.4rem;
+        margin-right: 0.8rem;
+    }
+
+    .about-welcome-content .prog span{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 1rem;
+    }
+    .about-welcome-content progress{
+        height: 4px;
+    }
 }
