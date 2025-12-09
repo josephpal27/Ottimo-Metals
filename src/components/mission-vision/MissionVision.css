@@ -180,5 +180,54 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .mission-vision{
+        flex-direction: column;
+    }
+    .mission-vision-image{
+        width: 100%;
+    }
+    .mission-vision-content{
+        padding: 1.5rem 1rem 2rem 1rem;
+        width: 100%;
+    }
+    .mv-card-row{
+        flex-direction: column;
+    }
+    .mv-card-row .mv-card{
+        width: 100%;
+        padding: 0.8rem;
+        margin-bottom: 1.3rem;
+    }
+    .mv-card-row .mv-card span{
+        font-size: calc(1.4rem + 0.5vw);
+    }
+    .mv-card-row .mv-card p{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 0.7rem;
+    }
+    .mission-vision-content #secondary-title{
+        padding: 0.5rem 0.9rem;
+        font-size: calc(1rem + 0.5vw);
+        margin-top: 1rem;
+    }
+    .mission-vision-content h3{
+        font-size: calc(1.4rem + 0.5vw);
+        margin-top: 1.8rem;
+    }
+    .mission-vision-content .mv-counter-row{
+        margin-top: 2rem;
+        flex-wrap: wrap;
+    }
+    .mission-vision-content .mv-counter-row .mv-counter-box{
+        width: 100%;
+        padding: 1rem 1rem;
+        margin-bottom: 1rem;
+    }
+    .mission-vision-content .mv-counter-row .mv-counter-box span:nth-child(2){
+        font-size: calc(2rem + 0.5vw);
+    }
+    .mission-vision-content .mv-counter-row .mv-counter-box span:nth-child(3){
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 0.5rem;
+    }
 }
