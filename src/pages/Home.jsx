@@ -23,7 +23,7 @@ import testimonialUserF from '../assets/images/icons/user-f.png';
 
 const Home = () => {
 
-  let serviceCardsData = [
+  const serviceCardsData = [
     {
       image: ServiceImage1,
       title: "STEEL WELDING",
@@ -40,6 +40,45 @@ const Home = () => {
       description: "Our core welding team is used to working in difficult and demanding situations, and they accomplish",
     },
   ]
+
+  const testimonials = [
+    {
+      key: "tabOne",
+      img: testimonialUserM,
+      text: "I have just had two of the most productive work weeks I have had in years. Ben was perfectly matched to my temperament, and has been taking all the backlogged work off my plate and finishing it.",
+      name: "Jessica Brown",
+      designation: "Co-Founder",
+    },
+    {
+      key: "tabTwo",
+      img: testimonialUserM,
+      text: "I have just had two of the most productive work weeks I have had in years. Ben was perfectly matched to my temperament all the backlogged work off my plate and finishing.",
+      name: "Jessica Brown",
+      designation: "Founder",
+    },
+    {
+      key: "tabThree",
+      img: testimonialUserF,
+      text: "I have just had two of the most productive work weeks I have had in years. Ben was perfectly matched to my temperament, and has been taking all the backlogged work off my plate and finishing it.",
+      name: "Jessica Brown",
+      designation: "Co-Founder",
+    },
+    {
+      key: "tabFour",
+      img: testimonialUserM,
+      text: "I have just had two of the most productive work weeks I have had in years. Ben was perfectly matched to my temperament all the backlogged work off my plate and finishing.",
+      name: "Jessica Brown",
+      designation: "Founder",
+    },
+    {
+      key: "tabFive",
+      img: testimonialUserF,
+      text: "I have just had two of the most productive work weeks I have had in years. Ben was perfectly matched to my temperament, and has been taking all the backlogged work off my plate and finishing it.",
+      name: "Jessica Brown",
+      designation: "Co-Founder",
+    },
+  ];
+
 
   return (
     <>
@@ -93,60 +132,24 @@ const Home = () => {
             <Tab.Container defaultActiveKey="tabOne">
               {/* Tabs Navigation */}
               <Nav variant="tabs" className="tab-head">
-                <Nav.Item>
-                  <Nav.Link eventKey="tabOne">
-                    <img src={testimonialUserM} alt="Icon" loading="lazy" />
-                  </Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link eventKey="tabTwo">
-                    <img src={testimonialUserM} alt="Icon" loading="lazy" />
-                  </Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link eventKey="tabThree">
-                    <img src={testimonialUserF} alt="Icon" loading="lazy" />
-                  </Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link eventKey="tabFour">
-                    <img src={testimonialUserM} alt="Icon" loading="lazy" />
-                  </Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link eventKey="tabFive">
-                    <img src={testimonialUserF} alt="Icon" loading="lazy" />
-                  </Nav.Link>
-                </Nav.Item>
+                {testimonials.map(item => (
+                  <Nav.Item key={item.key}>
+                    <Nav.Link eventKey={item.key}>
+                      <img src={item.img} alt="Icon" loading="lazy" />
+                    </Nav.Link>
+                  </Nav.Item>
+                ))}
               </Nav>
 
               {/* Tabs Content */}
               <Tab.Content>
-                <Tab.Pane eventKey="tabOne" className="fade show">
-                  <p>I have just had two of the most productive work weeks I have had in years. Ben was perfectly matched to my temperament, and has been taking all the backlogged work off my plate and finishing it.</p>
-                  <span className="client-name">Jessica Brown</span>
-                  <span className="client-designation">Co-Founder</span>
-                </Tab.Pane>
-                <Tab.Pane eventKey="tabTwo" className="fade">
-                  <p>I have just had two of the most productive work weeks I have had in years. Ben was perfectly matched to my temperament all the backlogged work off my plate and finishing.</p>
-                  <span className="client-name">Jessica Brown</span>
-                  <span className="client-designation">Founder</span>
-                </Tab.Pane>
-                <Tab.Pane eventKey="tabThree" className="fade">
-                  <p>I have just had two of the most productive work weeks I have had in years. Ben was perfectly matched to my temperament, and has been taking all the backlogged work off my plate and finishing it.</p>
-                  <span className="client-name">Jessica Brown</span>
-                  <span className="client-designation">Co-Founder</span>
-                </Tab.Pane>
-                <Tab.Pane eventKey="tabFour" className="fade">
-                  <p>I have just had two of the most productive work weeks I have had in years. Ben was perfectly matched to my temperament all the backlogged work off my plate and finishing.</p>
-                  <span className="client-name">Jessica Brown</span>
-                  <span className="client-designation">Founder</span>
-                </Tab.Pane>
-                <Tab.Pane eventKey="tabFive" className="fade">
-                  <p>I have just had two of the most productive work weeks I have had in years. Ben was perfectly matched to my temperament, and has been taking all the backlogged work off my plate and finishing it.</p>
-                  <span className="client-name">Jessica Brown</span>
-                  <span className="client-designation">Co-Founder</span>
-                </Tab.Pane>
+                {testimonials.map(item => (
+                  <Tab.Pane eventKey={item.key} key={item.key} className="fade">
+                    <p>{item.text}</p>
+                    <span className="client-name">{item.name}</span>
+                    <span className="client-designation">{item.designation}</span>
+                  </Tab.Pane>
+                ))}
               </Tab.Content>
             </Tab.Container>
           </div>
