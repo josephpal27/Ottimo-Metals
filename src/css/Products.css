@@ -592,7 +592,7 @@ td, th {
 /* Mobile screen */
 @media screen and (max-width: 768px) {
     .zinc-tabbing-container{
-        padding: 0.5rem 1rem 5.5rem 1rem;
+        padding: 0.5rem 1rem 3rem 1rem;
     }
     .zinc-tabbing .nav{
         padding: 0.8rem;
@@ -726,7 +726,27 @@ td, th {
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .product-range{
+        padding: 0 1rem;
+    }
+    .product-range .product-range-card{
+        width: 100%;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+    .product-range .product-range-card span{
+        font-size: calc(1.45rem + 0.5vw);
+        margin-bottom: 0.7rem;
+    }
+    .product-range .product-range-card p{
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .product-range .product-range-card b{
+        font-size: calc(1rem + 0.5vw);
+    }
+    .product-range .product-range-card img{
+        display: none;
+    }
 }
 /* Product Range End */
 
@@ -845,6 +865,25 @@ td, th {
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .packaging-unit{
+        padding: 2rem 0 2rem 0;
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    .packaging-unit span{
+        font-size: calc(1.45rem + 0.5vw);
+    }
+    .packaging-unit-cards-row{
+        padding: 0 1rem;
+        margin-top: 1.5rem;
+    }
+    .packaging-unit-card{
+        width: 100%;
+        padding: 1rem 0.8rem;
+        margin-bottom: 1rem;
+    }
+    .packaging-unit-card p{
+        font-size: calc(0.9rem + 0.5vw);
+    }
 }
 /* Packaging Units End */
