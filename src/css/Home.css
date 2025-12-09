@@ -463,16 +463,23 @@
         margin-top: 1.5rem;
     }
     .testimonials .testimonials-tabbing .tab-head{
-        padding-bottom: 1rem;
+        padding-bottom: 1.3rem;
+        justify-content: space-between;
+    }
+    .testimonials .testimonials-tabbing .tab-head .nav-item{
+        width: 14%;
+    }
+    .testimonials .testimonials-tabbing .nav-link{
+        padding: 0;
     }
     .testimonials .testimonials-tabbing .nav-link img{
-        width: 30px;
+        width: 100%;
     }
     .testimonials .testimonials-tabbing .nav-link.active img{
-        outline: 5px solid #179cab;
+        outline: 7px solid #179cab;
     }
     .testimonials .testimonials-tabbing .tab-pane{
-        margin-top: 1rem;
+        margin-top: 0.9rem;
     }
     .testimonials .testimonials-tabbing .tab-pane p{
         font-size: calc(0.9rem + 0.5vw);
@@ -487,7 +494,7 @@
 
     .testimonials .testimonials-right{
         width: 100%;
-        margin-top: 2.5rem;
+        margin-top: 2rem;
     }
     .testimonials .testimonials-right .testimonial-hightlight-box{
         margin-bottom: 1.2rem;
