@@ -240,7 +240,21 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .product-details{
+        padding: 2rem 1rem;
+    }
+    .product-details h3{
+        font-size: calc(1.5rem + 0.5vw);
+    }
+    .product-details .line{
+        width: 40px;
+        height: 4px;
+    }
+    .product-details p{
+        font-size: calc(0.9rem + 0.5vw);
+        width: 100%;
+        margin-top: 1.5rem;
+    }
 }
 /* Product Details End */
 
