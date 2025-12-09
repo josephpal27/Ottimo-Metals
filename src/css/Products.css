@@ -41,7 +41,20 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .products-banner{
+        overflow: hidden;
+    }
+    .products-banner img{
+        width: 104%;
+        margin-left: -2%;
+    }
+    .products-banner h1{
+        font-size: calc(1.5rem + 0.5vw);
+        margin-bottom: 0.2rem;
+    }
+    .products-banner p{
+        display: none;
+    }
 }
 /* Banner End */
 
@@ -128,7 +141,34 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .what-we-do{
+        padding: 0.5rem 1rem 0.2rem 1rem;
+        flex-direction: column-reverse;
+    }
+    .what-we-do-content{
+        width: 100%;
+    }
+    .what-we-do-content h2{
+        font-size: calc(1.45rem + 0.5vw);
+        margin-top: 2.5rem;
+    }
+    .what-we-do-content p{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 0.8rem;
+    }
+    .what-we-do-image{
+        width: 100%;
+        padding-right: 0.5rem;
+    }
+    .what-we-do-image img{
+        margin-top: 0;
+    }
+    .what-we-do-image .layer{
+        height: 98.5%;
+        width: 96.5%;
+        right: 0;
+        bottom: -0.5rem;
+    }
 }
 /* What We Do End */
 

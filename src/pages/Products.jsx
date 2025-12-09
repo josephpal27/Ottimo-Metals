@@ -24,6 +24,11 @@ const Products = () => {
                 </div>
             </section>
 
+            <div id="banner-moblile-text">
+                <p data-aos="fade">Advanced Zinc Metallizing Wires for Every Application.</p>
+                <p data-aos="fade">Leveraging our robust 1200 MT per month production capacity and state-of-the-art laboratory equipment, Ottimo Metals provides a full spectrum of high-quality zinc wires-Soft, Medium-Hard, and Hard-all meticulously produced to adhere to DIN EN 14919 and ISO 14818:2001 standards, ensuring superior performance and optimal packaging for diverse industrial needs.</p>
+            </div>
+
             {/* What We Do */}
             <section className="what-we-do">
                 <div className="what-we-do-content">
