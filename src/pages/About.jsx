@@ -1,6 +1,7 @@
 import AboutWelcome from '../components/about-welcome/AboutWelcome';
 import MissionVision from '../components/mission-vision/MissionVision';
 import ProductDetails from '../components/product-details/ProductDetails';
+import CTA from '../components/cta/CTA';
 
 import '../css/About.css';
 
@@ -8,7 +9,6 @@ import aboutBanner from '/images/banners/about-banner.avif';
 import ourProductImage1 from '../assets/images/products/1.avif';
 import ourProductImage2 from '../assets/images/products/2.avif';
 import ourProductImage3 from '../assets/images/products/3.avif';
-import CTA from '../components/cta/CTA';
 
 const About = () => {
     return (
@@ -22,6 +22,11 @@ const About = () => {
                     <p data-aos="fade">With dedication focused on result-driven R&D and harnessing state-of-the-art technology, we ensure the "ON TIME" delivery of certified, superior-quality products that meet and surpass national and international standards, positioning us as a leader in delivering top-tier metal works excellence.</p>
                 </div>
             </section>
+
+            <div id="banner-moblile-text">
+                <p data-aos="fade">Ottimo Metals is a leading manufacturer and exporter of zinc wires, committed to continually enhancing our production systems and upholding a zero-waste production cycle.</p>
+                <p data-aos="fade">With dedication focused on result-driven R&D and harnessing state-of-the-art technology, we ensure the "ON TIME" delivery of certified, superior-quality products that meet and surpass national and international standards, positioning us as a leader in delivering top-tier metal works excellence.</p>
+            </div>
 
             {/* About Welcome */}
             <AboutWelcome />

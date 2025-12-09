@@ -41,7 +41,28 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .about-banner .banner-content h1{
+        font-size: calc(1.45rem + 0.5vw);
+        margin-bottom: 0;
+        margin-top: 0.4rem;
+    }
+    .about-banner .banner-content p{
+        display: none;
+    }
+    #banner-moblile-text{
+        padding: 1rem 1rem;
+    }
+    #banner-moblile-text p{
+        color: #171614;
+        font-weight: 500;
+        font-size: calc(0.88rem + 0.5vw);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #banner-moblile-text{
+        display: none;
+    }
 }
 /* Banner End */
 
