@@ -153,28 +153,30 @@ const Products = () => {
                                 </table>
                             </Tab.Pane>
                             <Tab.Pane eventKey="tabThree" className="fade">
-                                <table>
-                                    <tr>
-                                        <td><b>Pb</b></td>
-                                        <td><b>Cd</b></td>
-                                        <td><b>Sn</b></td>
-                                        <td><b>Cu</b></td>
-                                        <td><b>Fe</b></td>
-                                        <td><b>Al</b></td>
-                                        <td><b>Zn</b></td>
-                                        <td><b>Others</b></td>
-                                    </tr>
-                                    <tr>
-                                        <td>max. 0.003%</td>
-                                        <td>max. 0.003%</td>
-                                        <td>max. 0.001%</td>
-                                        <td>max. 0.001%</td>
-                                        <td>max. 0.002%</td>
-                                        <td>max. 0.001%</td>
-                                        <td>min. 99.995%</td>
-                                        <td>max. 0.005%</td>
-                                    </tr>
-                                </table>
+                                <div className="table-scroll">
+                                    <table>
+                                        <tr>
+                                            <td><b>Pb</b></td>
+                                            <td><b>Cd</b></td>
+                                            <td><b>Sn</b></td>
+                                            <td><b>Cu</b></td>
+                                            <td><b>Fe</b></td>
+                                            <td><b>Al</b></td>
+                                            <td><b>Zn</b></td>
+                                            <td><b>Others</b></td>
+                                        </tr>
+                                        <tr>
+                                            <td>max. 0.003%</td>
+                                            <td>max. 0.003%</td>
+                                            <td>max. 0.001%</td>
+                                            <td>max. 0.001%</td>
+                                            <td>max. 0.002%</td>
+                                            <td>max. 0.001%</td>
+                                            <td>min. 99.995%</td>
+                                            <td>max. 0.005%</td>
+                                        </tr>
+                                    </table>
+                                </div>
                             </Tab.Pane>
                         </Tab.Content>
                     </Tab.Container>
@@ -193,12 +195,12 @@ const Products = () => {
                     <p data-aos="fade">30-35 kg Loose Coil</p>
                     <p data-aos="fade">15 kg Spools (DIN 300)</p>
                     <p data-aos="fade">20 Kg Spool (DIN270)</p>
-                    <img src={productRange} alt="Icon" loading="lazy" data-aos="fade-left"/>
+                    <img src={productRange} alt="Icon" loading="lazy" data-aos="fade-left" />
                 </div>
                 <div className="product-range-card">
                     <span data-aos="fade-up">Packaging</span>
                     <p data-aos="fade">European plant which consists of a completely automated manufacturing unit. From the process of drawing zinc wires from zinc ingots and packaging them in various units, our process is completely automated.</p>
-                    <img src={packaging} alt="Icon" loading="lazy" data-aos="fade-left"/>
+                    <img src={packaging} alt="Icon" loading="lazy" data-aos="fade-left" />
                 </div>
             </section>
 

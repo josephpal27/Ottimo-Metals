@@ -591,7 +591,37 @@ td, th {
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .zinc-tabbing-container{
+        padding: 0.5rem 1rem 5.5rem 1rem;
+    }
+    .zinc-tabbing .nav{
+        padding: 0.8rem;
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+    .zinc-tabbing .nav-link .button{
+        width: 100%;
+        padding: 1rem 0.8rem;
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .zinc-tabbing .tab-content{
+        margin-top: 0.3rem;
+    }
+    .zinc-tabbing .tab-pane{
+        padding: 0.8rem;
+    }
+    td, th {
+        padding: 0.7rem 0;
+        font-size: calc(0.8rem + 0.5vw);
+    }
+    .table-scroll {
+        overflow-x: auto;
+        width: 100%;
+    }
+    .table-scroll table {
+        min-width: 600px;
+        width: max-content;
+    }
 }
 /* Zinc Tabbing End */
 
