@@ -24,7 +24,10 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .services-banner h1{
+        font-size: calc(1.45rem + 0.5vw);
+        margin-bottom: 0.2rem;
+    }
 }
 /* Banner End */
 
@@ -168,6 +171,38 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .offered-services{
+        padding: 1rem 1rem 2rem 1rem;
+    }
+    .offered-services p{
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .offered-services b{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 0.8rem;
+    }
+    .offered-services-row{
+        margin-top: 1.5rem;
+    }
+    .offered-services-row .offered-services-card{
+        width: 100%;
+        margin-bottom: 1.2rem;
+    }
+    .offered-services-row .offered-services-card .card-desc{
+        padding: 0.8rem;
+    }
+    .offered-services-row .offered-services-card .card-desc span{
+        font-size: calc(1.3rem + 0.5vw);
+        margin-top: 0;
+    }
+    .offered-services-row .offered-services-card .card-desc p{
+        margin-top: 0.6rem;
+        font-size: calc(0.8rem + 0.5vw);
+    }
+    .offered-services-row .offered-services-card .card-desc .button{
+        font-size: calc(0.8rem + 0.5vw);
+        padding: 0.5rem 0;
+        margin-top: 0.5rem;
+    }
 }
 /* Offered Services End */
