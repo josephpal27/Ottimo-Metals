@@ -340,6 +340,34 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .contact-form{
+        padding: 1rem 1rem 3.5rem 1rem;
+    }
+    .contact-form h3{
+        font-size: calc(1.45rem + 0.5vw);
+    }
+    .contact-form form{
+        width: 100%;
+        margin: 1.5rem auto 0 auto;
+    }
+    .contact-form form .input-row{
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+    .contact-form form .input-row input,
+    .contact-form form .input-row textarea{
+        width: 100%;
+        padding: 1.3rem 1rem;
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .contact-form form .input-row textarea{
+        min-height: 8rem;
+    }
+    .contact-form form button{
+        width: 100%;
+        padding: 1rem 0;
+        font-size: calc(0.95rem + 0.5vw);
+    }
 }
 /* Contact Form End */
