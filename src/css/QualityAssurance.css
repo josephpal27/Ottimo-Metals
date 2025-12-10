@@ -193,7 +193,54 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .quality-assurance{
+        padding: 1.5rem 1rem;
+    }
+    .quality-assurance h2{
+        font-size: calc(1.45rem + 0.5vw);
+    }
+    .quality-assurance .line{
+        width: 40px;
+        height: 4px;
+    }
+    .quality-cards-row{
+        margin-top: 2rem;
+    }
+    .quality-cards-row .quality-box{
+        width: 100%;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+    .quality-cards-row .quality-box span{
+        top: 0.5rem;
+        font-size: calc(2rem + 0.5vw);
+    }
+    .quality-cards-row .quality-box h3{
+        font-size: calc(1.45rem + 0.5vw);
+        margin-top: 4.5rem;
+        margin-bottom: 1rem;
+    }
+    .quality-cards-row .quality-box p{
+        font-size: calc(0.9rem + 0.5vw);
+        margin: 0;
+    }
+    .quality-cards-row .quality-box .quality-list{
+        margin-top: 1.5rem;
+    }
+    .quality-cards-row .quality-box .quality-list p{
+        margin-bottom: 0.5rem;
+        display: flex;
+    }
+    .quality-cards-row .quality-box .quality-list .icon{
+        margin-right: 0.5rem;
+        margin-top: 5px;
+    }
+    .quality-cards-row .quality-box .quality-list p:nth-child(1) .icon{
+        font-size: calc(1.2rem + 0.5vw);
+    }
+    .quality-cards-row .quality-box .quality-list p:nth-child(2) .icon{
+        font-size: calc(1rem + 0.5vw);
+    }
 }
 /* Quality Assurance End */
 
