@@ -341,6 +341,37 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .quality-control{
+        padding: 0 1rem 3rem 1rem;
+        flex-direction: column-reverse;
+    }
+    .quality-control-content{
+        width: 100%;
+        margin-top: 2.5rem;
+    }
+    .quality-control-content h4{
+        font-size: calc(1.45rem + 0.5vw);
+        margin-bottom: 1rem;
+    }
+    .quality-control-content p,
+    .quality-control-content li{
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .quality-control-content li{
+        margin-bottom: 0.8rem;
+    }
+    .quality-control-image{
+        width: 100%;
+        padding-right: 0.7rem;
+    }
+    .quality-control-image img{
+        margin-top: 0.3rem;
+    }
+    .quality-control-image .quality-image-outer{
+        width: 96%;
+        height: 97.5%;
+        top: 1rem;
+        right: 0;
+    }
 }
 /* Quality Control End */
