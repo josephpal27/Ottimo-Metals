@@ -24,7 +24,10 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .quality-banner h1{
+        font-size: calc(1.4rem + 0.5vw);
+        margin-bottom: 0.2rem;
+    }
 }
 /* Banner End */
 
