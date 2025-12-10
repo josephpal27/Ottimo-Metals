@@ -24,7 +24,10 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .contact-banner h1{
+        font-size: calc(1.45rem + 0.5vw);
+        margin-bottom: 0.3rem;
+    }
 }
 /* Banner End */
 
@@ -177,7 +180,48 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .get-in-touch{
+        padding: 1.5rem 1rem;
+        flex-direction: column-reverse;
+    }
+    .get-in-touch .contact-map{
+        width: 100%;
+        margin-top: 0.7rem;
+        aspect-ratio: 4/3;
+    }
+    .get-in-touch .get-in-touch-content{
+        width: 100%;
+    }
+    .get-in-touch-content span{
+        border: 2px solid #179cab;
+        padding: 0.35rem 0.65rem;
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .get-in-touch-content h2{
+        font-size: calc(1.4rem + 0.5vw);
+        margin-top: 1rem;
+    }
+    .get-in-touch-content p{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 0.6rem;
+        margin-bottom: 1.5rem;
+    }
+    .get-in-touch-content .get-in-touch-box{
+        gap: 1rem;
+        padding: 1rem 0;
+    }
+    .get-in-touch-content .get-in-touch-box .box-icon .icon{
+        width: 50px;
+        height: 50px;
+        padding: 0.8rem;
+    }
+    .get-in-touch-content .get-in-touch-box .box-content span{
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .get-in-touch-content .get-in-touch-box .box-content a{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 0.4rem;
+    }
 }
 /* Get In Touch End */
 
