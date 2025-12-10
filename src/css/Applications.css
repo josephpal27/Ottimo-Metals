@@ -24,7 +24,10 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .applications-banner h1{
+        font-size: calc(1.45rem + 0.5vw);
+        margin-bottom: 0.2rem;
+    }
 }
 /* Banner End */
 
@@ -166,6 +169,38 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .applications{
+        padding: 1.5rem 1rem;
+    }
+    .applications-head h2{
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .applications-head p{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 0.6rem;
+    }
+    .applications-card-row{
+        margin-top: 2rem;
+    }
+    .applications-card{
+        width: 100%;
+        margin-bottom: 1.2rem;
+    }
+    .applications-card .card-desc{
+        padding: 0.7rem;
+    }
+    .applications-card span{
+        font-size: calc(1.2rem + 0.5vw);
+    }
+    .applications-card p{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 0.7rem;
+        margin-bottom: 0.5rem;
+    }
+    .applications-foot-content p{
+        margin: 1rem auto 1rem auto;
+        width: 100%;
+        font-size: calc(0.9rem + 0.5vw);
+    }
 }
 /* Applications End */
