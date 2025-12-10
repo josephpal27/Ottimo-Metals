@@ -41,6 +41,11 @@ const Gallery = () => {
                 </div>
             </section>
 
+            <div id="banner-moblile-text">
+                <p data-aos="fade">Our Commitment to Quality, Captured.</p>
+                <p data-aos="fade">View the infrastructure, laboratory testing, and final product packaging that assure the superior performance and unwavering consistency of Ottimo Metals' top-tier products.</p>
+            </div>
+
             {/* Gallery */}
             <section className="gallery">
                 <div className="gallery-head">
