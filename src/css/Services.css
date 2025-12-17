@@ -33,7 +33,7 @@
 
 /* Offered Services Start */
 .offered-services{
-    padding: 5rem 7% 6rem 7%;
+    padding: 5rem 7% 3rem 7%;
 }
 .offered-services p{
     color: #6c6c6c;
@@ -94,7 +94,7 @@
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
     .offered-services{
-        padding: 4.5rem 7% 5.5rem 7%;
+        padding: 4.5rem 7% 2.5rem 7%;
     }
     .offered-services p{
         font-size: calc(0.65rem + 0.5vw);
@@ -120,7 +120,7 @@
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
     .offered-services{
-        padding: 4rem 7% 5rem 7%;
+        padding: 4rem 7% 2.2rem 7%;
     }
     .offered-services p{
         font-size: calc(0.6rem + 0.5vw);
@@ -147,7 +147,7 @@
 /* Mobile screen */
 @media screen and (max-width: 768px) {
     .offered-services{
-        padding: 1rem 1rem 2rem 1rem;
+        padding: 1rem 1rem 1rem 1rem;
     }
     .offered-services p{
         font-size: calc(0.9rem + 0.5vw);
@@ -176,3 +176,60 @@
     }
 }
 /* Offered Services End */
+
+/* Tagline Start */
+.tagline{
+    padding: 0 7% 6rem 7%;
+}
+.tagline-content{
+    background-color: #179cab;
+    padding: 2.5rem 8rem;
+    border-radius: 10px;
+}
+.tagline-content p{
+    margin: 0;
+    font-size: calc(0.7rem + 0.5vw);
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .tagline{
+        padding: 0 7% 5.5rem 7%;
+    }
+    .tagline-content{
+        padding: 2.3rem 7rem;
+    }
+    .tagline-content p{
+        font-size: calc(0.65rem + 0.5vw);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .tagline{
+        padding: 0 7% 5rem 7%;
+    }
+    .tagline-content{
+        padding: 2rem 5.5rem;
+    }
+    .tagline-content p{
+        font-size: calc(0.6rem + 0.5vw);
+    }
+}
+
+/* Mobile screen */
+@media screen and (max-width: 768px) {
+    .tagline{
+        padding: 0 1rem 3rem 1rem;
+    }
+    .tagline-content{
+        padding: 1.5rem 1rem;
+        border-radius: 5px;
+    }
+    .tagline-content p{
+        font-size: calc(0.95rem + 0.5vw);
+    }
+}
+/* Tagline End */
