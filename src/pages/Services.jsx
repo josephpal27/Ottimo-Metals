@@ -57,7 +57,6 @@ const Services = () => {
                                     <div className="card-desc">
                                         <span>{item.title}</span>
                                         <p>{item.desc}</p>
-                                        <Button component={Link} to="" className="button">EXPLORE</Button>
                                     </div>
                                 </div>
                             )
