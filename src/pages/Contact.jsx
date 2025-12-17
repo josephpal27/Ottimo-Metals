@@ -7,7 +7,36 @@ import { MdEmail } from "react-icons/md";
 import { HiBuildingOffice2 } from "react-icons/hi2";
 import { Button } from '@mui/material';
 
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 const Contact = () => {
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+
+        const form = e.target;
+        const formData = new FormData(form);
+
+        try {
+            const response = await fetch("https://api.web3forms.com/submit", {
+                method: "POST",
+                body: formData,
+            });
+
+            const result = await response.json();
+
+            if (result.success) {
+                toast.success("Message Sent Successfully!");
+                form.reset();
+            } else {
+                toast.error("Something went wrong. Please try again.");
+            }
+        } catch (error) {
+            toast.error("Network error. Please try again.");
+        }
+    };
+
     return (
         <>
             {/* Banner */}
@@ -21,7 +50,7 @@ const Contact = () => {
             {/* Get In Touch */}
             <section className="get-in-touch">
                 <div className="contact-map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.212520629946!2d88.34797047507767!3d22.571153479492725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277d6e10e00e7%3A0x6f926093610bee3f!2sOttimo%20Metals%20Private%20Limited!5e0!3m2!1sen!2sin!4v1763119567514!5m2!1sen!2sin" width="100%" height="100%" style={{border: 0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.212520629946!2d88.34797047507767!3d22.571153479492725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277d6e10e00e7%3A0x6f926093610bee3f!2sOttimo%20Metals%20Private%20Limited!5e0!3m2!1sen!2sin!4v1763119567514!5m2!1sen!2sin" width="100%" height="100%" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div className="get-in-touch-content">
                     <span>Contact For Help</span>
@@ -60,7 +89,7 @@ const Contact = () => {
             {/* Contact Form */}
             <section className="contact-form">
                 <h3>DROP A MESSAGE</h3>
-                <form action="https://api.web3forms.com/submit" method="POST">
+                <form onSubmit={handleSubmit}>
                     <input type="hidden" name="access_key" value="9ae99fce-f6f9-4a38-ab5b-7caafb88fce6" />
                     <input type="hidden" name="subject" value="New Contact Form Submission from ottimometals.com" />
                     <div className="input-row">
@@ -77,6 +106,16 @@ const Contact = () => {
                     <Button type="submit">SEND MESSAGE</Button>
                 </form>
             </section>
+
+            <ToastContainer
+                position="top-right"
+                autoClose={4000}
+                hideProgressBar={false}
+                closeOnClick
+                pauseOnHover
+                theme="light"
+            />
+
         </>
     )
 }
