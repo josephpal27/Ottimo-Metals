@@ -178,15 +178,15 @@
 /* Offered Services End */
 
 /* Tagline Start */
-.tagline{
+.services-tagline{
     padding: 0 7% 6rem 7%;
 }
-.tagline-content{
+.services-tagline-content{
     background-color: #179cab;
     padding: 2.5rem 8rem;
     border-radius: 10px;
 }
-.tagline-content p{
+.services-tagline-content p{
     margin: 0;
     font-size: calc(0.7rem + 0.5vw);
     font-weight: 500;
@@ -196,39 +196,39 @@
 
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
-    .tagline{
+    .services-tagline{
         padding: 0 7% 5.5rem 7%;
     }
-    .tagline-content{
+    .services-tagline-content{
         padding: 2.3rem 7rem;
     }
-    .tagline-content p{
+    .services-tagline-content p{
         font-size: calc(0.65rem + 0.5vw);
     }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
-    .tagline{
+    .services-tagline{
         padding: 0 7% 5rem 7%;
     }
-    .tagline-content{
+    .services-tagline-content{
         padding: 2rem 5.5rem;
     }
-    .tagline-content p{
+    .services-tagline-content p{
         font-size: calc(0.6rem + 0.5vw);
     }
 }
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    .tagline{
+    .services-tagline{
         padding: 0 1rem 3rem 1rem;
     }
-    .tagline-content{
+    .services-tagline-content{
         padding: 1.5rem 1rem;
         border-radius: 5px;
     }
-    .tagline-content p{
+    .services-tagline-content p{
         font-size: calc(0.95rem + 0.5vw);
     }
 }

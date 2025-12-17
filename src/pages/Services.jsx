@@ -66,8 +66,8 @@ const Services = () => {
             </section>
 
             {/* Tagline */}
-            <section className="tagline" data-aos="fade" data-aos-once="true">
-                <div className="tagline-content">
+            <section className="services-tagline" data-aos="fade" data-aos-once="true">
+                <div className="services-tagline-content">
                     <p>Experience the transformative impact of our zinc wire solutions and trust Ottimo Metals as your reliable partner in unlocking the benefits of zinc wires for your specific industry needs.</p>
                 </div>
             </section>
