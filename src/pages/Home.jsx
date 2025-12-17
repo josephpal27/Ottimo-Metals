@@ -26,17 +26,17 @@ const Home = () => {
   const serviceCardsData = [
     {
       image: ServiceImage1,
-      title: "STEEL WELDING",
+      title: "zinc wires",
       description: "Stainless steel is a popular building material that has long been praised for its strength and corrosion resistance",
     },
     {
       image: ServiceImage2,
-      title: "Metal Works",
+      title: "zinc alluminium wires",
       description: "Our process enhances construction speed and overall project success by utilizing skilled upfront planning",
     },
     {
       image: ServiceImage3,
-      title: "Pipe Welding",
+      title: "drums",
       description: "Our core welding team is used to working in difficult and demanding situations, and they accomplish",
     },
   ]
