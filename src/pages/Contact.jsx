@@ -101,7 +101,7 @@ const Contact = () => {
                         <input type="text" name="Subject" placeholder="Subject" required />
                     </div>
                     <div className="input-row">
-                        <textarea name="Message" placeholder="Message"></textarea>
+                        <textarea name="Message" placeholder="Message" required />
                     </div>
                     <Button type="submit">SEND MESSAGE</Button>
                 </form>
