@@ -10,12 +10,12 @@ const MissionVision = () => {
             <img src={missionVissionImage} alt="Mission and Vision" loading="lazy" />
         </div>
         <div className="mission-vision-content">
-            <div className="mv-card-row">
-                <div className="mv-card" data-aos="fade">
+            <div className="mv-card-row" data-aos="fade">
+                <div className="mv-card">
                     <span>MISSION</span>
                     <p>Harnessing state-of-the-art technology seamlessly integrated into our production process, Ottimo Metals is resolutely dedicated to ensuring the "ON TIME" delivery of certified, superior-quality products that not only meet but surpass our clients.</p>
                 </div>
-                <div className="mv-card" data-aos="fade">
+                <div className="mv-card">
                     <span>VISION</span>
                     <p>At Ottimo Metals, our vision is to establish ourselves as the leading manufacturer and exporter of zinc wires in India and to boost India's industrial growth. We are committed to continually enhancing our production systems,zero-waste production cycle.</p>
                 </div>
