@@ -31,6 +31,7 @@ const QualityAssurance = () => {
                             <p><FaCheck className="icon" /> European standard tensile testing machine</p>
                             <p><FaCheck className="icon" /> On site chemical laboratory</p>
                             <p><FaCheck className="icon" /> State of the art European plant</p>
+                            <p><FaCheck className="icon" /> European standard UTM Machine, coupled with a Metallurgical microscope</p>
                         </div>
                     </div>
                     <div className="quality-box">

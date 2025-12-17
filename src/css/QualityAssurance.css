@@ -105,9 +105,11 @@
 }
 .quality-cards-row .quality-box .quality-list p{
     margin-bottom: 0.5rem;
+    display: flex;
 }
 .quality-cards-row .quality-box .quality-list .icon{
-    margin-right: 0.4rem;
+    margin-right: 0.5rem;
+    margin-top: 0.3rem;
 }
 
 /* Media Queries */
@@ -147,7 +149,7 @@
         margin-bottom: 0.5rem;
     }
     .quality-cards-row .quality-box .quality-list .icon{
-        margin-right: 0.38rem;
+        margin-right: 0.48rem;
     }
 }
 
@@ -187,7 +189,7 @@
         margin-bottom: 0.48rem;
     }
     .quality-cards-row .quality-box .quality-list .icon{
-        margin-right: 0.37rem;
+        margin-right: 0.45rem;
     }
 }
 
@@ -232,7 +234,7 @@
         display: flex;
     }
     .quality-cards-row .quality-box .quality-list .icon{
-        margin-right: 0.5rem;
+        margin-right: 0.6rem;
         margin-top: 5px;
     }
     .quality-cards-row .quality-box .quality-list p:nth-child(1) .icon{
@@ -240,6 +242,10 @@
     }
     .quality-cards-row .quality-box .quality-list p:nth-child(2) .icon{
         font-size: calc(1rem + 0.5vw);
+    }
+    .quality-cards-row .quality-box .quality-list p:nth-child(5) .icon{
+        font-size: calc(1.85rem + 0.5vw);
+        margin-top: -0.1rem;
     }
 }
 /* Quality Assurance End */
