@@ -60,17 +60,19 @@ const Contact = () => {
             {/* Contact Form */}
             <section className="contact-form">
                 <h3>DROP A MESSAGE</h3>
-                <form action="">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="9ae99fce-f6f9-4a38-ab5b-7caafb88fce6" />
+                    <input type="hidden" name="subject" value="New Contact Form Submission from ottimometals.com" />
                     <div className="input-row">
-                        <input type="text" placeholder="Full Name" required />
-                        <input type="email" placeholder="Email Address" required />
+                        <input type="text" name="Name" placeholder="Full Name" required />
+                        <input type="email" name="Email" placeholder="Email Address" required />
                     </div>
                     <div className="input-row">
-                        <input type="number" placeholder="Phone No." required />
-                        <input type="text" placeholder="Subject" required />
+                        <input type="number" name="Phone" placeholder="Phone No." required />
+                        <input type="text" name="Subject" placeholder="Subject" required />
                     </div>
                     <div className="input-row">
-                        <textarea name="message" placeholder="Message"></textarea>
+                        <textarea name="Message" placeholder="Message"></textarea>
                     </div>
                     <Button type="submit">SEND MESSAGE</Button>
                 </form>

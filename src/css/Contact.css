@@ -102,6 +102,9 @@
     margin-top: 0.5rem;
     display: block;
 }
+.get-in-touch-content .get-in-touch-box .box-content a:hover{
+    color: #179cab;
+}
 
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
