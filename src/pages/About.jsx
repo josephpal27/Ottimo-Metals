@@ -18,14 +18,14 @@ const About = () => {
                 <img src={aboutBanner} alt="About Banner" loading="eager" />
                 <div className="banner-content">
                     <h1 data-aos="fade-up">ABOUT US</h1>
-                    <p data-aos="fade">Ottimo Metals is a leading manufacturer and exporter of zinc wires, committed to continually enhancing our production systems and upholding a zero-waste production cycle.</p>
-                    <p data-aos="fade">With dedication focused on result-driven R&D and harnessing state-of-the-art technology, we ensure the "ON TIME" delivery of certified, superior-quality products that meet and surpass national and international standards, positioning us as a leader in delivering top-tier metal works excellence.</p>
+                    <p data-aos="fade">Ottimo Metals is a trusted manufacturer and exporter of premium zinc wires, driven by innovation, precision engineering, and continuous improvement across our production systems.</p>
+                    <p data-aos="fade">Backed by advanced European technology, robust R&D, and a manufacturing unit in West Bengal, India, we ensure on-time delivery of certified, high-performance zinc wires that meet and exceed national and international standards, reinforcing our leadership in the zinc wire industry.</p>
                 </div>
             </section>
 
             <div id="banner-moblile-text">
-                <p data-aos="fade">Ottimo Metals is a leading manufacturer and exporter of zinc wires, committed to continually enhancing our production systems and upholding a zero-waste production cycle.</p>
-                <p data-aos="fade">With dedication focused on result-driven R&D and harnessing state-of-the-art technology, we ensure the "ON TIME" delivery of certified, superior-quality products that meet and surpass national and international standards, positioning us as a leader in delivering top-tier metal works excellence.</p>
+                <p data-aos="fade">Ottimo Metals is a trusted manufacturer and exporter of premium zinc wires, driven by innovation, precision engineering, and continuous improvement across our production systems.</p>
+                <p data-aos="fade">Backed by advanced European technology, robust R&D, and a manufacturing unit in West Bengal, India, we ensure on-time delivery of certified, high-performance zinc wires that meet and exceed national and international standards, reinforcing our leadership in the zinc wire industry.</p>
             </div>
 
             {/* About Welcome */}
