@@ -181,7 +181,12 @@ const Home = () => {
           </div>
         </div>
       </section>
-      
+
+      {/* Choose Quality */}
+      <section className="choose-quality">
+        <p>Choose Quality, <br /> Choose Ottimo</p>
+      </section>
+
     </>
   )
 }

@@ -510,3 +510,56 @@
     }
 }
 /* Testimonials End */
+
+/* Choose Quality Start */
+.choose-quality{
+    padding: 3rem 7%;
+    background-color: #179cab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choose-quality p{
+    color: #fff;
+    margin: 0;
+    font-size: calc(2.5rem + 0.5vw);
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .choose-quality{
+        padding: 2.6rem 7%;
+    }
+    .choose-quality p{
+        font-size: calc(2.3rem + 0.5vw);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .choose-quality{
+        padding: 2.3rem 7%;
+    }
+    .choose-quality p{
+        font-size: calc(2.1rem + 0.5vw);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .choose-quality p br{
+        display: none;
+    }
+}
+
+/* Mobile screen */
+@media screen and (max-width: 768px) {
+    .choose-quality{
+        padding: 1.5rem 1rem;
+    }
+    .choose-quality p{
+        font-size: calc(1.4rem + 0.5vw);
+    }
+}
+/* Choose Quality End */
