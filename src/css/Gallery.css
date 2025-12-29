@@ -18,6 +18,14 @@
     font-size: calc(0.7rem + 0.5vw);
     width: 45%;
 }
+.gallery-banner p b{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.gallery-banner p b .dot-icon{
+    color: #179cab;
+}
 
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
