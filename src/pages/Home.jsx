@@ -114,7 +114,7 @@ const Home = () => {
                   <div className="card-desc">
                     <span>{item.title}</span>
                     <p>{item.description}</p>
-                    <Button component={Link} to="/services" className="button">Read More</Button>
+                    <Button component={Link} to="/products" className="button">Read More</Button>
                   </div>
                 </div>
               )
