@@ -1,23 +1,25 @@
 .product-details-row{
-    padding: 5.5rem 7%;
+    padding: 5.5rem 7% 3rem 7%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 .product-details-row .product-card{
-    width: 24%;
+    /* width: 24%; */
+    width: 48.5%;
     border-radius: 3px;
     overflow: hidden;
     box-shadow: rgba(0, 0, 0, 0.427) 0px 3px 8px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 2.5rem;
 }
 .product-details-row .product-card:hover{
     box-shadow: rgba(0, 0, 0, 0.59) 0px 3px 8px;
 }
-.product-details-row .product-card img{
+/* .product-details-row .product-card img{
     width: 100%;
-}
+} */
 .product-details-row .product-card .card-desc{
     padding: 1rem 0.7rem 0.7rem 0.7rem;
     display: flex;
@@ -28,7 +30,7 @@
 }
 .product-details-row .product-card .card-desc span{
     font-weight: 700;
-    font-size: calc(0.8rem + 0.5vw);
+    font-size: calc(1rem + 0.5vw);
     color: #171614;
     display: block;
     text-align: center;
@@ -39,7 +41,7 @@
     font-size: calc(0.55rem + 0.5vw);
     color: #6c6c6c;
     text-align: center;
-    margin-top: 0.5rem;
+    margin-top: 0.8rem;
     margin-bottom: 0;
     flex-grow: 1;
 }
@@ -49,10 +51,10 @@
     width: 100%;
     color: #fff;
     border-radius: 0;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     border: 0;
     font-weight: 500;
-    font-size: calc(0.4rem + 0.5vw);
+    font-size: calc(0.45rem + 0.5vw);
 }
 .product-details-row .product-card .card-desc .button:hover{
     background-color: #ffaa0f;
@@ -61,45 +63,51 @@
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
     .product-details-row{
-        padding: 5rem 7%;
+        padding: 5rem 7% 2.5rem 7%;
+    }
+    .product-details-row .product-card{
+        margin-bottom: 2.3rem;
     }
     .product-details-row .product-card .card-desc{
         padding: 0.9rem 0.7rem 0.7rem 0.7rem;
     }
     .product-details-row .product-card .card-desc span{
-        font-size: calc(0.75rem + 0.5vw);
+        font-size: calc(0.95rem + 0.5vw);
         margin-top: 0.3rem;
     }
     .product-details-row .product-card .card-desc p{
         font-size: calc(0.5rem + 0.5vw);
-        margin-top: 0.48rem;
+        margin-top: 0.75rem;
     }
     .product-details-row .product-card .card-desc .button{
         padding: 0.48rem 1rem;
-        margin-top: 0.9rem;
-        font-size: calc(0.38rem + 0.5vw);
+        margin-top: 1.3rem;
+        font-size: calc(0.43rem + 0.5vw);
     }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
     .product-details-row{
-        padding: 4.5rem 7%;
+        padding: 4.5rem 7% 2rem 7%;
+    }
+    .product-details-row .product-card{
+        margin-bottom: 2rem;
     }
     .product-details-row .product-card .card-desc{
         padding: 0.8rem 0.7rem 0.7rem 0.7rem;
     }
     .product-details-row .product-card .card-desc span{
-        font-size: calc(0.7rem + 0.5vw);
+        font-size: calc(0.9rem + 0.5vw);
         margin-top: 0.3rem;
     }
     .product-details-row .product-card .card-desc p{
         font-size: calc(0.45rem + 0.5vw);
-        margin-top: 0.45rem;
+        margin-top: 0.65rem;
     }
     .product-details-row .product-card .card-desc .button{
-        padding: 0.46rem 1rem;
-        margin-top: 0.8rem;
-        font-size: calc(0.36rem + 0.5vw);
+        padding: 0.45rem 1rem;
+        margin-top: 1rem;
+        font-size: calc(0.4rem + 0.5vw);
     }
 }
 
@@ -117,7 +125,7 @@
     }
     .product-details-row .product-card .card-desc span{
         font-size: calc(1.4rem + 0.5vw);
-        margin-top: 0.2rem;
+        margin-top: 0.5rem;
     }
     .product-details-row .product-card .card-desc p{
         font-size: calc(0.85rem + 0.5vw);
