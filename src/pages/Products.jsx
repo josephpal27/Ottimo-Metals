@@ -183,6 +183,16 @@ const Products = () => {
                 </div>
             </section>
 
+            {/* Zinc Properties */}
+            {/* <section className="zinc-properties">
+                <div className="zinc-properties-head">
+                    <span>Physical Properties</span>
+                </div>
+                <div className="zinc-properties-body">
+
+                </div>
+            </section> */}
+
             {/* Product Range */}
             <section className="product-range">
                 <div className="product-range-card">
