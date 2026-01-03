@@ -52,7 +52,7 @@ const ProductDetails = () => {
                                 <div className="card-desc">
                                     <span>{item.title}</span>
                                     <p>{item.desc}</p>
-                                    <Button component={Link} to="/products" className="button">READ MORE</Button>
+                                    {/* <Button component={Link} to="/products" className="button">READ MORE</Button> */}
                                 </div>
                             </div>
                         )
