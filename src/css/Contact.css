@@ -25,8 +25,8 @@
 /* Mobile screen */
 @media screen and (max-width: 768px) {
     .contact-banner h1{
-        font-size: calc(1.45rem + 0.5vw);
-        margin-bottom: 0.3rem;
+        font-size: calc(1.38rem + 0.5vw);
+        margin-bottom: 0.35rem;
     }
 }
 /* Banner End */
