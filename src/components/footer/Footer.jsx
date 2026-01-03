@@ -15,7 +15,7 @@ const Footer = () => {
                 <div className="footer-content">
                     <div className="foot-box">
                         <img src={footLogo} alt="Logo" loading="lazy" />
-                        <p>In the World, a major developer of A-grade commercial, industrial, and residential developments. The company has been around since its inception.</p>
+                        <p>At Ottimo Metals, we thoroughly understand your specific requirements, ensuring that we meet industry standards and regulations.</p>
                     </div>
                     <div className="foot-box">
                         <span>QUICK LINKS</span>
