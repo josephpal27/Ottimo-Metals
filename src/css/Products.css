@@ -488,143 +488,6 @@
 }
 /* Zinc Wires Content End */
 
-/* Zinc Tabbing Start*/
-.zinc-tabbing-container{
-    padding: 0 7% 5.5rem 7%;
-}
-.zinc-tabbing .nav{
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    background-color: #051014;
-}
-.zinc-tabbing .nav-link{
-    color: #fff !important;
-    padding: 0;
-    border-radius: 0;
-    border: none;
-}
-.zinc-tabbing .nav-link .button{
-    background: #092732;
-    border: none;
-    color: #fff !important;
-    padding: 1.2rem 1.7rem;
-    border-radius: 0;
-    font-weight: 600;
-    font-size: calc(0.7rem + 0.5vw);
-}
-.zinc-tabbing .nav-link.active{
-    border: none;
-}
-.zinc-tabbing .nav-link.active .button{
-    background: #179cab;
-    border: none;
-}
-.zinc-tabbing .tab-content{
-    background-color: #051014;
-    margin-top: 0.2rem;
-}
-.zinc-tabbing .tab-pane{
-    padding: 3rem;
-    text-align: center;
-    color: #fff;
-}
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-td, th {
-  border: 2px solid #fff;
-  padding: 1rem 0;
-  color: #fff;
-  font-size: calc(0.7rem + 0.5vw);
-}
-
-/* Media Queries */
-@media screen and (min-width: 1230px) and (max-width: 1399px) {
-    .zinc-tabbing-container{
-        padding: 0 7% 5rem 7%;
-    }
-    .zinc-tabbing .nav{
-        padding: 0.9rem;
-    }
-    .zinc-tabbing .nav-link .button{
-        padding: 1.1rem 1.4rem;
-        font-size: calc(0.65rem + 0.5vw);
-    }
-    .zinc-tabbing .tab-content{
-        margin-top: 0.15rem;
-    }
-    .zinc-tabbing .tab-pane{
-        padding: 2.7rem;
-    }
-    td, th {
-        border: 1.5px solid #fff;
-        padding: 0.9rem 0;
-        font-size: calc(0.65rem + 0.5vw);
-    }
-}
-
-@media screen and (min-width: 992px) and (max-width: 1229px) {
-    .zinc-tabbing-container{
-        padding: 0 7% 4.5rem 7%;
-    }
-    .zinc-tabbing .nav{
-        padding: 0.8rem;
-    }
-    .zinc-tabbing .nav-link .button{
-        padding: 0.9rem 0.95rem;
-        font-size: calc(0.6rem + 0.5vw);
-    }
-    .zinc-tabbing .tab-content{
-        margin-top: 0.1rem;
-    }
-    .zinc-tabbing .tab-pane{
-        padding: 2.5rem;
-    }
-    td, th {
-        border: 1px solid #fff;
-        padding: 0.8rem 0;
-        font-size: calc(0.6rem + 0.5vw);
-    }
-}
-
-/* Mobile screen */
-@media screen and (max-width: 768px) {
-    .zinc-tabbing-container{
-        padding: 0.5rem 1rem 3rem 1rem;
-    }
-    .zinc-tabbing .nav{
-        padding: 0.8rem;
-        flex-direction: column;
-        gap: 0.8rem;
-    }
-    .zinc-tabbing .nav-link .button{
-        width: 100%;
-        padding: 1rem 0.8rem;
-        font-size: calc(0.9rem + 0.5vw);
-    }
-    .zinc-tabbing .tab-content{
-        margin-top: 0.3rem;
-    }
-    .zinc-tabbing .tab-pane{
-        padding: 0.8rem;
-    }
-    td, th {
-        padding: 0.7rem 0;
-        font-size: calc(0.8rem + 0.5vw);
-    }
-    .table-scroll {
-        overflow-x: auto;
-        width: 100%;
-    }
-    .table-scroll table {
-        min-width: 600px;
-        width: max-content;
-    }
-}
-/* Zinc Tabbing End */
-
 /* Zinc Properties Start */
 .zinc-properties{
     padding: 0 7% 3rem 7%;
@@ -716,7 +579,35 @@ td, th {
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .zinc-properties{
+        padding: 0.5rem 1rem 2rem 1rem;
+    }
+    .zinc-properties-box{
+        margin-bottom: 1rem;
+    }
+    .zinc-properties-box .zinc-properties-head{
+        padding: 0.8rem;
+    }
+    .zinc-properties-box .zinc-properties-head span{
+        padding: 0.8rem 0;
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .zinc-properties-box .zinc-properties-body{
+        padding: 0.8rem;
+        border-top: 2.5px solid #fff;
+    }
+    .zinc-properties-box .zinc-properties-body td, th {
+        padding: 0.7rem 0;
+        font-size: calc(0.8rem + 0.5vw);
+    }
+    .table-scroll {
+        overflow-x: auto;
+        width: 100%;
+    }
+    .table-scroll table {
+        min-width: 600px;
+        width: max-content;
+    }
 }
 /* Zinc Properties End */
 
