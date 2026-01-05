@@ -84,10 +84,9 @@ const Products = () => {
             </section>
 
             {/* Zinc Tabbing */}
-            <section className="zinc-tabbing-container">
+            {/* <section className="zinc-tabbing-container">
                 <div className="zinc-tabbing">
                     <Tab.Container defaultActiveKey="tabOne">
-                        {/* Tabs Navigation */}
                         <Nav variant="tabs" className="tab-head">
                             <Nav.Item>
                                 <Nav.Link eventKey="tabOne">
@@ -106,7 +105,6 @@ const Products = () => {
                             </Nav.Item>
                         </Nav>
 
-                        {/* Tabs Content */}
                         <Tab.Content>
                             <Tab.Pane eventKey="tabOne" className="fade show">
                                 <table>
@@ -181,17 +179,97 @@ const Products = () => {
                         </Tab.Content>
                     </Tab.Container>
                 </div>
-            </section>
+            </section> */}
 
             {/* Zinc Properties */}
-            {/* <section className="zinc-properties">
-                <div className="zinc-properties-head">
-                    <span>Physical Properties</span>
+            <section className="zinc-properties">
+                {/* 1st Box */}
+                <div className="zinc-properties-box">
+                    <div className="zinc-properties-head">
+                        <span>Physical Properties</span>
+                    </div>
+                    <div className="zinc-properties-body">
+                        <table>
+                            <tr>
+                                <td>Melting Point</td>
+                                <td>420°C (788°F)</td>
+                            </tr>
+                            <tr>
+                                <td>Boiling Point</td>
+                                <td>907°C (1665°F)</td>
+                            </tr>
+                            <tr>
+                                <td>Density</td>
+                                <td>7.14 g/cm³</td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
-                <div className="zinc-properties-body">
-
+                {/* 2nd Box */}
+                <div className="zinc-properties-box">
+                    <div className="zinc-properties-head">
+                        <span>Mechanical Properties</span>
+                    </div>
+                    <div className="zinc-properties-body">
+                        <table>
+                            <tr>
+                                <td><b>Sl No.</b></td>
+                                <td><b>Product</b></td>
+                                <td><b>Tensile Strength</b></td>
+                                <td><b>Elongation</b></td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Soft Zinc Wire</td>
+                                <td>90-110 Mpa</td>
+                                <td>40% Min.</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Medium Hard Zinc Wire</td>
+                                <td>110-130 Mpa</td>
+                                <td>40% Min.</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Hard Zinc Wire</td>
+                                <td>130-160 Mpa</td>
+                                <td>40% Min.</td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
-            </section> */}
+                {/* 3rd Box */}
+                <div className="zinc-properties-box">
+                    <div className="zinc-properties-head">
+                        <span>Chemical Composition (According to ISO 14919:2001)</span>
+                    </div>
+                    <div className="zinc-properties-body">
+                        <table>
+                            <tr>
+                                <td><b>Pb</b></td>
+                                <td><b>Cd</b></td>
+                                <td><b>Sn</b></td>
+                                <td><b>Cu</b></td>
+                                <td><b>Fe</b></td>
+                                <td><b>Al</b></td>
+                                <td><b>Zn</b></td>
+                                <td><b>Others</b></td>
+                            </tr>
+                            <tr>
+                                <td>max. 0.003%</td>
+                                <td>max. 0.003%</td>
+                                <td>max. 0.001%</td>
+                                <td>max. 0.001%</td>
+                                <td>max. 0.002%</td>
+                                <td>max. 0.001%</td>
+                                <td>min. 99.995%</td>
+                                <td>max. 0.005%</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </section>
 
             {/* Product Range */}
             <section className="product-range">

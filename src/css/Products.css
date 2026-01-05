@@ -625,6 +625,45 @@ td, th {
 }
 /* Zinc Tabbing End */
 
+/* Zinc Properties Start */
+.zinc-properties{
+    padding: 0 7% 3rem 7%;
+}
+.zinc-properties-box{
+    background-color: #051014;
+    margin-bottom: 3rem;
+}
+.zinc-properties-box .zinc-properties-head{
+    padding: 1rem;
+}
+.zinc-properties-box .zinc-properties-head span{
+    background-color: #179cab;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 1.2rem 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: calc(0.9rem + 0.5vw);
+}
+.zinc-properties-box .zinc-properties-body{
+    padding: 3rem;
+    border-top: 4px solid #fff;
+    text-align: center;
+    color: #fff;
+}
+.zinc-properties-box .zinc-properties-body table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.zinc-properties-box .zinc-properties-body td, th {
+  border: 2px solid #fff;
+  padding: 1rem 0;
+  color: #fff;
+  font-size: calc(0.7rem + 0.5vw);
+}
+/* Zinc Properties End */
+
 /* Product Range Start */
 .product-range{
     padding: 0 7%;
