@@ -653,14 +653,70 @@ td, th {
     color: #fff;
 }
 .zinc-properties-box .zinc-properties-body table {
-  border-collapse: collapse;
-  width: 100%;
+    border-collapse: collapse;
+    width: 100%;
 }
 .zinc-properties-box .zinc-properties-body td, th {
-  border: 2px solid #fff;
-  padding: 1rem 0;
-  color: #fff;
-  font-size: calc(0.7rem + 0.5vw);
+    border: 2px solid #fff;
+    padding: 1rem 0;
+    color: #fff;
+    font-size: calc(0.7rem + 0.5vw);
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .zinc-properties{
+        padding: 0 7% 2.5rem 7%;
+    }
+    .zinc-properties-box{
+        margin-bottom: 2.5rem;
+    }
+    .zinc-properties-box .zinc-properties-head{
+        padding: 0.9rem;
+    }
+    .zinc-properties-box .zinc-properties-head span{
+        padding: 1.1rem 0;
+        font-size: calc(0.85rem + 0.5vw);
+    }
+    .zinc-properties-box .zinc-properties-body{
+        padding: 2.7rem;
+        border-top: 3.8px solid #fff;
+    }
+    .zinc-properties-box .zinc-properties-body td, th {
+        border: 1.5px solid #fff;
+        padding: 0.9rem 0;
+        font-size: calc(0.65rem + 0.5vw);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .zinc-properties{
+        padding: 0 7% 2.2rem 7%;
+    }
+    .zinc-properties-box{
+        margin-bottom: 2rem;
+    }
+    .zinc-properties-box .zinc-properties-head{
+        padding: 0.8rem;
+    }
+    .zinc-properties-box .zinc-properties-head span{
+        padding: 0.95rem 0;
+        font-size: calc(0.75rem + 0.5vw);
+    }
+    .zinc-properties-box .zinc-properties-body{
+        padding: 2.4rem;
+        border-top: 3.2px solid #fff;
+    }
+    .zinc-properties-box .zinc-properties-body td, th {
+        border: 1.3px solid #fff;
+        padding: 0.8rem 0;
+        font-size: calc(0.6rem + 0.5vw);
+    }
+}
+
+/* Mobile screen */
+@media screen and (max-width: 768px) {
+    
 }
 /* Zinc Properties End */
 
