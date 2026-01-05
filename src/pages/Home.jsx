@@ -1,6 +1,13 @@
 import '../css/Home.css';
 
-import homeBanner from '/images/banners/home-banner.avif';
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+import "swiper/css";
+
+// import homeBanner from '/images/banners/home-banner.avif';
+import homeBanner1 from '/images/banners/home-banner-1.jpg';
+import homeBanner2 from '/images/banners/home-banner-2.jpg';
+import homeBanner3 from '/images/banners/home-banner-3.jpg';
 
 import { Button } from '@mui/material';
 import { Link } from 'react-router-dom';
@@ -84,11 +91,53 @@ const Home = () => {
     <>
 
       {/* Banner */}
-      <section className="banner home-banner">
-        <img src={homeBanner} alt="Banner" loading="eager" />
+      {/* <section className="banner home-banner">
+        <img src={homeBanner1} alt="Banner" loading="eager" />
         <div className="banner-content">
           <h1 data-aos="fade-up">Leading Manufacturer of <br /> Zinc Wires In India</h1>
         </div>
+      </section> */}
+
+      <section className="banner-slider">
+        <Swiper
+          modules={[Autoplay]}
+          slidesPerView={1}
+          centeredSlides={true}
+          loop={true}
+          grabCursor={true}
+          spaceBetween={0}
+          speed={1200}
+          autoplay={{
+            delay: 3500,
+            disableOnInteraction: false,
+          }}
+        >
+          <SwiperSlide>
+            <div className="slide-image">
+              <img src={homeBanner1} alt="Banner Slide 1" loading="eager" />
+            </div>
+            <div className="slide-content">
+
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="slide-image">
+              <img src={homeBanner2} alt="Banner Slide 2" loading="eager" />
+            </div>
+            <div className="slide-content">
+
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="slide-image">
+              <img src={homeBanner3} alt="Banner Slide 3" loading="eager" />
+            </div>
+            <div className="slide-content">
+
+            </div>
+          </SwiperSlide>
+
+        </Swiper>
       </section>
 
       {/* Home Welcome */}

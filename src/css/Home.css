@@ -1,5 +1,5 @@
 /* Banner Start */
-.home-banner .banner-content{
+/* .home-banner .banner-content{
     display: flex;
     align-items: end;
 }
@@ -8,10 +8,10 @@
     font-weight: 800;
     font-size: calc(2.9rem + 0.5vw);
     text-transform: uppercase;
-}
+} */
 
 /* Media Queries */
-@media screen and (min-width: 1230px) and (max-width: 1399px) {
+/* @media screen and (min-width: 1230px) and (max-width: 1399px) {
     .home-banner h1{
         font-size: calc(2.65rem + 0.5vw);
     }
@@ -21,18 +21,27 @@
     .home-banner h1{
         font-size: calc(2.32rem + 0.5vw);
     }
-}
+} */
 
 /* Mobile screen */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .home-banner h1{
         font-size: calc(1.35rem + 0.5vw);
     }
     .home-banner h1 br{
         display: none;
     }
-}
+} */
 /* Banner End */
+
+/* Banner Slider Start */
+.banner-slider{
+    overflow: hidden;
+}
+.banner-slider img{
+    width: 100%;
+}
+/* Banner Slider End */
 
 /* What We Offer Start */
 .what-we-offer{
