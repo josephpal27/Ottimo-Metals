@@ -6,9 +6,9 @@ import CTA from '../components/cta/CTA';
 import '../css/About.css';
 
 import aboutBanner from '/images/banners/about-banner.avif';
-import ourProductImage1 from '../assets/images/products/1.avif';
-import ourProductImage2 from '../assets/images/products/2.avif';
-import ourProductImage3 from '../assets/images/products/3.avif';
+import teamImage1 from '../assets/images/our-team/1.avif';
+import teamImage2 from '../assets/images/our-team/2.avif';
+import teamImage3 from '../assets/images/our-team/3.avif';
 
 const About = () => {
     return (
@@ -37,21 +37,22 @@ const About = () => {
             {/* Product Details */}
             <ProductDetails />
 
-            {/* Our Products */}
-            <section className="our-products">
-                <div className="our-products-head">
-                    <h4 data-aos="fade-up">OUR PRODUCTS</h4>
+            {/* Our Team */}
+            <section className="our-team">
+                <div className="our-team-head">
+                    <h4 data-aos="fade-up">OUR TEAM</h4>
+                    <p data-aos="fade">We have an experienced and skilled crew of industry professionals dedicated to providing exceptional service and support to our clients. With the right expertise and knowledge they ensure that the highest quality products that have undergone stringent quality check measures and approvals reach the customers on time. <br /> At Ottimo, we have established a safe working environment by installing high safety equipment and protocols to ensure that our entire team is protected across processes.</p>
                     <div className="line" data-aos="fade"></div>
                 </div>
-                <div className="our-products-boxes-row">
-                    <div className="our-products-box" data-aos="fade">
-                        <img src={ourProductImage1} alt="Product Image" loading="lazy" />
+                <div className="our-team-boxes-row">
+                    <div className="our-team-box" data-aos="fade">
+                        <img src={teamImage1} alt="Team Image" loading="lazy" />
                     </div>
-                    <div className="our-products-box" data-aos="fade">
-                        <img src={ourProductImage2} alt="Product Image" loading="lazy" />
+                    <div className="our-team-box" data-aos="fade">
+                        <img src={teamImage2} alt="Team Image" loading="lazy" />
                     </div>
-                    <div className="our-products-box" data-aos="fade">
-                        <img src={ourProductImage3} alt="Product Image" loading="lazy" />
+                    <div className="our-team-box" data-aos="fade">
+                        <img src={teamImage3} alt="Team Image" loading="lazy" />
                     </div>
                 </div>
             </section>
