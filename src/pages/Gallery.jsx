@@ -1,35 +1,44 @@
 import '../css/Gallery.css';
 
 import homeBanner from '/images/banners/gallery-banner.avif';
-import galleryImg1 from '../assets/images/gallery/1.avif';
-import galleryImg2 from '../assets/images/gallery/2.avif';
-import galleryImg3 from '../assets/images/gallery/3.avif';
-import galleryImg4 from '../assets/images/gallery/4.avif';
-import galleryImg5 from '../assets/images/gallery/5.avif';
-import galleryImg6 from '../assets/images/gallery/6.avif';
-import galleryImg7 from '../assets/images/gallery/7.avif';
-import galleryImg8 from '../assets/images/gallery/8.avif';
-import galleryImg9 from '../assets/images/gallery/9.avif';
-import galleryImg10 from '../assets/images/gallery/10.avif';
-import galleryImg11 from '../assets/images/gallery/11.avif';
 
 import { GoDotFill } from "react-icons/go";
 
 const Gallery = () => {
 
-    let gallertImages = [
-        { id: 1, img: galleryImg1 },
-        { id: 2, img: galleryImg2 },
-        { id: 3, img: galleryImg3 },
-        { id: 4, img: galleryImg4 },
-        { id: 5, img: galleryImg5 },
-        { id: 6, img: galleryImg6 },
-        { id: 7, img: galleryImg7 },
-        { id: 8, img: galleryImg8 },
-        { id: 9, img: galleryImg9 },
-        { id: 10, img: galleryImg10 },
-        { id: 11, img: galleryImg11 },
-    ]
+    const galleryImages = [
+        "1.avif",
+        "2.avif",
+        "3.avif",
+        "4.avif",
+        "5.avif",
+        "6.avif",
+        "7.avif",
+        "8.avif",
+        "9.avif",
+        "10.avif",
+        "11.avif",
+        "12.avif",
+        "13.avif",
+        "14.avif",
+        "15.avif",
+        "16.avif",
+        "17.avif",
+        "18.avif",
+        "19.avif",
+        "20.avif",
+        "21.avif",
+        "22.avif",
+        "23.avif",
+        "24.avif",
+        "25.avif",
+        "26.avif",
+        "27.avif",
+        "28.avif",
+        "29.avif",
+        "30.avif",
+    ];
+
 
     return (
         <>
@@ -56,10 +65,10 @@ const Gallery = () => {
                 </div>
                 <div className="gallery-card-row">
                     {
-                        gallertImages.map((item, index) => {
+                        galleryImages.map((item, index) => {
                             return (
                                 <div className="gallery-card" key={index} data-aos="fade">
-                                    <img src={item.img} alt="Gallery Image" loading="lazy" />
+                                    <img src={`/images/gallery/${item}`} alt="Gallery Image" loading="lazy" />
                                 </div>
                             )
                         })
