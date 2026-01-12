@@ -68,6 +68,7 @@
     }
     .cta-box span{
         font-size: calc(1.4rem + 0.5vw);
+        text-align: center;
     }
     .cta-box .button{
         font-size: calc(0.9rem + 0.5vw);

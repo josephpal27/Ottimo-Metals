@@ -175,32 +175,10 @@ const Home = () => {
       {/* Testimonials */}
       <section className="testimonials">
         <div className="testimonials-left">
-          <span data-aos="fade">Our Testimonials</span>
-          <h4 data-aos="fade-up">WHAT THEY SAY</h4>
+          <span data-aos="fade">How Zinc Protects ?</span>
+          <h4 data-aos="fade-up">WHEN PAINT FAILS, <br /> METAL PROTECTS</h4>
           <div className="testimonials-tabbing" data-aos="fade">
-            <Tab.Container defaultActiveKey="tabOne">
-              {/* Tabs Navigation */}
-              <Nav variant="tabs" className="tab-head">
-                {testimonials.map(item => (
-                  <Nav.Item key={item.key}>
-                    <Nav.Link eventKey={item.key}>
-                      <img src={item.img} alt="Icon" loading="lazy" />
-                    </Nav.Link>
-                  </Nav.Item>
-                ))}
-              </Nav>
-
-              {/* Tabs Content */}
-              <Tab.Content>
-                {testimonials.map(item => (
-                  <Tab.Pane eventKey={item.key} key={item.key} className="fade">
-                    <p>{item.text}</p>
-                    <span className="client-name">{item.name}</span>
-                    <span className="client-designation">{item.designation}</span>
-                  </Tab.Pane>
-                ))}
-              </Tab.Content>
-            </Tab.Container>
+            <p>Thermal spray metallization using zinc and aluminium wires forms a long-lasting corrosion barrier, delivering up to 20 years of protection - significantly outperforming conventional paint coatings.</p>
           </div>
         </div>
         <div className="testimonials-right">
