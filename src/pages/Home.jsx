@@ -23,9 +23,6 @@ import testimonialIcon1 from '../assets/images/icons/work.png';
 import testimonialIcon2 from '../assets/images/icons/welding.png';
 import testimonialIcon3 from '../assets/images/icons/welding-machine.png';
 
-import testimonialUserM from '../assets/images/icons/user-m.png';
-import testimonialUserF from '../assets/images/icons/user-f.png';
-
 const Home = () => {
 
   const serviceCardsData = [
@@ -45,45 +42,6 @@ const Home = () => {
       description: "Our core welding team is used to working in difficult and demanding situations, and they accomplish",
     },
   ]
-
-  const testimonials = [
-    {
-      key: "tabOne",
-      img: testimonialUserM,
-      text: "I have just had two of the most productive work weeks I have had in years. Ben was perfectly matched to my temperament, and has been taking all the backlogged work off my plate and finishing it.",
-      name: "Jessica Brown",
-      designation: "Co-Founder",
-    },
-    {
-      key: "tabTwo",
-      img: testimonialUserM,
-      text: "I have just had two of the most productive work weeks I have had in years. Ben was perfectly matched to my temperament all the backlogged work off my plate and finishing.",
-      name: "Jessica Brown",
-      designation: "Founder",
-    },
-    {
-      key: "tabThree",
-      img: testimonialUserF,
-      text: "I have just had two of the most productive work weeks I have had in years. Ben was perfectly matched to my temperament, and has been taking all the backlogged work off my plate and finishing it.",
-      name: "Jessica Brown",
-      designation: "Co-Founder",
-    },
-    {
-      key: "tabFour",
-      img: testimonialUserM,
-      text: "I have just had two of the most productive work weeks I have had in years. Ben was perfectly matched to my temperament all the backlogged work off my plate and finishing.",
-      name: "Jessica Brown",
-      designation: "Founder",
-    },
-    {
-      key: "tabFive",
-      img: testimonialUserF,
-      text: "I have just had two of the most productive work weeks I have had in years. Ben was perfectly matched to my temperament, and has been taking all the backlogged work off my plate and finishing it.",
-      name: "Jessica Brown",
-      designation: "Co-Founder",
-    },
-  ];
-
 
   return (
     <>
