@@ -6,13 +6,11 @@ import "swiper/css";
 
 // import homeBanner from '/images/banners/home-banner.avif';
 import homeBanner1 from '/images/banners/home-banner-1.jpg';
-import homeBanner2 from '/images/banners/home-banner-2.jpg';
-import homeBanner3 from '/images/banners/home-banner-3.jpg';
+import homeBanner2 from '/images/banners/home-banner-2.webp';
+import homeBanner3 from '/images/banners/home-banner-3.webp';
 
 import { Button } from '@mui/material';
 import { Link } from 'react-router-dom';
-
-import { Tab, Nav } from "react-bootstrap";
 
 import HomeWelcome from '../components/home-welcome/HomeWelcome';
 import CTA from '../components/cta/CTA';
