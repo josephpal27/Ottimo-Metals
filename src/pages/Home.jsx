@@ -1,8 +1,9 @@
 import '../css/Home.css';
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
+import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
+import 'swiper/css/navigation';
 
 import homeBanner1 from '/images/banners/home-banner-1.avif';
 import homeBanner2 from '/images/banners/home-banner-2.avif';
@@ -20,7 +21,7 @@ import ServiceImage3 from '../assets/images/services/3.avif';
 
 import testimonialIcon1 from '../assets/images/icons/work.png';
 import testimonialIcon2 from '../assets/images/icons/welding.png';
-import testimonialIcon3 from '../assets/images/icons/welding-machine.png';
+import testimonialIcon3 from '../assets/images/icons/globe.png';
 
 const Home = () => {
 
@@ -48,13 +49,14 @@ const Home = () => {
       {/* Banner */}
       <section className="banner-slider">
         <Swiper
-          modules={[Autoplay]}
+          modules={[Navigation, Autoplay]}
           slidesPerView={1}
           centeredSlides={true}
           loop={true}
           grabCursor={true}
           spaceBetween={0}
           speed={1200}
+          navigation
           autoplay={{
             delay: 3500,
             disableOnInteraction: false,
@@ -72,6 +74,7 @@ const Home = () => {
                   <li>German spectrometer to test chemical composition</li>
                   <li>European standard tensile testing machine</li>
                   <li>On-site chemical laboratory</li>
+                  <li>European standard UTM (universal testing machine) and Metallurgical microscope to test the physical and mechanical properties</li>
                 </ul>
               </div>
             </div>
@@ -150,7 +153,7 @@ const Home = () => {
               <img src={testimonialIcon1} alt="Icon" loading="lazy" />
             </div>
             <div className="hightlight-content">
-              <p>We’re Good in All Metal Works</p>
+              <p>Plant equipped with cutting edge continuous casting and rolling system (CCR Line)</p>
             </div>
           </div>
           <div className="testimonial-hightlight-box" data-aos="fade">
@@ -158,7 +161,7 @@ const Home = () => {
               <img src={testimonialIcon2} alt="Icon" loading="lazy" />
             </div>
             <div className="hightlight-content">
-              <p>Expert & Professional Welder Workers</p>
+              <p>SHG Grade Zinc: 99.995% pure zinc</p>
             </div>
           </div>
           <div className="testimonial-hightlight-box" data-aos="fade">
@@ -166,7 +169,7 @@ const Home = () => {
               <img src={testimonialIcon3} alt="Icon" loading="lazy" />
             </div>
             <div className="hightlight-content">
-              <p>We’re Using Quality Welding Tools</p>
+              <p>Global presence</p>
             </div>
           </div>
         </div>
@@ -174,7 +177,7 @@ const Home = () => {
 
       {/* Choose Quality */}
       <section className="choose-quality">
-        <p>Choose Quality, <br /> Choose Ottimo</p>
+        <p>Choose Quality, <br /> Choose <span>Ottimo</span></p>
       </section>
 
     </>
