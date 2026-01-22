@@ -42,20 +42,11 @@
 .about-welcome-content{
     width: 50%;
 }
-.about-welcome-content span{
-    display: block;
-    width: max-content;
-    color: #179cab;
-    border: 3px solid #179cab;
-    padding: 0.5rem 0.8rem;
-    font-weight: 700;
-    font-size: calc(0.7rem + 0.5vw);
-}
 .about-welcome-content h2{
     color: #171614;
     font-weight: 900;
     font-size: calc(3.5rem + 0.5vw);
-    margin-top: 1.5rem;
+    margin-top: -0.6rem;
     text-transform: uppercase;
 }
 .about-welcome-content p{
@@ -143,14 +134,9 @@
     .about-welcome-image .exp-box span{
         font-size: calc(0.9rem + 0.5vw);
     }
-    .about-welcome-content span{
-        border: 2.5px solid #179cab;
-        padding: 0.49rem 0.8rem;
-        font-size: calc(0.65rem + 0.5vw);
-    }
     .about-welcome-content h2{
         font-size: calc(3rem + 0.5vw);
-        margin-top: 1.3rem;
+        margin-top: -0.6rem;
     }
     .about-welcome-content p{
         font-size: calc(0.65rem + 0.5vw);
@@ -194,14 +180,9 @@
     .about-welcome-image .exp-box span{
         font-size: calc(0.8rem + 0.5vw);
     }
-    .about-welcome-content span{
-        border: 2px solid #179cab;
-        padding: 0.48rem 0.8rem;
-        font-size: calc(0.6rem + 0.5vw);
-    }
     .about-welcome-content h2{
         font-size: calc(2.7rem + 0.5vw);
-        margin-top: 1.2rem;
+        margin-top: -0.5rem;
     }
     .about-welcome-content p{
         font-size: calc(0.6rem + 0.5vw);
@@ -254,14 +235,9 @@
         width: 100%;
         margin-top: 2.5rem;
     }
-    .about-welcome-content span{
-        border: 2px solid #179cab;
-        padding: 0.35rem 0.6rem;
-        font-size: calc(0.9rem + 0.5vw);
-    }
     .about-welcome-content h2{
         font-size: calc(1.4rem + 0.5vw);
-        margin-top: 1.2rem;
+        margin-top: 0;
     }
     .about-welcome-content p{
         font-size: calc(0.9rem + 0.5vw);

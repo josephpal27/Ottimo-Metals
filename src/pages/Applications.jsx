@@ -17,42 +17,49 @@ const Applications = () => {
             image: appsImg1,
             title: "Efficient Capacitors",
             desc: "Zinc wiring is employed in capacitor technology, providing superior surface attachment and consistent results, delivering efficient energy storage and rapid discharge capabilities compared to non-ferrous wire coatings, enhancing the durability and performance of capacitors.",
+            animation: "fade-left",
         },
         {
             id: 2,
             image: appsImg2,
             title: "Wind Power Plants",
             desc: "Zinc wiring empowers wind power plants by fortifying turbine structures, improving corrosion resistance, and maximizing energy production for sustainable, clean power generation.",
+            animation: "fade",
         },
         {
             id: 3,
             image: appsImg3,
             title: "LPG Cylinder",
             desc: "Zinc wires are also used on cylinders for protection against corrosion.",
+            animation: "fade-right",
         },
         {
             id: 4,
             image: appsImg4,
             title: "Rail & Road Bridges",
             desc: "Zinc wiring reinforced rail and road bridges, bolstering their load-bearing capacity, resilience against corrosion, and ensuring safe and reliable transportation infrastructure.",
+            animation: "fade-left",
         },
         {
             id: 5,
             image: appsImg5,
             title: "Finned Tube",
             desc: "Zinc wire thermal metalization serves as a robust protective shield, effectively warding off rust and corrosion. This application significantly prolongs the lifespan of various materials, ensuring their durability even in the harshest weather conditions.",
+            animation: "fade",
         },
         {
             id: 6,
             image: appsImg6,
             title: "Ship Building & Repairing",
             desc: "Zinc wiring revolutionizes ship construction and repair processes, enabling corrosion-resistant vessels, enhanced structural integrity, and efficient maintenance in marine environments.",
+            animation: "fade-right",
         },
         {
             id: 7,
             image: appsImg7,
             title: "Ductile Iron Pipes",
             desc: "Zinc wiring acts as a protective shield, safeguarding ductile iron pipes against rust, corrosion and extending their lifespan in demanding environments.",
+            animation: "fade-up",
         },
     ]
 
@@ -76,7 +83,7 @@ const Applications = () => {
                     {
                         applicationsContent.map((item, index) => {
                             return (
-                                <div className="applications-card" key={index} data-aos="fade">
+                                <div className="applications-card" key={index} data-aos={item.animation}>
                                     <div className="card-image">
                                         <img src={item.image} alt="Application Image" loading="lazy" />
                                     </div>

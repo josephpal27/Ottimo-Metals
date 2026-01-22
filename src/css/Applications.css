@@ -50,18 +50,15 @@
 .applications-card-row{
     margin-top: 3rem;
     display: flex;
-    /* justify-content: center; */
     flex-wrap: wrap;
-    gap: 2%;
+    justify-content: space-between;
 }
 .applications-card{
-    /* width: 31.5%; */
-    width: 23.5%;
+    width: 32%;
     box-shadow: rgba(0, 0, 0, 0.53) 0px 3px 8px;
     border-radius: 2px;
     overflow: hidden;
-    /* margin-bottom: 2.3rem; */
-    margin-bottom: 1.7rem;
+    margin-bottom: 1.8rem;
 }
 .applications-card:hover{
     box-shadow: rgba(0, 0, 0, 0.681) 0px 4px 8px;
@@ -102,6 +99,17 @@
     font-weight: 500;
     font-size: calc(0.65rem + 0.5vw);
 }
+.applications-card:last-child{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.applications-card:last-child .card-image{
+    width: 50%;
+}
+.applications-card:last-child .card-desc{
+    width: 50%;
+}
 
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
@@ -119,7 +127,7 @@
         margin-top: 2.9rem;
     }
     .applications-card{
-        margin-bottom: 1.65rem;
+        margin-bottom: 1.5rem;
     }
     .applications-card .card-desc{
         padding: 0.9rem 0.9rem 0.1rem 0.9rem;
@@ -204,6 +212,15 @@
         margin: 1rem auto 1rem auto;
         width: 100%;
         font-size: calc(0.9rem + 0.5vw);
+    }
+    .applications-card:last-child{
+        flex-direction: column;
+    }
+    .applications-card:last-child .card-image{
+        width: 100%;
+    }
+    .applications-card:last-child .card-desc{
+        width: 100%;
     }
 }
 /* Applications End */

@@ -16,7 +16,6 @@ const AboutWelcome = () => {
                     </div>
                 </div>
                 <div className="about-welcome-content">
-                    <span data-aos="fade">Welcome to Ottimo Metals Pvt. Ltd.</span>
                     <h2 data-aos="fade-up">We’re Committed <br /> To quality</h2>
                     <p data-aos="fade">We are experts in providing superior products at a lower cost, and we have worked on Metal, Refinery, and Power projects. Our steel goods are of great quality, and we have a good reputation with our clients. I believe this is a nice start to a long-term relationship.</p>
                     <div className="features" data-aos="fade">
