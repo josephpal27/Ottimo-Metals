@@ -46,13 +46,6 @@ const Home = () => {
     <>
 
       {/* Banner */}
-      {/* <section className="banner home-banner">
-        <img src={homeBanner1} alt="Banner" loading="eager" />
-        <div className="banner-content">
-          <h1 data-aos="fade-up">Leading Manufacturer of <br /> Zinc Wires In India</h1>
-        </div>
-      </section> */}
-
       <section className="banner-slider">
         <Swiper
           modules={[Autoplay]}
@@ -67,30 +60,45 @@ const Home = () => {
             disableOnInteraction: false,
           }}
         >
-          <SwiperSlide>
+          <SwiperSlide id="swiper-slide-1">
             <div className="slide-image">
               <img src={homeBanner1} alt="Banner Slide 1" loading="eager" />
             </div>
             <div className="slide-content">
-
+              <div className="slide-content-inner">
+                <h1>Redefining <span>Excellence</span> <br /> in <span>Zinc Wire</span> Manufacturing</h1>
+                <p id="label">Discover Ottimo Metals Today</p>
+                <ul>
+                  <li>German spectrometer to test chemical composition</li>
+                  <li>European standard tensile testing machine</li>
+                  <li>On-site chemical laboratory</li>
+                </ul>
+              </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          {/* <SwiperSlide id="swiper-slide-2">
             <div className="slide-image">
               <img src={homeBanner2} alt="Banner Slide 2" loading="eager" />
             </div>
             <div className="slide-content">
-
+              <div className="slide-content-inner">
+                <h2><span>State</span> of <br /> the <span>art</span></h2>
+                <p>European Plant</p>
+                <p><span>Ottimo Metals</span>, <br /> Your Trusted Manufacturer </p>
+              </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide id="swiper-slide-3">
             <div className="slide-image">
               <img src={homeBanner3} alt="Banner Slide 3" loading="eager" />
             </div>
             <div className="slide-content">
-
+              <div className="slide-content-inner">
+                <h2><span>Reliable</span> Zinc <br /> Wire <span>Solutions</span></h2>
+                <p>Ottimo Metals, Your Partner in Excellence</p>
+              </div>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
 
         </Swiper>
       </section>
