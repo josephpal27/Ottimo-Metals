@@ -76,7 +76,7 @@ const Home = () => {
               </div>
             </div>
           </SwiperSlide>
-          {/* <SwiperSlide id="swiper-slide-2">
+          <SwiperSlide id="swiper-slide-2">
             <div className="slide-image">
               <img src={homeBanner2} alt="Banner Slide 2" loading="eager" />
             </div>
@@ -98,7 +98,7 @@ const Home = () => {
                 <p>Ottimo Metals, Your Partner in Excellence</p>
               </div>
             </div>
-          </SwiperSlide> */}
+          </SwiperSlide>
 
         </Swiper>
       </section>
