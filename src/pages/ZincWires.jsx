@@ -55,7 +55,7 @@ const ZincWires = () => {
                         <h4 data-aos="fade-up">ZINC WIRES</h4>
                         <div className="zinc-wire-highlights">
                             <div className="highlight-box" data-aos="fade">
-                                <span><FaCheck className="icon" /> High-purity Zinc wire 99.995% purity</span>
+                                <span><FaCheck className="icon" /> High-purity Zinc Wire 99.995% purity</span>
                             </div>
                             <div className="highlight-box" data-aos="fade">
                                 <span><FaCheck className="icon" /> Exceptional anti-corrosion performance</span>

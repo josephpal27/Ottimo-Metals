@@ -2,7 +2,7 @@ import '../css/Products.css';
 
 import Banner from '/images/banners/products-banner.avif';
 import whatWeDoImage from '../assets/images/products/what-we-do.avif';
-import zincWireImage from '../assets/images/products/zinc-wire.avif';
+import zincWireImage from '../assets/images/products/zinc-al-wire.avif';
 import productRange from '../assets/images/icons/product-range.png';
 import packaging from '../assets/images/icons/packaging.png';
 
@@ -52,10 +52,10 @@ const ZincAlluminiumWires = () => {
                         <img src={zincWireImage} alt="Zinc Wires" loading="lazy" />
                     </div>
                     <div className="zinc-top-content">
-                        <h4 data-aos="fade-up">ZINC WIRES</h4>
+                        <h4 data-aos="fade-up">ZINC ALLUMINIUM WIRES</h4>
                         <div className="zinc-wire-highlights">
                             <div className="highlight-box" data-aos="fade">
-                                <span><FaCheck className="icon" /> High-purity Zinc wire 99.995% purity</span>
+                                <span><FaCheck className="icon" /> High-purity Zinc Alluminium Wire 99.995% purity</span>
                             </div>
                             <div className="highlight-box" data-aos="fade">
                                 <span><FaCheck className="icon" /> Exceptional anti-corrosion performance</span>
@@ -67,39 +67,85 @@ const ZincAlluminiumWires = () => {
                     </div>
                 </div>
                 <div className="zinc-wires-bottom">
-                    <p data-aos="fade">Ottimo Metals stands as a pivotal force in the realm of manufacturing and exporting an expansive array of Zinc Metallizing Wire. These versatile products play a crucial role in Spray Metallization for Capacitors, Anti-Corrosion Protection, Cathodic Corrosion Protection of Steel Structures, Capacitor Film Coating, and Heat Exchanger Finned Tube Coating across industries like automobiles and air conditioning.</p>
-                    <p data-aos="fade">Within the realm of Zinc Wires, our infrastructure boasts a cutting-edge European fully automatic Continuous Casting and Rolling (CCR LINE) system, optimizing our zinc wire manufacturing capacity. This innovation yields three distinct mechanical property variants tailored to diverse zinc metallization applications:</p>
-                    <div className="zinc-options">
-                        <div className="opt-box" data-aos="fade"><FaCircleDot className="icon" /><span>Soft Zinc Wire</span></div>
-                        <div className="opt-box" data-aos="fade"><FaCircleDot className="icon" /><span>Medium-Hard Zinc Wire</span></div>
-                        <div className="opt-box" data-aos="fade"><FaCircleDot className="icon" /><span>Hard Zinc Wire</span></div>
-                    </div>
-                    <p data-aos="fade">Supporting our manufacturing process is a robust Zinc Wire plant, boasting an impressive production capacity of 1200 MT per month. This enables us to adeptly address the diverse needs of our esteemed customers. Additionally, we are equipped to produce special alloys and dimensions tailored to precise customer specifications.</p>
-                    <p data-aos="fade">What sets Ottimo zinc wires apart is their exceptional purity, a hallmark achieved through our dedication to high-grade materials. These wires are crafted from special, SHG grade zinc (Zn 99.995%) adhering to DIN EN 14919 standards. Our commitment to quality is further underscored by our state-of-the-art German laboratory equipment, including a Photo Spectrometer for accurate chemical composition analysis and European standard UTM machine and metallurgical microscope for rigorous testing.</p>
-                    <p data-aos="fade">In essence, Ottimo Metals stands as a beacon of innovation, delivering zinc wire solutions that not only meet industry demands but also push the boundaries of quality and performance.</p>
+                    <p data-aos="fade">Zinc-aluminium wires are composite materi-als that blend the beneficial properties of both zinc and aluminium. These slender, ductile filaments typically consist of zinc and aluminium, sometimes alloyed with additional elements to improve mechanical performance for specific applications. The result is a wire that offers enhanced corro-sion resistance, better electrical conductivi-ty, and greater mechanical strength than pure zinc alone. Zinc-aluminium wires are widely used in applications such as spray metallization.</p>
+                    <p data-aos="fade"><b>Scope:</b> This specification covers Zn-Al wire majorly used for "Spray Metallization".</p>
+                    <p data-aos="fade"><b>General:</b> Zn-Al wire manufactured from virgin quality "Special High-Grade Zinc-Al" through "Continues Casting and Rolling process".</p>
                 </div>
             </section>
 
             {/* Zinc Properties */}
             <section className="zinc-properties">
                 {/* 1st Box */}
-                <div className="zinc-properties-box" data-aos="fade"> 
+                <div className="zinc-properties-box" data-aos="fade">
                     <div className="zinc-properties-head">
-                        <span>Physical Properties</span>
+                        <span>Chemical Composition - Material Purity is as per ISO 14919:2015</span>
                     </div>
                     <div className="zinc-properties-body">
                         <table>
+                            <thead>
+                                <tr>
+                                    <th>Element</th>
+                                    <th>% of Element <br /> (for 85 Zinc /15 Al)</th>
+                                    <th>% of Element <br /> (for 98 Zinc /2 Al)</th>
+                                    <th>% of Element <br /> (for 96 Zinc /4 Al)</th>
+                                    <th>% of Element <br /> (for 78 Zinc/22 Al)</th>
+                                </tr>
+                            </thead>
                             <tr>
-                                <td>Melting Point</td>
-                                <td>420°C (788°F)</td>
+                                <td>Zinc (Zn)</td>
+                                <td>85+/ (- 1)%</td>
+                                <td>98+/ (- 0.5)%</td>
+                                <td>96+/ (- 0.5)%</td>
+                                <td>78+/ (- 1)%</td>
                             </tr>
                             <tr>
-                                <td>Boiling Point</td>
-                                <td>907°C (1665°F)</td>
+                                <td>Aluminum (Al)</td>
+                                <td>15+/ (- 1)%</td>
+                                <td>2+/ (- 0.5)%</td>
+                                <td>4+/ (- 0.5)%</td>
+                                <td>22+/ (- 1)%</td>
                             </tr>
                             <tr>
-                                <td>Density</td>
-                                <td>7.14 g/cm³</td>
+                                <td>Lead (Pb)</td>
+                                <td> &le; 0.007%</td>
+                                <td> &le; 0.007%</td>
+                                <td> &le; 0.007%</td>
+                                <td> &le; 0.007%</td>
+                            </tr>
+                            <tr>
+                                <td>Cadmium (Cd)</td>
+                                <td> &le; 0.004%</td>
+                                <td> &le; 0.004%</td>
+                                <td> &le; 0.004%</td>
+                                <td> &le; 0.004%</td>
+                            </tr>
+                            <tr>
+                                <td>Iron (Fe)</td>
+                                <td> &le; 0.02%</td>
+                                <td> &le; 0.02%</td>
+                                <td> &le; 0.02%</td>
+                                <td> &le; 0.05%</td>
+                            </tr>
+                            <tr>
+                                <td>Tin (Sn)</td>
+                                <td> &le; 0.05%</td>
+                                <td> &le; 0.05%</td>
+                                <td> &le; 0.05%</td>
+                                <td> &le; 0.05%</td>
+                            </tr>
+                            <tr>
+                                <td>Copper (Cu)</td>
+                                <td> &le; 0.01%</td>
+                                <td> &le; 0.01%</td>
+                                <td> &le; 0.01%</td>
+                                <td> &le; 0.01%</td>
+                            </tr>
+                            <tr>
+                                <td>Silicon (Si)</td>
+                                <td> &le; 0.12</td>
+                                <td> &le; 0.12</td>
+                                <td> &le; 0.12</td>
+                                <td> &le; 0.12</td>
                             </tr>
                         </table>
                     </div>
@@ -107,64 +153,45 @@ const ZincAlluminiumWires = () => {
                 {/* 2nd Box */}
                 <div className="zinc-properties-box" data-aos="fade">
                     <div className="zinc-properties-head">
-                        <span>Mechanical Properties</span>
+                        <span>Size</span>
                     </div>
                     <div className="zinc-properties-body">
                         <table>
-                            <tr>
-                                <td><b>Sl No.</b></td>
-                                <td><b>Product</b></td>
-                                <td><b>Tensile Strength</b></td>
-                                <td><b>Elongation</b></td>
-                            </tr>
+                            <thead>
+                                <tr>
+                                    <th>Sr. No.</th>
+                                    <th>Size</th>
+                                    <th>Acceptance Criteria</th>
+                                </tr>
+                            </thead>
                             <tr>
                                 <td>1</td>
-                                <td>Soft Zinc Wire</td>
-                                <td>90-110 Mpa</td>
-                                <td>40% Min.</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Medium Hard Zinc Wire</td>
-                                <td>110-130 Mpa</td>
-                                <td>40% Min.</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>Hard Zinc Wire</td>
-                                <td>130-160 Mpa</td>
-                                <td>40% Min.</td>
+                                <td>1.20 mm to 4.76 mm</td>
+                                <td>+0.00 mm, -5.05 mm</td>
                             </tr>
                         </table>
+                        <p>Note - Special sizes also depend on customer requirement</p>
                     </div>
                 </div>
                 {/* 3rd Box */}
                 <div className="zinc-properties-box" data-aos="fade">
                     <div className="zinc-properties-head">
-                        <span>Chemical Composition (According to ISO 14919:2001)</span>
+                        <span>Mechanical Properties</span>
                     </div>
                     <div className="zinc-properties-body">
                         <div className="table-scroll">
                             <table>
+                                <thead>
+                                    <tr>
+                                        <th>Type of Wire</th>
+                                        <th>UTS (mPa-Min)</th>
+                                        <th>EL% (Min)</th>
+                                    </tr>
+                                </thead>
                                 <tr>
-                                    <td><b>Pb</b></td>
-                                    <td><b>Cd</b></td>
-                                    <td><b>Sn</b></td>
-                                    <td><b>Cu</b></td>
-                                    <td><b>Fe</b></td>
-                                    <td><b>Al</b></td>
-                                    <td><b>Zn</b></td>
-                                    <td><b>Others</b></td>
-                                </tr>
-                                <tr>
-                                    <td>max. 0.003%</td>
-                                    <td>max. 0.003%</td>
-                                    <td>max. 0.001%</td>
-                                    <td>max. 0.001%</td>
-                                    <td>max. 0.002%</td>
-                                    <td>max. 0.001%</td>
-                                    <td>min. 99.995%</td>
-                                    <td>max. 0.005%</td>
+                                    <td>Zinc-Al Wire</td>
+                                    <td>120 mPa</td>
+                                    <td>50%</td>
                                 </tr>
                             </table>
                         </div>
