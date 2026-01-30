@@ -78,13 +78,7 @@
     position: relative;
     overflow: hidden;
 }
-.mission-vision-content .mv-counter-row .mv-counter-box span:nth-child(2){
-    color: #fff;
-    font-weight: 700;
-    font-size: calc(2.8rem + 0.5vw);
-    position: relative;
-}
-.mission-vision-content .mv-counter-row .mv-counter-box span:nth-child(3){
+.mission-vision-content .mv-counter-row .mv-counter-box span{
     color: #fff;
     font-weight: 500;
     font-size: calc(0.7rem + 0.5vw);
@@ -135,10 +129,7 @@
         border: 4.5px solid #179cab;
         padding: 1.9rem 1rem;
     }
-    .mission-vision-content .mv-counter-row .mv-counter-box span:nth-child(2){
-        font-size: calc(2.7rem + 0.5vw);
-    }
-    .mission-vision-content .mv-counter-row .mv-counter-box span:nth-child(3){
+    .mission-vision-content .mv-counter-row .mv-counter-box span{
         font-size: calc(0.65rem + 0.5vw);
         margin-top: 0.9rem;
     }
@@ -174,10 +165,7 @@
         border: 4px solid #179cab;
         padding: 1.5rem 1rem;
     }
-    .mission-vision-content .mv-counter-row .mv-counter-box span:nth-child(2){
-        font-size: calc(2.5rem + 0.5vw);
-    }
-    .mission-vision-content .mv-counter-row .mv-counter-box span:nth-child(3){
+    .mission-vision-content .mv-counter-row .mv-counter-box span{
         font-size: calc(0.6rem + 0.5vw);
         margin-top: 0.8rem;
     }
@@ -228,10 +216,7 @@
         padding: 1rem 1rem;
         margin-bottom: 1rem;
     }
-    .mission-vision-content .mv-counter-row .mv-counter-box span:nth-child(2){
-        font-size: calc(2rem + 0.5vw);
-    }
-    .mission-vision-content .mv-counter-row .mv-counter-box span:nth-child(3){
+    .mission-vision-content .mv-counter-row .mv-counter-box span{
         font-size: calc(0.9rem + 0.5vw);
         margin-top: 0.5rem;
     }

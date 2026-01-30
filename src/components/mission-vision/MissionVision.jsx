@@ -25,18 +25,15 @@ const MissionVision = () => {
             <div className="mv-counter-row">
                 <div className="mv-counter-box" data-aos="fade">
                     <div className="layer"></div>
-                    <span>800</span>
-                    <span>Projects <br /> Completed</span>
+                    <span>Export Worthy Packaging</span>
                 </div>
                 <div className="mv-counter-box" data-aos="fade">
                     <div className="layer"></div>
-                    <span>672</span>
-                    <span>Satisfied <br /> Clients</span>
+                    <span>State-of-the-Art Wire Drawing Setup</span>
                 </div>
                 <div className="mv-counter-box" data-aos="fade">
                     <div className="layer"></div>
-                    <span>757</span>
-                    <span>Metal <br /> Works</span>
+                    <span>Real People, Peal Precision</span>
                 </div>
             </div>
         </div>
