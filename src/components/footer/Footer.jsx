@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import footLogo from '../../assets/images/logo/logo-white.png';
 
-import { FaFacebookF, FaInstagram, FaTwitter, FaLocationDot  } from "react-icons/fa6";
+import { FaFacebookF, FaInstagram, FaLinkedinIn , FaLocationDot  } from "react-icons/fa6";
 import { MdFactory, MdEmail } from "react-icons/md";
 import { IoCall } from "react-icons/io5";
 
@@ -41,7 +41,7 @@ const Footer = () => {
                         <div className="social-icons">
                             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
                             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-                            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
                         </div>
                     </div>
                 </div>
