@@ -82,73 +82,75 @@ const ZincAlluminiumWires = () => {
                         <span>Chemical Composition - Material Purity is as per ISO 14919:2015</span>
                     </div>
                     <div className="zinc-properties-body">
-                        <table>
-                            <thead>
+                        <div className="table-scroll">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Element</th>
+                                        <th>% of Element <br /> (for 85 Zinc /15 Al)</th>
+                                        <th>% of Element <br /> (for 98 Zinc /2 Al)</th>
+                                        <th>% of Element <br /> (for 96 Zinc /4 Al)</th>
+                                        <th>% of Element <br /> (for 78 Zinc/22 Al)</th>
+                                    </tr>
+                                </thead>
                                 <tr>
-                                    <th>Element</th>
-                                    <th>% of Element <br /> (for 85 Zinc /15 Al)</th>
-                                    <th>% of Element <br /> (for 98 Zinc /2 Al)</th>
-                                    <th>% of Element <br /> (for 96 Zinc /4 Al)</th>
-                                    <th>% of Element <br /> (for 78 Zinc/22 Al)</th>
+                                    <td>Zinc (Zn)</td>
+                                    <td>85+/ (- 1)%</td>
+                                    <td>98+/ (- 0.5)%</td>
+                                    <td>96+/ (- 0.5)%</td>
+                                    <td>78+/ (- 1)%</td>
                                 </tr>
-                            </thead>
-                            <tr>
-                                <td>Zinc (Zn)</td>
-                                <td>85+/ (- 1)%</td>
-                                <td>98+/ (- 0.5)%</td>
-                                <td>96+/ (- 0.5)%</td>
-                                <td>78+/ (- 1)%</td>
-                            </tr>
-                            <tr>
-                                <td>Aluminum (Al)</td>
-                                <td>15+/ (- 1)%</td>
-                                <td>2+/ (- 0.5)%</td>
-                                <td>4+/ (- 0.5)%</td>
-                                <td>22+/ (- 1)%</td>
-                            </tr>
-                            <tr>
-                                <td>Lead (Pb)</td>
-                                <td> &le; 0.007%</td>
-                                <td> &le; 0.007%</td>
-                                <td> &le; 0.007%</td>
-                                <td> &le; 0.007%</td>
-                            </tr>
-                            <tr>
-                                <td>Cadmium (Cd)</td>
-                                <td> &le; 0.004%</td>
-                                <td> &le; 0.004%</td>
-                                <td> &le; 0.004%</td>
-                                <td> &le; 0.004%</td>
-                            </tr>
-                            <tr>
-                                <td>Iron (Fe)</td>
-                                <td> &le; 0.02%</td>
-                                <td> &le; 0.02%</td>
-                                <td> &le; 0.02%</td>
-                                <td> &le; 0.05%</td>
-                            </tr>
-                            <tr>
-                                <td>Tin (Sn)</td>
-                                <td> &le; 0.05%</td>
-                                <td> &le; 0.05%</td>
-                                <td> &le; 0.05%</td>
-                                <td> &le; 0.05%</td>
-                            </tr>
-                            <tr>
-                                <td>Copper (Cu)</td>
-                                <td> &le; 0.01%</td>
-                                <td> &le; 0.01%</td>
-                                <td> &le; 0.01%</td>
-                                <td> &le; 0.01%</td>
-                            </tr>
-                            <tr>
-                                <td>Silicon (Si)</td>
-                                <td> &le; 0.12</td>
-                                <td> &le; 0.12</td>
-                                <td> &le; 0.12</td>
-                                <td> &le; 0.12</td>
-                            </tr>
-                        </table>
+                                <tr>
+                                    <td>Aluminum (Al)</td>
+                                    <td>15+/ (- 1)%</td>
+                                    <td>2+/ (- 0.5)%</td>
+                                    <td>4+/ (- 0.5)%</td>
+                                    <td>22+/ (- 1)%</td>
+                                </tr>
+                                <tr>
+                                    <td>Lead (Pb)</td>
+                                    <td> &le; 0.007%</td>
+                                    <td> &le; 0.007%</td>
+                                    <td> &le; 0.007%</td>
+                                    <td> &le; 0.007%</td>
+                                </tr>
+                                <tr>
+                                    <td>Cadmium (Cd)</td>
+                                    <td> &le; 0.004%</td>
+                                    <td> &le; 0.004%</td>
+                                    <td> &le; 0.004%</td>
+                                    <td> &le; 0.004%</td>
+                                </tr>
+                                <tr>
+                                    <td>Iron (Fe)</td>
+                                    <td> &le; 0.02%</td>
+                                    <td> &le; 0.02%</td>
+                                    <td> &le; 0.02%</td>
+                                    <td> &le; 0.05%</td>
+                                </tr>
+                                <tr>
+                                    <td>Tin (Sn)</td>
+                                    <td> &le; 0.05%</td>
+                                    <td> &le; 0.05%</td>
+                                    <td> &le; 0.05%</td>
+                                    <td> &le; 0.05%</td>
+                                </tr>
+                                <tr>
+                                    <td>Copper (Cu)</td>
+                                    <td> &le; 0.01%</td>
+                                    <td> &le; 0.01%</td>
+                                    <td> &le; 0.01%</td>
+                                    <td> &le; 0.01%</td>
+                                </tr>
+                                <tr>
+                                    <td>Silicon (Si)</td>
+                                    <td> &le; 0.12</td>
+                                    <td> &le; 0.12</td>
+                                    <td> &le; 0.12</td>
+                                    <td> &le; 0.12</td>
+                                </tr>
+                            </table>
+                        </div>
                     </div>
                 </div>
                 {/* 2nd Box */}
@@ -180,22 +182,20 @@ const ZincAlluminiumWires = () => {
                         <span>Mechanical Properties</span>
                     </div>
                     <div className="zinc-properties-body">
-                        <div className="table-scroll">
-                            <table>
-                                <thead>
-                                    <tr>
-                                        <th>Type of Wire</th>
-                                        <th>UTS (mPa-Min)</th>
-                                        <th>EL% (Min)</th>
-                                    </tr>
-                                </thead>
+                        <table>
+                            <thead>
                                 <tr>
-                                    <td>Zinc-Al Wire</td>
-                                    <td>120 mPa</td>
-                                    <td>50%</td>
+                                    <th>Type of Wire</th>
+                                    <th>UTS (mPa-Min)</th>
+                                    <th>EL% (Min)</th>
                                 </tr>
-                            </table>
-                        </div>
+                            </thead>
+                            <tr>
+                                <td>Zinc-Al Wire</td>
+                                <td>120 mPa</td>
+                                <td>50%</td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
                 {/* 4th Box */}
@@ -204,61 +204,59 @@ const ZincAlluminiumWires = () => {
                         <span>Sampling Plan - One Sample per 1 Ton lot</span>
                     </div>
                     <div className="zinc-properties-body">
-                        <div className="table-scroll">
-                            <table>
-                                <thead>
-                                    <tr>
-                                        <th>Paper Drum</th>
-                                        <th>Spool</th>
-                                        <th>Loose Coil</th>
-                                        <th>Metal Drum</th>
-                                    </tr>
-                                </thead>
+                        <table>
+                            <thead>
                                 <tr>
-                                    <td>40 kg</td>
-                                    <td>13 kg</td>
-                                    <td>25 kg</td>
-                                    <td>400 kg</td>
+                                    <th>Paper Drum</th>
+                                    <th>Spool</th>
+                                    <th>Loose Coil</th>
+                                    <th>Metal Drum</th>
                                 </tr>
-                                <tr>
-                                    <td>80 kg</td>
-                                    <td>15 kg</td>
-                                    <td>35 kg</td>
-                                    <td>-</td>
-                                </tr>
-                                <tr>
-                                    <td>100 kg</td>
-                                    <td>20 kg</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                </tr>
-                                <tr>
-                                    <td>125 kg</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                </tr>
-                                <tr>
-                                    <td>200 kg</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                </tr>
-                                <tr>
-                                    <td>250 kg</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                </tr>
-                                <tr>
-                                    <td>300 kg</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                </tr>
-                            </table>
-                            <p>Note - Packaging standard also depend on customer requirement.</p>
-                        </div>
+                            </thead>
+                            <tr>
+                                <td>40 kg</td>
+                                <td>13 kg</td>
+                                <td>25 kg</td>
+                                <td>400 kg</td>
+                            </tr>
+                            <tr>
+                                <td>80 kg</td>
+                                <td>15 kg</td>
+                                <td>35 kg</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>100 kg</td>
+                                <td>20 kg</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>125 kg</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>200 kg</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>250 kg</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>300 kg</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                        </table>
+                        <p>Note - Packaging standard also depend on customer requirement.</p>
                     </div>
                 </div>
             </section>
