@@ -83,7 +83,7 @@ const ZincWires = () => {
             {/* Zinc Properties */}
             <section className="zinc-properties">
                 {/* 1st Box */}
-                <div className="zinc-properties-box">
+                <div className="zinc-properties-box" data-aos="fade">
                     <div className="zinc-properties-head">
                         <span>Physical Properties</span>
                     </div>
@@ -105,7 +105,7 @@ const ZincWires = () => {
                     </div>
                 </div>
                 {/* 2nd Box */}
-                <div className="zinc-properties-box">
+                <div className="zinc-properties-box" data-aos="fade">
                     <div className="zinc-properties-head">
                         <span>Mechanical Properties</span>
                     </div>
@@ -139,7 +139,7 @@ const ZincWires = () => {
                     </div>
                 </div>
                 {/* 3rd Box */}
-                <div className="zinc-properties-box">
+                <div className="zinc-properties-box" data-aos="fade">
                     <div className="zinc-properties-head">
                         <span>Chemical Composition (According to ISO 14919:2001)</span>
                     </div>
