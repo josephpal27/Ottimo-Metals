@@ -70,6 +70,7 @@ const ZincAlluminiumWires = () => {
                     <p data-aos="fade">Zinc-aluminium wires are composite materi-als that blend the beneficial properties of both zinc and aluminium. These slender, ductile filaments typically consist of zinc and aluminium, sometimes alloyed with additional elements to improve mechanical performance for specific applications. The result is a wire that offers enhanced corro-sion resistance, better electrical conductivi-ty, and greater mechanical strength than pure zinc alone. Zinc-aluminium wires are widely used in applications such as spray metallization.</p>
                     <p data-aos="fade"><b>Scope:</b> This specification covers Zn-Al wire majorly used for "Spray Metallization".</p>
                     <p data-aos="fade"><b>General:</b> Zn-Al wire manufactured from virgin quality "Special High-Grade Zinc-Al" through "Continues Casting and Rolling process".</p>
+                    <p data-aos="fade"><b>Shelf-Life:</b> Zinc-Al Wire has infinite shelf life, if stored in control condition.</p>
                 </div>
             </section>
 
@@ -170,7 +171,7 @@ const ZincAlluminiumWires = () => {
                                 <td>+0.00 mm, -5.05 mm</td>
                             </tr>
                         </table>
-                        <p>Note - Special sizes also depend on customer requirement</p>
+                        <p>Note - Special sizes also depend on customer requirement.</p>
                     </div>
                 </div>
                 {/* 3rd Box */}
@@ -194,6 +195,69 @@ const ZincAlluminiumWires = () => {
                                     <td>50%</td>
                                 </tr>
                             </table>
+                        </div>
+                    </div>
+                </div>
+                {/* 4th Box */}
+                <div className="zinc-properties-box" data-aos="fade">
+                    <div className="zinc-properties-head">
+                        <span>Sampling Plan - One Sample per 1 Ton lot</span>
+                    </div>
+                    <div className="zinc-properties-body">
+                        <div className="table-scroll">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Paper Drum</th>
+                                        <th>Spool</th>
+                                        <th>Loose Coil</th>
+                                        <th>Metal Drum</th>
+                                    </tr>
+                                </thead>
+                                <tr>
+                                    <td>40 kg</td>
+                                    <td>13 kg</td>
+                                    <td>25 kg</td>
+                                    <td>400 kg</td>
+                                </tr>
+                                <tr>
+                                    <td>80 kg</td>
+                                    <td>15 kg</td>
+                                    <td>35 kg</td>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>100 kg</td>
+                                    <td>20 kg</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>125 kg</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>200 kg</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>250 kg</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <td>300 kg</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
+                            <p>Note - Packaging standard also depend on customer requirement.</p>
                         </div>
                     </div>
                 </div>
