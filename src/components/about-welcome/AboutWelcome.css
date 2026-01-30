@@ -6,38 +6,12 @@
 }
 .about-welcome-image{
     width: 45%;
-    position: relative;
     overflow: hidden;
 }
 .about-welcome-image img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-.about-welcome-image .exp-box{
-    width: 250px;
-    height: 250px;
-    position: absolute;
-    bottom: 0;
-    right: 3rem;
-    background-color: #179cab;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.about-welcome-image .exp-box .icon{
-    color: #fff;
-    font-size: calc(3.5rem + 0.5vw);
-}
-.about-welcome-image .exp-box span{
-    color: #fff;
-    font-weight: 700;
-    font-size: calc(1rem + 0.5vw);
-    display: block;
-    margin-top: 1rem;
-    text-align: center;
-    text-transform: uppercase;
 }
 .about-welcome-content{
     width: 50%;
@@ -123,17 +97,6 @@
     .about-welcome{
         padding: 5.5rem 7%;
     }
-    .about-welcome-image .exp-box{
-        width: 240px;
-        height: 240px;
-        right: 2.7rem;
-    }
-    .about-welcome-image .exp-box .icon{
-        font-size: calc(3.2rem + 0.5vw);
-    }
-    .about-welcome-image .exp-box span{
-        font-size: calc(0.9rem + 0.5vw);
-    }
     .about-welcome-content h2{
         font-size: calc(3rem + 0.5vw);
         margin-top: -0.6rem;
@@ -168,17 +131,6 @@
 @media screen and (min-width: 992px) and (max-width: 1229px) {
     .about-welcome{
         padding: 5rem 7%;
-    }
-    .about-welcome-image .exp-box{
-        width: 225px;
-        height: 225px;
-        right: 2.5rem;
-    }
-    .about-welcome-image .exp-box .icon{
-        font-size: calc(2.9rem + 0.5vw);
-    }
-    .about-welcome-image .exp-box span{
-        font-size: calc(0.8rem + 0.5vw);
     }
     .about-welcome-content h2{
         font-size: calc(2.7rem + 0.5vw);
@@ -218,18 +170,6 @@
     }
     .about-welcome-image{
         width: 100%;
-    }
-    .about-welcome-image .exp-box{
-        width: 150px;
-        height: 150px;
-        right: 1rem;
-    }
-    .about-welcome-image .exp-box .icon{
-        font-size: calc(2rem + 0.5vw);
-    }
-    .about-welcome-image .exp-box span{
-        font-size: calc(0.9rem + 0.5vw);
-        margin-top: 0.7rem;
     }
     .about-welcome-content{
         width: 100%;

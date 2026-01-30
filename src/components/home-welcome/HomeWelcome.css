@@ -1,12 +1,12 @@
 .home-welcome{
-    padding: 0 7% 6rem 7%;
+    padding: 5rem 7% 6rem 7%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     position: relative;
 }
 .home-welcome-image{
-    width: 42%;
+    width: 45%;
     position: relative;
 }
 .home-welcome-image img{
@@ -16,7 +16,8 @@
     position: absolute;
     bottom: 0;
     left: -3.5rem;
-    width: 90%;
+    width: 97%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .home-welcome #floating-img-2{
     position: absolute;
@@ -26,7 +27,7 @@
     z-index: -1;
 }
 .home-welcome-content{
-    width: 52%;
+    width: 50%;
 }
 .home-welcome-content span{
     display: block;
@@ -36,7 +37,6 @@
     padding: 0.5rem 1rem;
     font-weight: 700;
     font-size: calc(0.7rem + 0.5vw);
-    margin-top: 5rem;
 }
 .home-welcome-content h2{
     color: #171614;
@@ -116,7 +116,7 @@
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
     .home-welcome{
-        padding: 0 7% 5.5rem 7%;
+        padding: 4.5rem 7% 5.5rem 7%;
     }
     .home-welcome-image #floating-img-1{
         left: -3rem;
@@ -128,7 +128,6 @@
         border: 2.5px solid #179cab;
         padding: 0.48rem 1rem;
         font-size: calc(0.65rem + 0.5vw);
-        margin-top: 4.5rem;
     }
     .home-welcome-content h2{
         font-size: calc(3.2rem + 0.5vw);
@@ -170,7 +169,7 @@
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
     .home-welcome{
-        padding: 0 7% 5rem 7%;
+        padding: 3.7rem 7% 5rem 7%;
     }
     .home-welcome-image #floating-img-1{
         left: -2.5rem;
@@ -182,7 +181,6 @@
         border: 2px solid #179cab;
         padding: 0.45rem 1rem;
         font-size: calc(0.6rem + 0.5vw);
-        margin-top: 3.7rem;
     }
     .home-welcome-content h2{
         font-size: calc(2.9rem + 0.5vw);
@@ -224,7 +222,7 @@
 /* Mobile screen */
 @media screen and (max-width: 768px) {
     .home-welcome{
-        padding: 0.5rem 1rem 6rem 1rem;
+        padding: 0.5rem 1rem 4rem 1rem;
         flex-direction: column-reverse;
     }
     .home-welcome-image{
@@ -232,9 +230,10 @@
         margin-top: 2rem;
     }
     .home-welcome-image #floating-img-1{
-        bottom: -3rem;
-        left: -1rem;
-        width: 60%;
+        bottom: -1rem;
+        left: 0;
+        width: 100%;
+        position: relative;
     }
     .home-welcome #floating-img-2{
         width: 100%;
