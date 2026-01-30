@@ -1,6 +1,6 @@
 import '../css/Products.css';
 
-import homeBanner from '/images/banners/products-banner.avif';
+import Banner from '/images/banners/products-banner.avif';
 import whatWeDoImage from '../assets/images/products/what-we-do.avif';
 import zincWireImage from '../assets/images/products/zinc-wire.avif';
 import productRange from '../assets/images/icons/product-range.png';
@@ -8,15 +8,12 @@ import packaging from '../assets/images/icons/packaging.png';
 
 import { FaCheck, FaCircleDot } from "react-icons/fa6";
 
-import { Tab, Nav } from "react-bootstrap";
-import { Button } from '@mui/material';
-
-const Products = () => {
+const ZincWires = () => {
     return (
         <>
             {/* Banner */}
             <section className="banner products-banner">
-                <img src={homeBanner} alt="Products Banner" loading="eager" />
+                <img src={Banner} alt="Products Banner" loading="eager" />
                 <div className="banner-content">
                     <h1 data-aos="fade-up">PRODUCTS</h1>
                     <p data-aos="fade">Advanced Zinc Metallizing Wires for Every Application.</p>
@@ -223,4 +220,4 @@ const Products = () => {
     )
 }
 
-export default Products
+export default ZincWires;

@@ -8,7 +8,8 @@ import "aos/dist/aos.css"; // Import AOS CSS
 import App from './App.jsx';
 import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
-import Products from './pages/Products.jsx';
+import ZincWires from './pages/ZincWires.jsx';
+import ZincAlluminiumWires from './pages/ZincAlluminiumWires.jsx';
 import QualityAssurance from './pages/QualityAssurance.jsx';
 import Services from './pages/Services.jsx';
 import Applications from './pages/Applications.jsx';
@@ -24,7 +25,8 @@ let routers = createBrowserRouter([
     children: [
       {path: "/", element: <Home />},
       {path: "/about", element: <About />},
-      {path: "/products", element: <Products />},
+      {path: "/zinc-wires", element: <ZincWires />},
+      {path: "/zinc-alluminium-wires", element: <ZincAlluminiumWires />},
       {path: "/quality-assurance", element: <QualityAssurance />},
       {path: "/services", element: <Services />},
       {path: "/applications", element: <Applications />},

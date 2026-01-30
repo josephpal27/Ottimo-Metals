@@ -1,9 +1,10 @@
+import '../css/Error.css';
 
 const Error = () => {
   return (
     <>
-    <div style={{textAlign: "center", backgroundColor: '#ffb01dff', height: '88vh'}}>
-        <h1 style={{paddingTop: '35vh', fontSize: '5rem', fontWeight: '700', color: '#fff'}}>PAGE NOT FOUND</h1>
+    <div className="error">
+        <h1>PAGE NOT FOUND</h1>
     </div>
     </>
   )

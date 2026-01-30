@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
+import NavDropdown from "react-bootstrap/NavDropdown";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import "./Navbar.css";
@@ -42,9 +43,15 @@ const MyNavbar = () => {
             <Nav.Link as={NavLink} to="/about" onClick={handleClose}>
               About
             </Nav.Link>
-            <Nav.Link as={NavLink} to="/products" onClick={handleClose}>
-              Products
-            </Nav.Link>
+            {/* Bootstrap Dropdown */}
+            <NavDropdown title="Products" id="navbarDropdown">
+              <NavDropdown.Item as={NavLink} to="/zinc-wires" onClick={handleClose}>
+                Zinc Wires
+              </NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to="/zinc-alluminium-wires" onClick={handleClose}>
+                Zinc Alluminium Wires
+              </NavDropdown.Item>
+            </NavDropdown>
             <Nav.Link as={NavLink} to="/quality-assurance" onClick={handleClose}>
               Quality Assurance
             </Nav.Link>

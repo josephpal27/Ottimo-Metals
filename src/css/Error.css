@@ -1,0 +1,33 @@
+.error{
+    background-color: #179cab;
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.error h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: calc(4rem + 0.5vw);
+    color: #fff;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .error h1{
+        font-size: calc(3.7rem + 0.5vw);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .error h1{
+        font-size: calc(3.4rem + 0.5vw);
+    }
+}
+
+/* Mobile screen */
+@media screen and (max-width: 768px) {
+    .error h1{
+        font-size: calc(2rem + 0.5vw);
+    }
+}
