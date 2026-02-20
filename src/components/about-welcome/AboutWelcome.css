@@ -7,7 +7,7 @@
 .about-welcome-image{
     width: 45%;
     overflow: hidden;
-    box-shadow: rgba(0, 0, 0, 0.427) 0px 3px 8px;
+    /* box-shadow: rgba(0, 0, 0, 0.427) 0px 3px 8px; */
 }
 .about-welcome-image img{
     width: 100%;
