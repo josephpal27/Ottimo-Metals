@@ -17,8 +17,12 @@ const PageTitle = () => {
         title = "About - Ottimo Metals Pvt. Ltd.";
         description = "";
         break;
-      case "/products":
-        title = "Products - Ottimo Metals Pvt. Ltd.";
+      case "/zinc-wires":
+        title = "Zinc Wires - Ottimo Metals Pvt. Ltd.";
+        description = "";
+        break;
+      case "/zinc-alluminium-wires":
+        title = "Zinc Alluminium Wires - Ottimo Metals Pvt. Ltd.";
         description = "";
         break;
       case "/quality-assurance":

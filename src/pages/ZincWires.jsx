@@ -16,13 +16,12 @@ const ZincWires = () => {
                 <img src={Banner} alt="Products Banner" loading="eager" />
                 <div className="banner-content">
                     <h1 data-aos="fade-up">ZINC WIRES</h1>
-                    <p data-aos="fade">Ottimo Metals manufactures soft, medium-hard, and hard zinc wires with a monthly capacity of 1,200 MT. Our wires are engineered for consistent quality, uniform performance, and precise diameter control. Production is supported by ISO 9001:2015 Quality Management and ISO 14001:2015 Environmental Management systems. With advanced technology and rigorous testing, we ensure reliability, efficiency, and excellence in every wire.</p>
+                    <p data-aos="fade">Ottimo Metals manufactures <b>soft, medium-hard, and hard zinc wires</b> with a <b>monthly capacity of 1,200 MT</b>. Our wires are engineered for <b>consistent quality, uniform performance, and precise diameter control</b>. Production is supported by <b>ISO 9001:2015 Quality Management</b> and <b>ISO 14001:2015 Environmental Management</b> systems. With advanced technology and rigorous testing, we ensure <b>reliability, efficiency, and excellence</b> in every wire.</p>
                 </div>
             </section>
 
             <div id="banner-moblile-text">
-                <p data-aos="fade">Advanced Zinc Metallizing Wires for Every Application.</p>
-                <p data-aos="fade">Leveraging our robust 1200 MT per month production capacity and state-of-the-art laboratory equipment, Ottimo Metals provides a full spectrum of high-quality zinc wires-Soft, Medium-Hard, and Hard-all meticulously produced to adhere to DIN EN 14919 and ISO 14818:2001 standards, ensuring superior performance and optimal packaging for diverse industrial needs.</p>
+                <p data-aos="fade">Ottimo Metals manufactures <b>soft, medium-hard, and hard zinc wires</b> with a <b>monthly capacity of 1,200 MT</b>. Our wires are engineered for <b>consistent quality, uniform performance, and precise diameter control</b>. Production is supported by <b>ISO 9001:2015 Quality Management</b> and <b>ISO 14001:2015 Environmental Management</b> systems. With advanced technology and rigorous testing, we ensure <b>reliability, efficiency, and excellence</b> in every wire.</p>
             </div>
 
             {/* What We Do */}
@@ -53,15 +52,14 @@ const ZincWires = () => {
                     <div className="zinc-top-content">
                         <h4 data-aos="fade-up">ZINC WIRES</h4>
                         <div className="zinc-wire-highlights">
-                            <div className="highlight-box" data-aos="fade">
-                                <span><FaCheck className="icon" /> High-purity Zinc Wire 99.995% purity</span>
-                            </div>
-                            <div className="highlight-box" data-aos="fade">
-                                <span><FaCheck className="icon" /> Exceptional anti-corrosion performance</span>
-                            </div>
-                            <div className="highlight-box" data-aos="fade">
-                                <span><FaCheck className="icon" /> Wide range of sizes available</span>
-                            </div>
+                            <ul>
+                                <li><b>SHG Grade Zinc (Zn 99.995%)</b> - Ultra-pure material for superior performance</li>
+                                <li><b>Exceptional Anti-Corrosion</b> - Enhanced durability in demanding environments</li>
+                                <li><b>Higher Deposition & Efficiency</b> - Optimized for consistent metallization results</li>
+                                <li><b>Homogeneous Properties</b> - Uniform physical, mechanical, and chemical characteristics</li>
+                                <li><b>Consistent Tensile Strength & Elongation</b> - Reliable performance across batches</li>
+                                <li><b>Precise Wire Diameter</b> - Uniform sizing with thin wire tolerance of -0.05 mm</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
