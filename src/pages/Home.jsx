@@ -5,10 +5,6 @@ import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import 'swiper/css/navigation';
 
-import homeBanner1 from '/images/banners/home-banner-1.avif';
-import homeBanner2 from '/images/banners/home-banner-2.avif';
-import homeBanner3 from '/images/banners/home-banner-3.avif';
-
 import { Button } from '@mui/material';
 import { Link } from 'react-router-dom';
 
@@ -64,13 +60,13 @@ const Home = () => {
         >
           <SwiperSlide id="swiper-slide-1">
             <div className="slide-image">
-              <img src={homeBanner1} alt="Banner Slide 1" loading="eager" />
+              <img src="/images/banners/home-banner-1.avif" alt="Banner Slide 1" loading="eager" />
             </div>
             <div className="slide-content">
               <div className="slide-content-inner">
-                <h1>Redefining <span>Excellence</span> <br /> in <span>Zinc Wire</span> Manufacturing</h1>
-                <p id="label">Discover Ottimo Metals Today</p>
-                <ul>
+                <h1 data-aos="fade-up">Redefining <span>Excellence</span> <br /> in <span>Zinc Wire</span> Manufacturing</h1>
+                <p id="label" data-aos="fade">Discover Ottimo Metals Today</p>
+                <ul data-aos="fade">
                   <li>German spectrometer to test chemical composition</li>
                   <li>European standard tensile testing machine</li>
                   <li>On-site chemical laboratory</li>
@@ -81,7 +77,7 @@ const Home = () => {
           </SwiperSlide>
           <SwiperSlide id="swiper-slide-2">
             <div className="slide-image">
-              <img src={homeBanner2} alt="Banner Slide 2" loading="eager" />
+              <img src="/images/banners/home-banner-2.avif" alt="Banner Slide 2" loading="eager" />
             </div>
             <div className="slide-content">
               <div className="slide-content-inner">
@@ -94,12 +90,23 @@ const Home = () => {
           </SwiperSlide>
           <SwiperSlide id="swiper-slide-3">
             <div className="slide-image">
-              <img src={homeBanner3} alt="Banner Slide 3" loading="eager" />
+              <img src="/images/banners/home-banner-3.avif" alt="Banner Slide 3" loading="eager" />
             </div>
             <div className="slide-content">
               <div className="slide-content-inner">
                 <h2><span>Reliable</span> Zinc <br /> Wire <span>Solutions</span></h2>
                 <p>Ottimo Metals, Your Partner in Excellence</p>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide id="swiper-slide-4">
+            <div className="slide-image">
+              <img src="/images/banners/home-banner-4.avif" alt="Banner Slide 4" loading="eager" />
+            </div>
+            <div className="slide-content">
+              <div className="slide-content-inner">
+                <h2>Discover the Power of <br /> <span>Dual Metal Defence</span> <br /> with Ottimo Metals Pvt Ltd <br /> <span>Zinc Aluminium Wires</span></h2>
+                <Button component={Link} to="/zinc-aluminium-wires" className="button">Discover More</Button>
               </div>
             </div>
           </SwiperSlide>

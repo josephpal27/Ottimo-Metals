@@ -1,5 +1,5 @@
 import './AboutWelcome.css';
-import aboutWelcomeImg from '../../assets/images/about-welcome.jpeg';
+import aboutWelcomeImg from '../../assets/images/about-welcome.avif';
 
 const AboutWelcome = () => {
     return (
