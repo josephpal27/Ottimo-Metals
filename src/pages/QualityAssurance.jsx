@@ -25,7 +25,7 @@ const QualityAssurance = () => {
                         <div className="layer"></div>
                         <span data-aos="fade">01</span>
                         <h3 data-aos="fade-up">QUALITY</h3>
-                        <p data-aos="fade">Experience superior performance with our zinc wires manufactured to the highest standards with quality testing machines:</p>
+                        <p data-aos="fade">Experience superior performance with our zinc wires and zinc aluminium wires manufactured to the highest standards with quality testing machines:</p>
                         <div className="quality-list" data-aos="fade">
                             <p><FaCheck className="icon" /> German spectrometer to test chemical composition</p>
                             <p><FaCheck className="icon" /> European standard tensile testing machine</p>
@@ -38,7 +38,7 @@ const QualityAssurance = () => {
                         <div className="layer"></div>
                         <span data-aos="fade">02</span>
                         <h3 data-aos="fade-up">LARGE-SCALE AUTOMATED MANUFACTURING</h3>
-                        <p data-aos="fade">From zinc ingots to drawing and packaging zinc wires, our manufacturing process is fully automated.</p>
+                        <p data-aos="fade">From zinc ingots to drawing and packaging zinc wires and zinc aluminium wires, our manufacturing process is fully automated.</p>
                     </div>
                 </div>
             </section>

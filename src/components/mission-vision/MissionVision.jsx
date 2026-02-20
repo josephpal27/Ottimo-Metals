@@ -25,15 +25,15 @@ const MissionVision = () => {
             <div className="mv-counter-row">
                 <div className="mv-counter-box" data-aos="fade">
                     <div className="layer"></div>
-                    <span>Export Worthy Packaging</span>
+                    <span>State of the art manufacturing set up</span>
                 </div>
                 <div className="mv-counter-box" data-aos="fade">
                     <div className="layer"></div>
-                    <span>State-of-the-Art Wire Drawing Setup</span>
+                    <span>Export worthy packaging</span>
                 </div>
                 <div className="mv-counter-box" data-aos="fade">
                     <div className="layer"></div>
-                    <span>Real People, Peal Precision</span>
+                    <span>Safety driven and sustainability focused operations</span>
                 </div>
             </div>
         </div>

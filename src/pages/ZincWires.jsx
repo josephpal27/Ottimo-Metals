@@ -1,6 +1,6 @@
 import '../css/Products.css';
 
-import Banner from '/images/banners/products-banner.avif';
+import Banner from '/images/banners/zinc-wires-banner.jpeg';
 import whatWeDoImage from '../assets/images/products/what-we-do.avif';
 import zincWireImage from '../assets/images/products/zinc-wire.avif';
 import productRange from '../assets/images/icons/product-range.png';
@@ -15,9 +15,8 @@ const ZincWires = () => {
             <section className="banner products-banner">
                 <img src={Banner} alt="Products Banner" loading="eager" />
                 <div className="banner-content">
-                    <h1 data-aos="fade-up">PRODUCTS</h1>
-                    <p data-aos="fade">Advanced Zinc Metallizing Wires for Every Application.</p>
-                    <p data-aos="fade">Leveraging our robust 1200 MT per month production capacity and state-of-the-art laboratory equipment, Ottimo Metals provides a full spectrum of high-quality zinc wires-Soft, Medium-Hard, and Hard-all meticulously produced to adhere to DIN EN 14919 and ISO 14818:2001 standards, ensuring superior performance and optimal packaging for diverse industrial needs.</p>
+                    <h1 data-aos="fade-up">ZINC WIRES</h1>
+                    <p data-aos="fade">Ottimo Metals manufactures soft, medium-hard, and hard zinc wires with a monthly capacity of 1,200 MT. Our wires are engineered for consistent quality, uniform performance, and precise diameter control. Production is supported by ISO 9001:2015 Quality Management and ISO 14001:2015 Environmental Management systems. With advanced technology and rigorous testing, we ensure reliability, efficiency, and excellence in every wire.</p>
                 </div>
             </section>
 

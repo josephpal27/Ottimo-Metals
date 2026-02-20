@@ -1,6 +1,6 @@
 import '../css/Products.css';
 
-import Banner from '/images/banners/products-banner.avif';
+import Banner from '/images/banners/zinc-alluminium-wires-banner.jpeg';
 import whatWeDoImage from '../assets/images/products/what-we-do.avif';
 import zincWireImage from '../assets/images/products/zinc-al-wire.avif';
 import productRange from '../assets/images/icons/product-range.png';
@@ -15,9 +15,8 @@ const ZincAlluminiumWires = () => {
             <section className="banner products-banner">
                 <img src={Banner} alt="Products Banner" loading="eager" />
                 <div className="banner-content">
-                    <h1 data-aos="fade-up">PRODUCTS</h1>
-                    <p data-aos="fade">Advanced Zinc Metallizing Wires for Every Application.</p>
-                    <p data-aos="fade">Leveraging our robust 1200 MT per month production capacity and state-of-the-art laboratory equipment, Ottimo Metals provides a full spectrum of high-quality zinc wires-Soft, Medium-Hard, and Hard-all meticulously produced to adhere to DIN EN 14919 and ISO 14818:2001 standards, ensuring superior performance and optimal packaging for diverse industrial needs.</p>
+                    <h1 data-aos="fade-up">ZINC ALLUMINIUM <br /> WIRES</h1>
+                    <p data-aos="fade">Our Zinc-Aluminium Wires deliver dual metal defense for dual protection, combining the strength of zinc with the durability of aluminium. Engineered for enhanced corrosion resistance, higher deposition efficiency, and consistent performance, these wires meet the most demanding standards. Manufactured with precision and backed by ISO 9001:2015 and ISO 14001:2015 certified systems, they offer reliability, uniformity, and long-lasting results in every application.</p>
                 </div>
             </section>
 
