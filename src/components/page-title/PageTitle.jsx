@@ -21,8 +21,8 @@ const PageTitle = () => {
         title = "Zinc Wires - Ottimo Metals Pvt. Ltd.";
         description = "";
         break;
-      case "/zinc-alluminium-wires":
-        title = "Zinc Alluminium Wires - Ottimo Metals Pvt. Ltd.";
+      case "/zinc-aluminium-wires":
+        title = "Zinc Aluminium Wires - Ottimo Metals Pvt. Ltd.";
         description = "";
         break;
       case "/quality-assurance":

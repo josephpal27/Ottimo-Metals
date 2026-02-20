@@ -1,6 +1,6 @@
 import '../css/Applications.css';
 
-import applicationsBanner from '/images/banners/applications-banner.jpeg';
+import applicationsBanner from '/images/banners/applications-banner.avif';
 import appsImg1 from '../assets/images/applications/1.avif';
 import appsImg2 from '../assets/images/applications/2.avif';
 import appsImg3 from '../assets/images/applications/3.avif';

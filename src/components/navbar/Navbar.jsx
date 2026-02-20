@@ -48,8 +48,8 @@ const MyNavbar = () => {
               <NavDropdown.Item as={NavLink} to="/zinc-wires" onClick={handleClose}>
                 Zinc Wires
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/zinc-alluminium-wires" onClick={handleClose}>
-                Zinc Alluminium Wires
+              <NavDropdown.Item as={NavLink} to="/zinc-aluminium-wires" onClick={handleClose}>
+                Zinc Aluminium Wires
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link as={NavLink} to="/quality-assurance" onClick={handleClose}>

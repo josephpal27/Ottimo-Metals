@@ -87,7 +87,8 @@ const Home = () => {
               <div className="slide-content-inner">
                 <h2><span>State</span> of <br /> the <span>art</span></h2>
                 <p>European Plant</p>
-                <p><span>Ottimo Metals</span>, <br /> Your Trusted Manufacturer </p>
+                {/* <p><span>Ottimo Metals</span>, <br /> Your Trusted Manufacturer</p> */}
+                <p>Engineered in <span>Purity</span>. Delivered with <span>Precision</span>. Trusted <span>Worldwide</span>.</p>
               </div>
             </div>
           </SwiperSlide>

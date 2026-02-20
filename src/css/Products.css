@@ -11,6 +11,9 @@
     font-size: calc(4rem + 0.5vw);
     margin-bottom: 1.5rem;
 }
+.products-banner h1 br:nth-child(1){
+    display: none;
+}
 .products-banner p{
     color: #fff;
     font-weight: 500;
@@ -51,6 +54,9 @@
     .products-banner h1{
         font-size: calc(1.5rem + 0.5vw);
         margin-bottom: 0.2rem;
+    }
+    .products-banner h1 br:nth-child(1){
+        display: block;
     }
     .products-banner p{
         display: none;
@@ -198,7 +204,7 @@
     font-size: calc(0.7rem + 0.5vw);
     margin-top: 1.8rem;
     text-align: center;
-    width: 65%;
+    width: 75%;
     margin-bottom: 0;
 }
 

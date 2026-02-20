@@ -1,6 +1,6 @@
 import '../css/Products.css';
 
-import Banner from '/images/banners/zinc-alluminium-wires-banner.jpeg';
+import Banner from '/images/banners/zinc-alluminium-wires-banner.avif';
 import whatWeDoImage from '../assets/images/products/what-we-do.avif';
 import zincWireImage from '../assets/images/products/zinc-al-wire.avif';
 import productRange from '../assets/images/icons/product-range.png';
@@ -15,21 +15,21 @@ const ZincAlluminiumWires = () => {
             <section className="banner products-banner">
                 <img src={Banner} alt="Products Banner" loading="eager" />
                 <div className="banner-content">
-                    <h1 data-aos="fade-up">ZINC ALLUMINIUM <br /> WIRES</h1>
-                    <p data-aos="fade">Our Zinc-Aluminium Wires deliver dual metal defense for dual protection, combining the strength of zinc with the durability of aluminium. Engineered for enhanced corrosion resistance, higher deposition efficiency, and consistent performance, these wires meet the most demanding standards. Manufactured with precision and backed by ISO 9001:2015 and ISO 14001:2015 certified systems, they offer reliability, uniformity, and long-lasting results in every application.</p>
+                    <h1 data-aos="fade-up">ZINC <br /> ALUMINIUM <br /> WIRES</h1>
+                    <p data-aos="fade">Our <b>Zinc-Aluminium Wires</b> deliver <b>dual metal defense for dual protection</b>, combining the strength of zinc with the durability of aluminium. Engineered for <b>enhanced corrosion resistance, higher deposition efficiency, and consistent performance</b>, these wires meet the most demanding standards. Manufactured with precision and backed by <b>ISO 9001:2015</b> and <b>ISO 14001:2015 certified systems</b>, they offer reliability, uniformity, and long-lasting results in every application.</p>
                 </div>
             </section>
 
             <div id="banner-moblile-text">
                 <p data-aos="fade">Advanced Zinc Metallizing Wires for Every Application.</p>
-                <p data-aos="fade">Leveraging our robust 1200 MT per month production capacity and state-of-the-art laboratory equipment, Ottimo Metals provides a full spectrum of high-quality zinc wires-Soft, Medium-Hard, and Hard-all meticulously produced to adhere to DIN EN 14919 and ISO 14818:2001 standards, ensuring superior performance and optimal packaging for diverse industrial needs.</p>
+                <p data-aos="fade">Our <b>Zinc-Aluminium Wires</b> deliver <b>dual metal defense for dual protection</b>, combining the strength of zinc with the durability of aluminium. Engineered for <b>enhanced corrosion resistance, higher deposition efficiency, and consistent performance</b>, these wires meet the most demanding standards. Manufactured with precision and backed by <b>ISO 9001:2015</b> and <b>ISO 14001:2015 certified systems</b>, they offer reliability, uniformity, and long-lasting results in every application.</p>
             </div>
 
             {/* What We Do */}
             <section className="what-we-do">
                 <div className="what-we-do-content">
                     <h2 data-aos="fade-up">WHAT WE DO</h2>
-                    <p data-aos="fade">Ottimo Metals takes pride in its expertise in manufacturing high purity zinc wires drawn from high grade zinc ingots(Zn: 99.995%) that have earned a reputation for exceptional quality and unwavering consistency. Made from 99.995% pure Zinc, our wires are meticulously crafted to cater to a wide range of applications, guaranteeing superior performance and uniformity in every product.</p>
+                    <p data-aos="fade">Our Zinc-Aluminium Wires are designed to deliver enhanced safeguarding in the toughest environments, combining the protective qualities of both metals for unmatched durability. With precision manufacturing and advanced European CCR technology, these wires ensure uniform performance and reliable handling. Built for efficiency and longevity, they provide a dependable solution that stands up to extreme conditions while supporting sustainable production practices.</p>
                 </div>
                 <div className="what-we-do-image">
                     <img src={whatWeDoImage} alt="What we do" loading="lazy" />
@@ -39,9 +39,9 @@ const ZincAlluminiumWires = () => {
 
             {/* Product Details */}
             <section className="product-details">
-                <h3 data-aos="fade-up">PRODUCT DETAILS</h3>
+                <h3 data-aos="fade-up">THE POWER OF DUAL METAL DEFENCE</h3>
                 <div className="line" data-aos="fade"></div>
-                <p data-aos="fade">Discover the superior strength, durability, and versatility of our high-quality zinc wires, designed to meet the diverse needs of various industries.</p>
+                <p data-aos="fade">Discover the power of Zinc-Aluminium Wires that delivers enhanced corrosion resistance, improved electrical conductivity, and greater mechanical strength compared to pure zinc alone.</p>
             </section>
 
             {/* Zinc Wires Content */}
@@ -51,22 +51,21 @@ const ZincAlluminiumWires = () => {
                         <img src={zincWireImage} alt="Zinc Wires" loading="lazy" />
                     </div>
                     <div className="zinc-top-content">
-                        <h4 data-aos="fade-up">ZINC ALLUMINIUM WIRES</h4>
+                        <h4 data-aos="fade-up">ZINC ALUMINIUM WIRES</h4>
                         <div className="zinc-wire-highlights">
-                            <div className="highlight-box" data-aos="fade">
-                                <span><FaCheck className="icon" /> High-purity Zinc Alluminium Wire 99.995% purity</span>
-                            </div>
-                            <div className="highlight-box" data-aos="fade">
-                                <span><FaCheck className="icon" /> Exceptional anti-corrosion performance</span>
-                            </div>
-                            <div className="highlight-box" data-aos="fade">
-                                <span><FaCheck className="icon" /> Wide range of sizes available</span>
-                            </div>
+                            <ul>
+                                <li><b>Enhanced Corrosion Resistance</b> - Dual-metal protection for durability in harsh environments</li>
+                                <li><b>Improved Electrical Conductivity</b> - Optimized for efficient metallization and performance</li>
+                                <li><b>Greater Mechanical Strength</b> - Superior tensile and elongation properties compared to pure zinc</li>
+                                <li><b>SHG Grade Zinc (Zn 99.995%)</b> - Ultra-pure zinc combined with aluminium for consistent quality</li>
+                                <li><b>Precise Diameter & Uniformity</b> - Strict control ensures consistent wire size and handling</li>
+                                <li><b>Homogeneous Properties</b> - Reliable physical, chemical, and mechanical characteristics across batches</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
                 <div className="zinc-wires-bottom">
-                    <p data-aos="fade">Zinc-aluminium wires are composite materi-als that blend the beneficial properties of both zinc and aluminium. These slender, ductile filaments typically consist of zinc and aluminium, sometimes alloyed with additional elements to improve mechanical performance for specific applications. The result is a wire that offers enhanced corro-sion resistance, better electrical conductivi-ty, and greater mechanical strength than pure zinc alone. Zinc-aluminium wires are widely used in applications such as spray metallization.</p>
+                    <p data-aos="fade">Zinc-aluminium wires are composite materials that blend the beneficial properties of both zinc and aluminium. These slender, ductile filaments typically consist of zinc and aluminium, sometimes alloyed with additional elements to improve mechanical performance for specific applications. The result is a wire that offers enhanced corrosion resistance, better electrical conductivity, and greater mechanical strength than pure zinc alone. Zinc-aluminium wires are widely used in applications such as spray metallization.</p>
                     <p data-aos="fade"><b>Scope:</b> This specification covers Zn-Al wire majorly used for "Spray Metallization".</p>
                     <p data-aos="fade"><b>General:</b> Zn-Al wire manufactured from virgin quality "Special High-Grade Zinc-Al" through "Continues Casting and Rolling process".</p>
                     <p data-aos="fade"><b>Shelf-Life:</b> Zinc-Al Wire has infinite shelf life, if stored in control condition.</p>

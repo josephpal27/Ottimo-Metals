@@ -58,13 +58,13 @@
     justify-content: space-between;
 }
 .home-welcome-content .features .features-left{
-    width: 50%;
+    width: 100%;
 }
 .home-welcome-content .features p{
     color: #6c6c6c;
     font-weight: 500;
     font-size: calc(0.7rem + 0.5vw);
-    margin-top: 1.3rem;
+    margin-top: 1rem;
     line-height: 1;
     display: flex;
     align-items: center;
@@ -72,32 +72,11 @@
 .home-welcome-content .features p .icon{
     background-color: #ebebeb;
     color: #179cab;
-    width: 33px;
-    height: 33px;
+    width: 27px;
+    height: 27px;
     border-radius: 50%;
-    padding: 0.5rem;
+    padding: 0.35rem;
     margin-right: 0.7rem;
-}
-.home-welcome-content .features .features-right{
-    width: 45%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1.7rem;
-}
-.home-welcome-content .features .features-right .feature-box{
-    background-color: #fff;
-    padding: 0.65rem;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.home-welcome-content .features .features-right .feature-box p{
-    text-align: center;
-    color: #171614;
-    font-weight: 600;
-    text-align: center;
 }
 .home-welcome-content .tagline{
     margin-top: 3rem;
@@ -143,19 +122,13 @@
     }
     .home-welcome-content .features p{
         font-size: calc(0.65rem + 0.5vw);
-        margin-top: 1.2rem;
+        margin-top: 0.9rem;
     }
     .home-welcome-content .features p .icon{
-        width: 29px;
-        height: 29px;
-        padding: 0.4rem;
+        width: 24px;
+        height: 24px;
+        padding: 0.32rem;
         margin-right: 0.65rem;
-    }
-    .home-welcome-content .features .features-right{
-        gap: 1.3rem;
-    }
-    .home-welcome-content .features .features-right .feature-box{
-        padding: 0.6rem;
     }
     .home-welcome-content .tagline{
         margin-top: 2.8rem;
@@ -196,19 +169,13 @@
     }
     .home-welcome-content .features p{
         font-size: calc(0.6rem + 0.5vw);
-        margin-top: 1.1rem;
+        margin-top: 0.8rem;
     }
     .home-welcome-content .features p .icon{
-        width: 26px;
-        height: 26px;
-        padding: 0.35rem;
+        width: 21px;
+        height: 21px;
+        padding: 0.27rem;
         margin-right: 0.6rem;
-    }
-    .home-welcome-content .features .features-right{
-        gap: 1rem;
-    }
-    .home-welcome-content .features .features-right .feature-box{
-        padding: 0.5rem;
     }
     .home-welcome-content .tagline{
         margin-top: 2.5rem;
@@ -268,20 +235,12 @@
     }
     .home-welcome-content .features p .icon{
         margin-right: 0.8rem;
-        width: 30px;
-        height: 30px;
+        width: 28px;
+        height: 28px;
         padding: 0.4rem;
     }
-    .home-welcome-content .features .features-right{
-        width: 100%;
-        margin-top: 1.3rem;
-        gap: 1.2rem;
-    }
-    .home-welcome-content .features .features-right .feature-box{
-        padding: 0.6rem;
-    }
     .home-welcome-content .tagline{
-        margin-top: 2rem;
+        margin-top: 1.5rem;
         border: 0.5rem solid #179cab;
     }
     .home-welcome-content .tagline p{

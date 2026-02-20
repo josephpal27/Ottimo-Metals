@@ -21,7 +21,8 @@ const Footer = () => {
                         <span>QUICK LINKS</span>
                         <Link to="/">Home</Link>
                         <Link to="/about">About</Link>
-                        <Link to="/products">Products</Link>
+                        <Link to="/zinc-wires">Zinc Wires</Link>
+                        <Link to="/zinc-aluminium-wires">Zinc Aluminium Wires</Link>
                         <Link to="/quality-assurance">Quality Assurance</Link>
                         <Link to="/services">Services</Link>
                         <Link to="/applications">Applications</Link>

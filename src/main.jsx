@@ -9,7 +9,7 @@ import App from './App.jsx';
 import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
 import ZincWires from './pages/ZincWires.jsx';
-import ZincAlluminiumWires from './pages/ZincAlluminiumWires.jsx';
+import ZincAluminiumWires from './pages/ZincAluminiumWires.jsx';
 import QualityAssurance from './pages/QualityAssurance.jsx';
 import Services from './pages/Services.jsx';
 import Applications from './pages/Applications.jsx';
@@ -26,7 +26,7 @@ let routers = createBrowserRouter([
       {path: "/", element: <Home />},
       {path: "/about", element: <About />},
       {path: "/zinc-wires", element: <ZincWires />},
-      {path: "/zinc-alluminium-wires", element: <ZincAlluminiumWires />},
+      {path: "/zinc-aluminium-wires", element: <ZincAluminiumWires />},
       {path: "/quality-assurance", element: <QualityAssurance />},
       {path: "/services", element: <Services />},
       {path: "/applications", element: <Applications />},

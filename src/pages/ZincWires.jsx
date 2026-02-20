@@ -1,6 +1,6 @@
 import '../css/Products.css';
 
-import Banner from '/images/banners/zinc-wires-banner.jpeg';
+import Banner from '/images/banners/zinc-wires-banner.avif';
 import whatWeDoImage from '../assets/images/products/what-we-do.avif';
 import zincWireImage from '../assets/images/products/zinc-wire.avif';
 import productRange from '../assets/images/icons/product-range.png';
