@@ -70,13 +70,13 @@ const QualityAssurance = () => {
                         <img src={microZinc} alt="Zinc Micro" loading="lazy" />
                     </div>
                     <div className="micro-zinc-head-content">
-                        <h5>ZINC WIRE MICRO STRUCTURE AT 100X ZOOM</h5>
+                        <h5 data-aos="fade-up">ZINC WIRE MICRO STRUCTURE AT 100X ZOOM</h5>
                     </div>
                 </div>
 
                 {/* Table */}
                 <div className="micro-zinc-table">
-                    <table>
+                    <table data-aos="fade" data-aos-once="true">
                         <thead>
                             <tr>
                                 <th>Properties of Ottimo Zinc Wire</th>
@@ -148,7 +148,7 @@ const QualityAssurance = () => {
                 </div>
 
                 <div className="micro-zinc-diagram">
-                    <img src={diagram} alt="Diagram" loading="lazy" />
+                    <img src={diagram} alt="Diagram" loading="lazy" data-aos="fade" data-aos-once="true" />
                 </div>
             </section>
         </>
