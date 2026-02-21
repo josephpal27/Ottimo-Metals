@@ -381,3 +381,68 @@
     }
 }
 /* Quality Control End */
+
+/* Micro Zinc Start */
+.micro-zinc{
+    padding: 1rem 7% 5rem 7%;
+}
+.micro-zinc-head{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.micro-zinc-head .micro-zinc-image{
+    width: 45%;
+}
+.micro-zinc-head .micro-zinc-image img{
+    width: 100%;
+    border-radius: 2px;
+}
+.micro-zinc-head .micro-zinc-head-content{
+    width: 50%;
+}
+.micro-zinc-head .micro-zinc-head-content h5{
+    font-weight: 900;
+    font-size: calc(3rem + 0.5vw);
+    color: #171612;
+}
+
+.micro-zinc-table{
+    margin-top: 5rem;
+    padding: 1.2rem;
+    background-color: #051014;
+}
+.micro-zinc-table table{
+  width: 100%;
+  border-collapse: collapse;
+  color: #fff;
+}
+.micro-zinc-table table th{
+  background-color: #179cab;
+  padding: 1rem;
+  font-weight: 600;
+  border: 2px solid #fff;
+  font-size: calc(0.8rem + 0.5vw);
+}
+.micro-zinc-table table td{
+  border: 2px solid #fff;
+  padding: 1rem;
+  vertical-align: center;
+  line-height: 1.5;
+  font-size: calc(0.65rem + 0.5vw);
+}
+.micro-zinc-table table .left-cell{
+  width: 35%;
+}
+
+.micro-zinc-diagram{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    border: 3px solid #179cab;
+    padding: 2rem;
+}
+.micro-zinc-diagram img{
+    width: 50%;
+}
+/* Micro Zinc End */

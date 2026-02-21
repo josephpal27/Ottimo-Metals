@@ -2,6 +2,8 @@ import '../css/QualityAssurance.css';
 
 import qualityBanner from '/images/banners/quality-banner.avif';
 import qualityControlImg from '../assets/images/quality-control.avif';
+import microZinc from '../assets/images/micro.png';
+import diagram from '../assets/images/diagram.png';
 
 import { FaCheck } from "react-icons/fa6";
 
@@ -58,6 +60,95 @@ const QualityAssurance = () => {
                 <div className="quality-control-image">
                     <img src={qualityControlImg} alt="Quality Control" loading="lazy" />
                     <div className="quality-image-outer" data-aos="fade-right"></div>
+                </div>
+            </section>
+
+            {/* Micro Zinc */}
+            <section className="micro-zinc">
+                <div className="micro-zinc-head">
+                    <div className="micro-zinc-image">
+                        <img src={microZinc} alt="Zinc Micro" loading="lazy" />
+                    </div>
+                    <div className="micro-zinc-head-content">
+                        <h5>ZINC WIRE MICRO STRUCTURE AT 100X ZOOM</h5>
+                    </div>
+                </div>
+
+                {/* Table */}
+                <div className="micro-zinc-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Properties of Ottimo Zinc Wire</th>
+                                <th>Benefits to Customer with Ottimo Zn Wire</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td rowSpan="4" className="left-cell">
+                                    Refined Microstructure of Zinc Metal
+                                    <br />
+                                    Before Wire Production
+                                </td>
+                                <td>
+                                    High adhesion property of zinc spray coating due to uniform molten
+                                    zinc molecules.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Low porosity and high density of zinc surface coating. Due to this,
+                                    less contact of oxygen to metal surface, which directly affects the
+                                    life of coating surface and improves performance of pipe.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Improved scratch resistance properties of metal coating surface.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Uniform zinc metallization finish due to uniform zinc particle size.
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td className="left-cell">
+                                    Homogeneous Universal Tensile Strength and Elongation in Each Type
+                                    of Wire and Throughout the Length of Wire
+                                </td>
+                                <td>
+                                    Less line stoppage due to zinc wire, Uniform surface finish and
+                                    less zinc cut wire scrap generation.
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td className="left-cell">
+                                    Uniform Zinc Wire Diameter for Thin Wire (Tolerance: -0.05 mm)
+                                </td>
+                                <td>
+                                    Less consumption of metallizing machine spare parts like nozzle.
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td className="left-cell">
+                                    High Efficiency of Metallizing Wire on Same Metallizing Machine
+                                    Parameter
+                                </td>
+                                <td>
+                                    Less zinc dust generation, Saving of minimum 4%.
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div className="micro-zinc-diagram">
+                    <img src={diagram} alt="Diagram" loading="lazy" />
                 </div>
             </section>
         </>
