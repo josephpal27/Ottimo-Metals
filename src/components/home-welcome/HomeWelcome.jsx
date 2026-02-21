@@ -28,7 +28,7 @@ const HomeWelcome = () => {
                 </div>
             </div>
             <div className="tagline" data-aos="fade">
-                <p>Leading manufactures of zinc wires and zinc alluminium wires in india</p>
+                <p>Leading manufactures of zinc wires and zinc aluminium wires in india</p>
             </div>
         </div>
         <img src={homeWelcomeImg3} alt="Welcome Image 3" loading="lazy" id="floating-img-2" />

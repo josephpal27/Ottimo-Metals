@@ -20,7 +20,7 @@ const QualityAssurance = () => {
 
             {/* Quality Assurance */}
             <section className="quality-assurance">
-                <h2 data-aos="fade-up">ZINC WIRES & <br /> ZINC ALLUMINIUM WIRES</h2>
+                <h2 data-aos="fade-up">ZINC WIRES & <br /> ZINC ALUMINIUM WIRES</h2>
                 <div className="line" data-aos="fade"></div>
                 <div className="quality-cards-row">
                     <div className="quality-box">

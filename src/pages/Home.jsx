@@ -29,7 +29,7 @@ const Home = () => {
     },
     {
       image: ServiceImage2,
-      title: "zinc alluminium wires",
+      title: "zinc aluminium wires",
       description: "Our process enhances construction speed and overall project success by utilizing skilled upfront planning",
     },
     {

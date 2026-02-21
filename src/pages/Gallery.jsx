@@ -37,6 +37,9 @@ const Gallery = () => {
         "28.avif",
         "29.avif",
         "30.avif",
+        "31.avif",  
+        "32.avif",
+        "33.avif",
     ];
 
 

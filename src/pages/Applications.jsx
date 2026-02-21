@@ -16,14 +16,14 @@ const Applications = () => {
             id: 1,
             image: appsImg1,
             title: "Efficient Capacitors",
-            desc: "Our wiring is employed in capacitor technology, providing superior surface attachment and consistent results, delivering efficient energy storage and rapid discharge capabilities compared to non-ferrous wire coatings, enhancing the durability and performance of capacitors.",
+            desc: "Our wires is employed in capacitor technology, providing superior surface attachment and consistent results, delivering efficient energy storage and rapid discharge capabilities compared to non-ferrous wire coatings, enhancing the durability and performance of capacitors.",
             animation: "fade-left",
         },
         {
             id: 2,
             image: appsImg2,
             title: "Wind Power Plants",
-            desc: "Our wiring empowers wind power plants by fortifying turbine structures, improving corrosion resistance, and maximizing energy production for sustainable, clean power generation.",
+            desc: "Our wires empowers wind power plants by fortifying turbine structures, improving corrosion resistance, and maximizing energy production for sustainable, clean power generation.",
             animation: "fade",
         },
         {
@@ -37,28 +37,28 @@ const Applications = () => {
             id: 4,
             image: appsImg4,
             title: "Rail & Road Bridges",
-            desc: "Our wiring reinforced rail and road bridges, bolstering their load-bearing capacity, resilience against corrosion, and ensuring safe and reliable transportation infrastructure.",
+            desc: "Our wires reinforced rail and road bridges, bolstering their load-bearing capacity, resilience against corrosion, and ensuring safe and reliable transportation infrastructure.",
             animation: "fade-left",
         },
         {
             id: 5,
             image: appsImg5,
             title: "Finned Tube",
-            desc: "Our wire thermal metalization serves as a robust protective shield, effectively warding off rust and corrosion. This application significantly prolongs the lifespan of various materials, ensuring their durability even in the harshest weather conditions.",
+            desc: "Our wires thermal metalization serves as a robust protective shield, effectively warding off rust and corrosion. This application significantly prolongs the lifespan of various materials, ensuring their durability even in the harshest weather conditions.",
             animation: "fade",
         },
         {
             id: 6,
             image: appsImg6,
             title: "Ship Building & Repairing",
-            desc: "Our wiring revolutionizes ship construction and repair processes, enabling corrosion-resistant vessels, enhanced structural integrity, and efficient maintenance in marine environments.",
+            desc: "Our wires revolutionizes ship construction and repair processes, enabling corrosion-resistant vessels, enhanced structural integrity, and efficient maintenance in marine environments.",
             animation: "fade-right",
         },
         {
             id: 7,
             image: appsImg7,
             title: "Ductile Iron Pipes",
-            desc: "Our wiring acts as a protective shield, safeguarding ductile iron pipes against rust, corrosion and extending their lifespan in demanding environments.",
+            desc: "Our wires acts as a protective shield, safeguarding ductile iron pipes against rust, corrosion and extending their lifespan in demanding environments.",
             animation: "fade-up",
         },
     ]
@@ -76,8 +76,8 @@ const Applications = () => {
             {/* Applications */}
             <section className="applications">
                 <div className="applications-head">
-                    <h2 data-aos="fade">Discover the Versatile Applications of Ottimo zinc wires and zinc alluminium wires</h2>
-                    <p data-aos="fade">From durable corrosion protection to ship building, explore the wide-ranging uses of our high-quality zinc wires and zinc alluminium wires.</p>
+                    <h2 data-aos="fade">Discover the Versatile Applications of Ottimo zinc wires and zinc aluminium wires</h2>
+                    <p data-aos="fade">From durable corrosion protection to ship building, explore the wide-ranging uses of our high-quality zinc wires and zinc aluminium wires.</p>
                 </div>
                 <div className="applications-card-row">
                     {
