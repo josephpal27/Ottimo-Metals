@@ -18,14 +18,14 @@ const About = () => {
                 <img src={aboutBanner} alt="About Banner" loading="eager" />
                 <div className="banner-content">
                     <h1 data-aos="fade-up">ABOUT US</h1>
-                    <p data-aos="fade">Ottimo Metals is a trusted manufacturer and exporter of premium zinc wires, driven by innovation, precision engineering, and continuous improvement across our production systems.</p>
-                    <p data-aos="fade">Backed by advanced European technology, robust R&D, and a manufacturing unit in West Bengal, India, we ensure on-time delivery of certified, high-performance zinc wires that meet and exceed national and international standards, reinforcing our leadership in the zinc wire industry.</p>
+                    <p data-aos="fade">Ottimo Metals is a trusted manufacturer and exporter of premium zinc wires and zinc aluminium wires, driven by innovation, precision engineering, and continuous improvement across our production systems.</p>
+                    <p data-aos="fade">Backed by advanced European technology, robust R&D, and a manufacturing unit in West Bengal, India, we ensure on-time delivery of certified, high-performance zinc wires and zinc aluminium wires that meet and exceed national and international standards, reinforcing our leadership in the zinc wire industry.</p>
                 </div>
             </section>
 
             <div id="banner-moblile-text">
-                <p data-aos="fade">Ottimo Metals is a trusted manufacturer and exporter of premium zinc wires, driven by innovation, precision engineering, and continuous improvement across our production systems.</p>
-                <p data-aos="fade">Backed by advanced European technology, robust R&D, and a manufacturing unit in West Bengal, India, we ensure on-time delivery of certified, high-performance zinc wires that meet and exceed national and international standards, reinforcing our leadership in the zinc wire industry.</p>
+                <p data-aos="fade">Ottimo Metals is a trusted manufacturer and exporter of premium zinc wires and zinc aluminium wires, driven by innovation, precision engineering, and continuous improvement across our production systems.</p>
+                <p data-aos="fade">Backed by advanced European technology, robust R&D, and a manufacturing unit in West Bengal, India, we ensure on-time delivery of certified, high-performance zinc wires and zinc aluminium wires that meet and exceed national and international standards, reinforcing our leadership in the zinc wire industry.</p>
             </div>
 
             {/* About Welcome */}
