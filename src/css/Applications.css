@@ -34,6 +34,7 @@
 /* Applications Start */
 .applications{
     padding: 5rem 7%;
+    overflow: hidden;
 }
 .applications-head h2{
     font-weight: 700;
