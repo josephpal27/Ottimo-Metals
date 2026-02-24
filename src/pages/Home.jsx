@@ -25,19 +25,19 @@ const Home = () => {
     {
       image: ServiceImage1,
       title: "zinc wires",
-      description: "Stainless steel is a popular building material that has long been praised for its strength and corrosion resistance",
+      description: "Ottimo Metals produces high-quality zinc wires with precise diameter, consistent performance, and ISO-certified manufacturing ensuring reliability and efficiency.",
       link: "/zinc-wires",
     },
     {
       image: ServiceImage2,
       title: "zinc aluminium wires",
-      description: "Our process enhances construction speed and overall project success by utilizing skilled upfront planning",
+      description: "Zinc-Aluminium wires offer superior corrosion resistance, efficient deposition, and consistent performance, manufactured with precision under ISO-certified quality and environmental systems.",
       link: "/zinc-aluminium-wires",
     },
     {
       image: ServiceImage3,
       title: "drums",
-      description: "Our core welding team is used to working in difficult and demanding situations, and they accomplish",
+      description: "Our fibre drums are lightweight yet durable, ensuring easy handling, storage, and transport with reliable performance. We offer customised sizes, colours, and specifications to meet precise operational and branding needs.",
       link: "",
     },
   ]
