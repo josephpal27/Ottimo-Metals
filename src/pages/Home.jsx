@@ -26,16 +26,19 @@ const Home = () => {
       image: ServiceImage1,
       title: "zinc wires",
       description: "Stainless steel is a popular building material that has long been praised for its strength and corrosion resistance",
+      link: "/zinc-wires",
     },
     {
       image: ServiceImage2,
       title: "zinc aluminium wires",
       description: "Our process enhances construction speed and overall project success by utilizing skilled upfront planning",
+      link: "/zinc-aluminium-wires",
     },
     {
       image: ServiceImage3,
       title: "drums",
       description: "Our core welding team is used to working in difficult and demanding situations, and they accomplish",
+      link: "",
     },
   ]
 
@@ -137,7 +140,7 @@ const Home = () => {
                   <div className="card-desc">
                     <span>{item.title}</span>
                     <p>{item.description}</p>
-                    <Button component={Link} to="/products" className="button">Read More</Button>
+                    {item.link && <Button component={Link} to={item.link} className="button">Read More</Button>}
                   </div>
                 </div>
               )
