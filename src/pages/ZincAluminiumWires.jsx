@@ -93,17 +93,17 @@ const ZincAlluminiumWires = () => {
                                 </thead>
                                 <tr>
                                     <td>Zinc (Zn)</td>
-                                    <td>85+/ (- 1)%</td>
-                                    <td>98+/ (- 0.5)%</td>
-                                    <td>96+/ (- 0.5)%</td>
-                                    <td>78+/ (- 1)%</td>
+                                    <td>85 (±1)%</td>
+                                    <td>98 (±0.5)%</td>
+                                    <td>96 (±0.5)%</td>
+                                    <td>78 (±1)%</td>
                                 </tr>
                                 <tr>
                                     <td>Aluminum (Al)</td>
-                                    <td>15+/ (- 1)%</td>
-                                    <td>2+/ (- 0.5)%</td>
-                                    <td>4+/ (- 0.5)%</td>
-                                    <td>22+/ (- 1)%</td>
+                                    <td>15 (±1)%</td>
+                                    <td>2 (±0.05)%</td>
+                                    <td>4 (±0.5)%</td>
+                                    <td>22 (±1)%</td>
                                 </tr>
                                 <tr>
                                     <td>Lead (Pb)</td>
@@ -168,7 +168,7 @@ const ZincAlluminiumWires = () => {
                             <tr>
                                 <td>1</td>
                                 <td>1.20 mm to 4.76 mm</td>
-                                <td>+0.00 mm, -5.05 mm</td>
+                                <td>+0.00 mm, -0.05 mm</td>
                             </tr>
                         </table>
                         <p>Note - Special sizes also depend on customer requirement.</p>
